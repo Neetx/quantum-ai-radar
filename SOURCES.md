@@ -85,7 +85,8 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
 - Qiskit (IBM) — https://www.youtube.com/@qiskit **[handle verified 2026-06-26; resolve `channel_id` on first use → `…/feeds/videos.xml?channel_id=UC…`]** — Qiskit / QML tutorials, talks, seminars.
 - PennyLane (Xanadu) — https://www.youtube.com/@PennyLaneAI **[handle verified 2026-06-26; resolve `channel_id` on first use]** — quantum-ML demos & tutorials.
-- (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names.)
+- Sabine Hossenfelder — https://www.youtube.com/@SabineHossenfelder **[handle verified 2026-06-26; resolve `channel_id` on first use]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
+- (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names. Scouting note 2026-06-26: the quantum/QML creator space is THIN — dominated by official org channels + broad-physics explainers; do not pad with off-topic generalist channels.)
 
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
 - The Quantum Insider — https://thequantuminsider.com/ · RSS https://thequantuminsider.com/feed/ **[verified 2026-06-26]** — quantum news/digest; follow to the named primary, cite the primary, never the digest.
