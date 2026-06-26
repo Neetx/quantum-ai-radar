@@ -31,6 +31,11 @@ quantum-computing research second); skip pure product/marketing/funding PR.
 - IonQ — https://ionq.com/blog **[verified 2026-06-26; HTML]**
 - Microsoft Azure Quantum — https://azure.microsoft.com/en-us/blog/quantum/ **[verified 2026-06-26]**
 - Q-CTRL — https://q-ctrl.com/blog **[verified 2026-06-26]** — quantum control / error suppression (running ML on noisy hardware)
+
+Independent / critical voices (NOT vendor — the counterweight to advantage hype; high priority):
+- Scott Aaronson — "Shtetl-Optimized" — https://scottaaronson.blog/ · RSS https://scottaaronson.blog/?feed=rss2 **[verified 2026-06-26]** — the leading independent authority on quantum complexity and the key SKEPTICAL voice on quantum-advantage / dequantization claims. Directly serves the hype-skepticism hard rule.
+- Quantum Frontiers (Caltech IQIM) — https://quantumfrontiers.com/ · RSS https://quantumfrontiers.com/feed/ **[verified 2026-06-26]** — independent academic blog on quantum information & computing.
+
 - **[candidate]** Rigetti, PsiQuantum, Pasqal, QuEra, AWS Braket blog, NVIDIA quantum — verify feeds on first sweep
 
 ## Research / publication venues (primary)
@@ -38,6 +43,8 @@ quantum-computing research second); skip pure product/marketing/funding PR.
 - arXiv **quant-ph** (core) — https://arxiv.org/list/quant-ph/recent **[verified 2026-06-26]** ; QML = `cat:quant-ph` cross-listed with `cs.LG`/`cs.ET` (metadata via `export.arxiv.org/api/query?search_query=cat:quant-ph+AND+abs:%22machine+learning%22&sortBy=submittedDate`).
 - Quantum (the open journal) — https://quantum-journal.org/ · RSS https://quantum-journal.org/feed/ **[verified 2026-06-26]**
 - **[candidate]** PRX Quantum (journals.aps.org/prxquantum), npj Quantum Information (nature.com/npjqi), Nature/Science quantum papers — verify feeds on first sweep.
+- **[candidate]** Conferences (proceedings/talks): QIP (Quantum Information Processing), TQC, Q2B — the field's key venues; verify on first sweep.
+- metriq.info — community quantum-benchmark aggregator (Unitary Fund) **[verified 2026-06-26]** — track benchmark submissions/results (an independent reality-check on vendor performance claims).
 
 ## GitHub watch (Phase 5 — repos, profiles, and fork trees)
 
@@ -52,7 +59,11 @@ profile activity. New releases/frameworks are citable artifacts; movement is a q
 - quantumlib/Cirq — NISQ circuit framework (Google)
 - NVIDIA/cuda-quantum — GPU-accelerated quantum programming (hybrid QML at scale)
 - amazon-braket/amazon-braket-sdk-python — AWS Braket SDK
-- (agent: add new QML / quantum frameworks as they appear; drop abandoned ones)
+- jcmgray/quimb — tensor-network quantum simulation (CLASSICAL baseline / dequantization axis)
+- google/TensorNetwork · ITensor/ITensors.jl — tensor-network libraries (classical simulation of quantum ML — tests whether an advantage survives)
+- quantumlib/OpenFermion — quantum algorithms for chemistry/physics
+- unitaryfund/mitiq — quantum error mitigation (resolves via redirect)
+- (agent: add new QML / quantum / classical-simulation frameworks as they appear; drop abandoned ones)
 
 ### Watched profiles/users  (**[verified 2026-06-26]** orgs — watch for NEW repos/releases)
 - github.com/PennyLaneAI · github.com/Qiskit · github.com/quantumlib (Google) · github.com/NVIDIA (cuda-quantum) · github.com/microsoft (Q#/QDK)
@@ -68,6 +79,8 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 - **r/QuantumComputing** — read its Atom feed directly: https://www.reddit.com/r/QuantumComputing/.rss **[verified 2026-06-26 — the `.rss` resolves; the `.json` API is often 403-blocked, so prefer `.rss` or Tavily]**. The canonical active quantum community.
 - r/MachineLearning — for the ML side (via Tavily) **[candidate]**. (Note: r/QuantumML and r/quantum returned 403/empty at scaffold — dropped; re-add if they prove active.)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `query=quantum`) **[verified pattern; known reliable]** — earthquake check.
+- Quantum Computing Stack Exchange — Atom feed https://quantumcomputing.stackexchange.com/feeds **[verified 2026-06-26]** — Q&A community; a recurring question/answer can flag emerging methods or confusions worth tracking (intake → follow to a primary).
+- Unitary Fund — https://unitary.foundation/ **[verified 2026-06-26]** — independent open-quantum-software nonprofit (mitiq, metriq); watch for community signals & releases.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
 - Qiskit (IBM) — https://www.youtube.com/@qiskit **[handle verified 2026-06-26; resolve `channel_id` on first use → `…/feeds/videos.xml?channel_id=UC…`]** — Qiskit / QML tutorials, talks, seminars.
