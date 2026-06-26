@@ -91,6 +91,7 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
 - The Quantum Insider — https://thequantuminsider.com/ · RSS https://thequantuminsider.com/feed/ **[verified 2026-06-26]** — quantum news/digest; follow to the named primary, cite the primary, never the digest.
 - Quantum Computing Report — https://quantumcomputingreport.com/ · RSS https://quantumcomputingreport.com/feed/ **[verified 2026-06-26]** — quantum news + market/technical analysis; intake → follow to the primary.
+- Quantum Zeitgeist — https://quantumzeitgeist.com/ · RSS https://quantumzeitgeist.com/feed/ **[verified 2026-06-26]** — quantum news/content digest; intake → follow to the named primary (assess signal quality over the first weeks; drop if mostly SEO).
 - lockwo/qml-library (github.com/lockwo/qml-library) **[verified 2026-06-26 via search]** — curated QML-paper list; a discovery aid → follow to the primaries.
 - **[candidate]** Quantum journal "Views", individual quantum-ML researcher blogs — grow this list (verify before citing).
 
