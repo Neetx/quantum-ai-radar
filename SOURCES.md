@@ -72,6 +72,21 @@ profile activity. New releases/frameworks are citable artifacts; movement is a q
 - Scan notable forks (depth ~3, by stars/recency) — new QML demos, plugins and methods often
   appear as forks/plugins. Seed targets: `PennyLaneAI/pennylane`, `Qiskit/qiskit`.
 
+## Discovered-source candidates (auto-staged by the daily — NOT yet swept; the weekly verifies & promotes)
+
+The source-discovery loop's staging area. The radar grows its OWN source coverage the way it
+finds papers and curators: when any daily lane NAMES an on-axis primary whose publishing
+org/domain is NOT already in a swept list above, the daily APPENDS/increments it here — a tally
+only, NO extra fetch (you already hold the URL). The weekly VERIFIES the recurring ones (opens
+the feed / repo / channel — never from memory) and PROMOTES them into the swept registry as
+`[candidate]`, pruning one-off noise. This closes the gap where an on-axis lab/vendor that
+announces only on its own channel (not a tracked venue) goes untracked because no swept list
+points at it. Promotion bar: ≥2 on-axis primary artifacts OR recurrence across ≥2 runs, AND it
+survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
+`domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
+
+- (empty — the daily fills this; the weekly drains it)
+
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
