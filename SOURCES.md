@@ -65,14 +65,18 @@ profile activity. New releases/frameworks are citable artifacts; movement is a q
 
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
 name/quote individuals beyond a bare URL. Multi-channel earthquake check.
-- Reddit (via Tavily; direct API often blocked): r/QuantumComputing, r/QuantumML, r/MachineLearning **[candidate — confirm each resolves]** — read TOP + earthquake check.
-- Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `query=quantum`) **[verified pattern; known reliable]**
+- **r/QuantumComputing** — read its Atom feed directly: https://www.reddit.com/r/QuantumComputing/.rss **[verified 2026-06-26 — the `.rss` resolves; the `.json` API is often 403-blocked, so prefer `.rss` or Tavily]**. The canonical active quantum community.
+- r/MachineLearning — for the ML side (via Tavily) **[candidate]**. (Note: r/QuantumML and r/quantum returned 403/empty at scaffold — dropped; re-add if they prove active.)
+- Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `query=quantum`) **[verified pattern; known reliable]** — earthquake check.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
-- **[candidate]** seed with quantum-computing / QML explainer channels as found; resolve each `channel_id` once, follow each video's link to the named primary, cite the primary. Do NOT invent channel names.
+- Qiskit (IBM) — https://www.youtube.com/@qiskit **[handle verified 2026-06-26; resolve `channel_id` on first use → `…/feeds/videos.xml?channel_id=UC…`]** — Qiskit / QML tutorials, talks, seminars.
+- PennyLane (Xanadu) — https://www.youtube.com/@PennyLaneAI **[handle verified 2026-06-26; resolve `channel_id` on first use]** — quantum-ML demos & tutorials.
+- (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names.)
 
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
 - The Quantum Insider — https://thequantuminsider.com/ · RSS https://thequantuminsider.com/feed/ **[verified 2026-06-26]** — quantum news/digest; follow to the named primary, cite the primary, never the digest.
+- Quantum Computing Report — https://quantumcomputingreport.com/ · RSS https://quantumcomputingreport.com/feed/ **[verified 2026-06-26]** — quantum news + market/technical analysis; intake → follow to the primary.
 - lockwo/qml-library (github.com/lockwo/qml-library) **[verified 2026-06-26 via search]** — curated QML-paper list; a discovery aid → follow to the primaries.
 - **[candidate]** Quantum journal "Views", individual quantum-ML researcher blogs — grow this list (verify before citing).
 
