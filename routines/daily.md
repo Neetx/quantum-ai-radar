@@ -100,6 +100,15 @@ every run.
   one-line reason in today's report; never silently delete).
 - Convergence check (every run): scan the whole queue for sub-themes where ≥3 independent
   groups now hold artifacts → promote that cluster to a `seed`.
+- Capture-leak reconciliation (every run — a CONCRETE mechanical sweep, not a judgment call):
+  enumerate the primaries NAMED in every trend's `notes` and the last ~3 reports — run
+  `grep -oE '[0-9]{4}\.[0-9]{5}' TRENDS.md` for arXiv ids (eyeball repo/release URLs) — then for
+  EACH id `grep '<id>' TRENDS.md` and confirm it actually lands in the `observation_queue:` block
+  or on an evidence line, NOT merely in prose that calls it "queued" / "adjacent" / "noted". Any
+  id named-but-absent is a capture leak → QUEUE it this run (a below-bar primary belongs in the
+  queue even when correctly NOT evidence for the trend whose notes mention it). State the result
+  as `capture-leak: N ids checked / M queued` in today's report — its absence means the sweep was
+  skipped.
 - Append one dated line to `logs/source_rotation.md` (append-only). Update "Last updated".
 - Regenerate `README.md` from the updated ledger in the same commit (`radar-render-dashboard`).
 
@@ -110,7 +119,8 @@ The trend bar does NOT apply (a single strong artifact qualifies) but the eviden
 
 ## 6. Write the daily report
 Create `reports/YYYY-MM-DD.md` (under ~60 lines): ledger changes; Top 3 of the day (one
-line + link each); study picks; Next (open questions, what tomorrow should check first).
+line + link each); study picks; `capture-leak: N ids checked / M queued` (required every run,
+even at 0); Next (open questions, what tomorrow should check first).
 
 ## 7. Persist
 - `git add -A`, commit `radar: daily update YYYY-MM-DD`.
