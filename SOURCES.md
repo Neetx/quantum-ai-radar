@@ -85,7 +85,8 @@ points at it. Promotion bar: ≥2 on-axis primary artifacts OR recurrence across
 survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
 `domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
 
-- (empty — the daily fills this; the weekly drains it)
+- quandela.com — 1 appearance — arXiv:2605.10471 photonic QML (May 2026) — first seen 2026-06-27
+- alice-bob.com — 1 appearance — AI for quantum control blog (undated, accessed 2026-06-27) — first seen 2026-06-27
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
@@ -98,14 +99,14 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 - Unitary Fund — https://unitary.foundation/ **[verified 2026-06-26]** — independent open-quantum-software nonprofit (mitiq, metriq); watch for community signals & releases.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
-- Qiskit (IBM) — https://www.youtube.com/@qiskit **[handle verified 2026-06-26; resolve `channel_id` on first use → `…/feeds/videos.xml?channel_id=UC…`]** — Qiskit / QML tutorials, talks, seminars.
-- PennyLane (Xanadu) — https://www.youtube.com/@PennyLaneAI **[handle verified 2026-06-26; resolve `channel_id` on first use]** — quantum-ML demos & tutorials.
-- Sabine Hossenfelder — https://www.youtube.com/@SabineHossenfelder **[handle verified 2026-06-26; resolve `channel_id` on first use]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
+- Qiskit (IBM) — https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A **[channel_id resolved 2026-06-27; RSS feed confirmed active; latest Jun 27 2026]** — Qiskit / QML tutorials, talks, seminars.
+- PennyLane (Xanadu) — https://www.youtube.com/feeds/videos.xml?channel_id=UCuC1_7x7JvLupAMMwEEM2RA **[channel_id resolved 2026-06-27; last video 2024-04-23 — channel appears inactive; verify if still posting before relying on it]** — quantum-ML demos & tutorials.
+- Sabine Hossenfelder — https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw **[channel_id resolved 2026-06-27; RSS feed confirmed active; latest Jun 24 2026]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
 - (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names. Scouting note 2026-06-26: the quantum/QML creator space is THIN — dominated by official org channels + broad-physics explainers; do not pad with off-topic generalist channels.)
 
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
 - The Quantum Insider — https://thequantuminsider.com/ · RSS https://thequantuminsider.com/feed/ **[verified 2026-06-26]** — quantum news/digest; follow to the named primary, cite the primary, never the digest.
-- Quantum Computing Report — https://quantumcomputingreport.com/ · RSS https://quantumcomputingreport.com/feed/ **[verified 2026-06-26]** — quantum news + market/technical analysis; intake → follow to the primary.
+- Quantum Computing Report — https://quantumcomputingreport.com/ · RSS https://quantumcomputingreport.com/feed/ **[verified 2026-06-26; feed is gzip-compressed — access via `curl --compressed` not plain `curl`; repaired 2026-06-27]** — quantum news + market/technical analysis; intake → follow to the primary.
 - Quantum Zeitgeist — https://quantumzeitgeist.com/ · RSS https://quantumzeitgeist.com/feed/ **[verified 2026-06-26]** — quantum news/content digest; intake → follow to the named primary (assess signal quality over the first weeks; drop if mostly SEO).
 - lockwo/qml-library (github.com/lockwo/qml-library) **[verified 2026-06-26 via search]** — curated QML-paper list; a discovery aid → follow to the primaries.
 - **[candidate]** Quantum journal "Views", individual quantum-ML researcher blogs — grow this list (verify before citing).
