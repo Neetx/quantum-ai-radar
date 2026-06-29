@@ -25,6 +25,8 @@ for feed-less ones. Filter for on-scope relevance (QML / quantum-for-AI first; e
 quantum-computing research second); skip pure product/marketing/funding PR.
 
 - Google Quantum AI — https://quantumai.google/ **[verified 2026-06-26; HTML → `tvly extract`]** — quantum hardware + quantum-ML research
+- Google "The Keyword" blog (blog.google) — research feed https://blog.google/innovation-and-ai/technology/research/rss/ **[verified 2026-06-29; redirects from `/technology/research/rss/` — follow with `-L`]** — where Google's FLAGSHIP quantum announcements actually land (Willow, Quantum Echoes "verifiable quantum advantage"), NOT the technical quantumai.google site. General Google-Research feed → filter for quantum/quantum-advantage items. HYPE-SKEPTIC (hard rule): an advantage/supremacy post here is a VENDOR disclosure — follow it to the technical primary (Nature/arXiv) and cite THAT, weighing the classical baseline / dequantization; the blog post alone is the announcement, not the evidence.
+- Google Research blog — https://research.google/blog/ · RSS https://research.google/blog/rss/ **[verified 2026-06-29]** — the OTHER Google surface carrying quantum research posts (the 06-29 run found Quantum Echoes here). Same hype-skeptic handling: follow to the paper, cite the paper.
 - IBM Quantum — https://www.ibm.com/quantum/blog + https://research.ibm.com/topics/quantum-machine-learning **[verified 2026-06-26; HTML → `tvly extract`]**
 - PennyLane / Xanadu — https://pennylane.ai/blog **[verified 2026-06-26; no RSS (feed paths 404) → `tvly extract`]** — QML-focused, high signal
 - Quantinuum — https://www.quantinuum.com/news **[verified 2026-06-26; the `/blog` path 404s — use `/news`]**
