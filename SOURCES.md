@@ -38,7 +38,18 @@ Independent / critical voices (NOT vendor — the counterweight to advantage hyp
 - Scott Aaronson — "Shtetl-Optimized" — https://scottaaronson.blog/ · RSS https://scottaaronson.blog/?feed=rss2 **[verified 2026-06-26]** — the leading independent authority on quantum complexity and the key SKEPTICAL voice on quantum-advantage / dequantization claims. Directly serves the hype-skepticism hard rule.
 - Quantum Frontiers (Caltech IQIM) — https://quantumfrontiers.com/ · RSS https://quantumfrontiers.com/feed/ **[verified 2026-06-26]** — independent academic blog on quantum information & computing.
 
-- **[candidate]** Rigetti, PsiQuantum, Pasqal, QuEra, AWS Braket blog, NVIDIA quantum — verify feeds on first sweep
+Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old unverified candidate stub). Vendor blogs are PRIMARY for their own hardware/results but advantage claims are hype-prone → follow to the technical primary:
+- Pasqal — https://www.pasqal.com/news/ · RSS https://www.pasqal.com/feed/ **[verified 2026-06-29]** — neutral-atom analog/QML
+- AWS Braket — https://aws.amazon.com/blogs/quantum-computing/ · RSS https://aws.amazon.com/blogs/quantum-computing/feed/ **[verified 2026-06-29]** — Braket SDK + hybrid quantum-ML how-tos
+- NVIDIA quantum — Atom https://developer.nvidia.com/blog/category/quantum-computing/feed/ **[verified 2026-06-29; the category INDEX 404s — use the `/feed/` Atom URL directly (same NVIDIA quirk as the AI radar)]** — CUDA-Q / GPU-accelerated hybrid QML
+- Alice & Bob — https://alice-bob.com/blog/ · RSS https://alice-bob.com/feed/ **[verified 2026-06-29 — promoted from source-discovery staging]** — cat-qubit hardware + AI-for-quantum-control
+- Rigetti — https://www.rigetti.com/news **[verified 2026-06-29; HTML → `tvly extract` (no Squarespace feed)]**
+- PsiQuantum — https://www.psiquantum.com/blog **[verified 2026-06-29; HTML → `tvly extract`]** — photonic FTQC
+- QuEra — https://www.quera.com/blog **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom
+- Quandela — https://www.quandela.com/resources/blog/ **[verified 2026-06-29; HTML → `tvly extract` — promoted from source-discovery staging]** — photonic QML
+- Atom Computing — https://atom-computing.com/news/ **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom
+- Infleqtion — https://www.infleqtion.com/news **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom / quantum sensing
+- **[candidate]** IQM — https://www.meetiqm.com/newsroom (curl returns 000 — site blocks datacenter IPs; verify via `tvly` on first sweep) ; Oxford Ionics — re-scout the news path (was 404 2026-06-29)
 
 ## Research / publication venues (primary)
 
@@ -87,8 +98,7 @@ points at it. Promotion bar: ≥2 on-axis primary artifacts OR recurrence across
 survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
 `domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
 
-- quandela.com — 1 appearance — arXiv:2605.10471 photonic QML (May 2026) — first seen 2026-06-27
-- alice-bob.com — 1 appearance — AI for quantum control blog (undated, accessed 2026-06-27) — first seen 2026-06-27
+- (cleared 2026-06-29: quandela.com + alice-bob.com PROMOTED to the hardware-vendors swept list above in the verified scouting pass — see Phase-1)
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
