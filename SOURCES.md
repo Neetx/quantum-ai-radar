@@ -104,7 +104,7 @@ survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
 
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
 name/quote individuals beyond a bare URL. Multi-channel earthquake check.
-- **r/QuantumComputing** — read its Atom feed directly: https://www.reddit.com/r/QuantumComputing/.rss **[verified 2026-06-26 — the `.rss` resolves; the `.json` API is often 403-blocked, so prefer `.rss` or Tavily]**. The canonical active quantum community.
+- **r/QuantumComputing** — read its Atom feed directly: https://www.reddit.com/r/QuantumComputing/.rss **[HEALED 2026-06-30 — bare `curl` returns empty/403 (failed Jun 27 + Jun 29); fetch with a browser User-Agent: `curl -sL -A "Mozilla/5.0" .../.rss` — resolves reliably. Tavily is the secondary fallback]**. The canonical active quantum community.
 - r/MachineLearning — for the ML side (via Tavily) **[candidate]**. (Note: r/QuantumML and r/quantum returned 403/empty at scaffold — dropped; re-add if they prove active.)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `query=quantum`) **[verified pattern; known reliable]** — earthquake check.
 - Quantum Computing Stack Exchange — Atom feed https://quantumcomputing.stackexchange.com/feeds **[verified 2026-06-26]** — Q&A community; a recurring question/answer can flag emerging methods or confusions worth tracking (intake → follow to a primary).
