@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--02-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--02-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-01):**
-- [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) promoted emerging → **accelerating** (10 independent groups): [arXiv:2606.29687](https://arxiv.org/abs/2606.29687) (Kol et al., MIT) machine-verifies a decade-old QAOA conjecture using an LLM + the Lean 4 proof assistant, and [arXiv:2607.00939](https://arxiv.org/abs/2607.00939) (QPipe) an LLM multi-agent system that generates quantum applications from natural-language requirements.
-- [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) promoted seed → **emerging** (4 groups): [arXiv:2607.00945](https://arxiv.org/abs/2607.00945) proves a barren-plateau-free QAOA-MaxCut family via dynamical Lie algebra, resolving an open problem.
-- [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) promoted seed → **emerging** (4 groups): [arXiv:2607.00301](https://arxiv.org/abs/2607.00301) Quantum Flow Matching learns quantum distributions via the spin Wigner function.
-- Queue refreshed: −9 stale/resolved drops, +9 additions (incl. a real-trapped-ion-hardware portfolio-optimization pipeline and a CSS-code addressability result) → watchlist at 24.
+**Since last scan (2026-07-02, Pass 2):**
+- No trend stage moves this pass — a full re-sweep confirmed no new evidence beyond [Pass 1's captures](reports/2026-07-02.md) (arXiv had not posted a new listing yet).
+- Queue +1: [arXiv:2606.25117](https://arxiv.org/abs/2606.25117) (Λ-lr-QAOA feasibility scheduling, Leonardo) → watchlist at 25 (cap).
+- Source heal: YouTube feeds for [Qiskit](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A), PennyLane and Sabine Hossenfelder restored to HTTP 200 after a 2-run outage; IQM and Oxford Ionics newsrooms verified reachable.
+- Earlier today (Pass 1): [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) promoted emerging → **accelerating** on [arXiv:2606.29687](https://arxiv.org/abs/2606.29687) (Kol et al., MIT, LLM-found QAOA-conjecture proof verified in Lean 4); [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) and [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) both promoted seed → **emerging**.
 
 ## Trends
 
@@ -39,10 +39,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 _Unverified intake — community signals, not trend evidence._
 
 - [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/) surfaced two new general Q&A threads (state-preparation decision trees; Deutsch's algorithm query advantage) — no primaries to follow.
-- [r/QuantumComputing](https://www.reddit.com/r/QuantumComputing/) access has now been blocked for 3 consecutive scans; no new community signal obtainable this run via that channel.
+- [r/QuantumComputing](https://www.reddit.com/r/QuantumComputing/) access has now been blocked for 4 consecutive scans; no new community signal obtainable this run via that channel.
 - [Hacker News](https://hn.algolia.com/?query=quantum) front page and quantum search showed no field-shaking item today — a "Quantum Computing Roadmaps" tracker tool surfaced but is not a primary source.
-- A corporate press release claimed neural-network parameter optimization for twin-field QKD — pure PR via newswire, no technical paper found; not treated as a signal.
+- Qiskit's [YouTube channel](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A) (feed just healed) posted a Daniel Lidar seminar talk; [Sabine Hossenfelder](https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw) posted general quantum-hype-skepticism commentary — neither names a specific new primary.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-02](reports/2026-07-02.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-02](reports/2026-07-02.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

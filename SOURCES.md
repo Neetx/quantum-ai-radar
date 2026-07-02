@@ -49,7 +49,8 @@ Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old 
 - Quandela — https://www.quandela.com/resources/blog/ **[verified 2026-06-29; HTML → `tvly extract` — promoted from source-discovery staging]** — photonic QML
 - Atom Computing — https://atom-computing.com/news/ **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom
 - Infleqtion — https://www.infleqtion.com/news **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom / quantum sensing
-- **[candidate]** IQM — https://www.meetiqm.com/newsroom (curl returns 000 — site blocks datacenter IPs; verify via `tvly` on first sweep) ; Oxford Ionics — re-scout the news path (was 404 2026-06-29)
+- IQM — https://www.meetiqm.com/newsroom **[verified 2026-07-02; curl returns 000 (site blocks datacenter IPs) → `tvly extract` works]** — superconducting; mostly business/governance PR, filter for technical content
+- Oxford Ionics — https://oxfordionics.com/news **[verified 2026-07-02; path resolved (was 404 2026-06-29) → `tvly extract`]** — trapped-ion (now part of IonQ post-acquisition)
 
 ## Research / publication venues (primary)
 
@@ -123,9 +124,9 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 - Unitary Fund — https://unitary.foundation/ **[verified 2026-06-26]** — independent open-quantum-software nonprofit (mitiq, metriq); watch for community signals & releases.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
-- Qiskit (IBM) — https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A **[channel_id resolved 2026-06-27; RSS feed confirmed active Jun27-30; now returning HTTP 404 2 runs running (Jul1, Jul2) — `/channel/<id>/videos` via tvly extract also fails ("Error fetching content"); base youtube.com loads fine (200), so this looks like a proxy/routing issue specific to the feeds/channel paths, not the channel itself. FALLBACK (2026-07-02): `tvly search "<channel name> YouTube latest video"` — imprecise (no reliable date) but returns some signal; re-test the feed URL directly next run before repeating this workaround]** — Qiskit / QML tutorials, talks, seminars.
-- PennyLane (Xanadu) — https://www.youtube.com/feeds/videos.xml?channel_id=UCuC1_7x7JvLupAMMwEEM2RA **[channel_id resolved 2026-06-27; last video 2024-04-23 — channel appears inactive; same feed-path 404 as Qiskit/Sabine 2026-07-01/02, use the tvly-search fallback noted above]** — quantum-ML demos & tutorials.
-- Sabine Hossenfelder — https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw **[channel_id resolved 2026-06-27; RSS feed confirmed active Jun27-30; now HTTP 404 2 runs running (Jul1, Jul2), same feed-path issue — use the tvly-search fallback noted above]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
+- Qiskit (IBM) — https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A **[channel_id resolved 2026-06-27; HEALED 2026-07-02 Pass 2: feed back to HTTP 200 after 404 for 2 runs (Jul1, Jul2 Pass1) — direct feed fetch is the primary method again, tvly-search fallback no longer needed]** — Qiskit / QML tutorials, talks, seminars.
+- PennyLane (Xanadu) — https://www.youtube.com/feeds/videos.xml?channel_id=UCuC1_7x7JvLupAMMwEEM2RA **[channel_id resolved 2026-06-27; last video 2024-04-23 — channel appears inactive; feed itself HEALED 2026-07-02 Pass 2 (HTTP 200)]** — quantum-ML demos & tutorials.
+- Sabine Hossenfelder — https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw **[channel_id resolved 2026-06-27; HEALED 2026-07-02 Pass 2: feed back to HTTP 200 after 404 for 2 runs]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
 - (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names. Scouting note 2026-06-26: the quantum/QML creator space is THIN — dominated by official org channels + broad-physics explainers; do not pad with off-topic generalist channels.)
 
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
