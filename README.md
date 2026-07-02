@@ -1,28 +1,30 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-1-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--01-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--02-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-06-30):**
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) promoted emerging → **accelerating** (10 independent groups): [Quantum-journal ML decoder](https://quantum-journal.org/papers/q-2026-06-30-2149/) (Blue et al., MIT) for bivariate bicycle codes, and [arXiv:2606.31428](https://arxiv.org/abs/2606.31428) quantifying the limits of erasure-based postselection.
-- [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) promoted seed → emerging (7 groups): [arXiv:2606.29636](https://arxiv.org/abs/2606.29636) Lie-group diffusion models for circuit synthesis, and [arXiv:2606.30765](https://arxiv.org/abs/2606.30765) deep RL for atomic control and cooling.
-- New seed trend: [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) (barren plateaus / noise-robustness theory) — 3 independent groups converged: [arXiv:2606.22551](https://arxiv.org/abs/2606.22551), [arXiv:2606.30688](https://arxiv.org/abs/2606.30688), [arXiv:2606.31536](https://arxiv.org/abs/2606.31536).
-- Queue refreshed: +6 (ML CV-QKD, quantum-classical LBM surrogate, ML Pauli-term selection for QEM, spatially-coupled CSS codes, applied QML for immunology, hybrid quantum neighborhood selection), −3 stale single-group drops, −1 promoted → watchlist at 26.
+**Since last scan (2026-07-01):**
+- [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) promoted emerging → **accelerating** (10 independent groups): [arXiv:2606.29687](https://arxiv.org/abs/2606.29687) (Kol et al., MIT) machine-verifies a decade-old QAOA conjecture using an LLM + the Lean 4 proof assistant, and [arXiv:2607.00939](https://arxiv.org/abs/2607.00939) (QPipe) an LLM multi-agent system that generates quantum applications from natural-language requirements.
+- [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) promoted seed → **emerging** (4 groups): [arXiv:2607.00945](https://arxiv.org/abs/2607.00945) proves a barren-plateau-free QAOA-MaxCut family via dynamical Lie algebra, resolving an open problem.
+- [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) promoted seed → **emerging** (4 groups): [arXiv:2607.00301](https://arxiv.org/abs/2607.00301) Quantum Flow Matching learns quantum distributions via the spin Wigner function.
+- Queue refreshed: −9 stale/resolved drops, +9 additions (incl. a real-trapped-ion-hardware portfolio-optimization pipeline and a CSS-code addressability result) → watchlist at 24.
 
 ## Trends
 
-🌱 2 · 📈 1 · 🚀 1 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 0 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
+| [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.00939) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-06-30](https://quantum-journal.org/papers/q-2026-06-30-2149/) |
-| [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 📈 emerging | [2026-06-30](https://arxiv.org/abs/2606.29636) |
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🌱 seed | [2026-06-30](https://arxiv.org/abs/2606.31536) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 🌱 seed | [2026-06-26](https://arxiv.org/abs/2606.28236) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 📈 emerging | [2026-07-01](https://arxiv.org/abs/2607.00945) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-01](https://arxiv.org/abs/2607.00301) |
 
 ## Worth studying
 
+- [When AI meets quantum information: A comprehensive review (arXiv:2607.00365)](https://arxiv.org/abs/2607.00365) — Chen, Gan, Jin et al. (18 authors, Jul 1): two-directional survey of AI-for-QI and QI-for-AI — a strong orientation map for this field.
+- [A Machine-Verified Proof of a Quantum-Optimization Conjecture (arXiv:2606.29687)](https://arxiv.org/abs/2606.29687) — Kol, Ben-Shahar, Sulimany, Englund (MIT, Jun 29): resolves a decade-old QAOA conjecture using an LLM-found proof verified end-to-end in Lean 4.
 - [Machine Learning Decoding of Circuit-Level Noise for Bivariate Bicycle Codes (Quantum journal)](https://quantum-journal.org/papers/q-2026-06-30-2149/) — Blue, Avlani, He, Ziyin, Chuang (MIT, Jun 30): peer-reviewed neural decoder for bivariate bicycle QEC codes under circuit-level noise.
 - [erado: open-source erasure-noise + postselection simulator (arXiv:2606.31428)](https://arxiv.org/abs/2606.31428) — Griffiths, Friel, Vlastakis: ready-to-use framework for evaluating postselection-based error mitigation, with a concrete erasure-check error-rate threshold for full mitigation.
 - [Learning the structure of open quantum systems (arXiv:2606.30358)](https://arxiv.org/abs/2606.30358) — Lewis, Tang, Wright (Jun 2026): learns an n-qubit constant-local Lindbladian to ε error with O(g·d²·log n / ε²) total evolution time — efficient identification of open-system dynamics. Classical-quantum-boundary / quantum-learning result from a notable group (Ewin Tang); a rigorous benchmark for how cheaply quantum dynamics can be learned.
@@ -36,11 +38,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/) surfaced questions on classical-shortcut limits for Fermi-Hubbard simulation and on measurement-complexity separations for closed-loop quantum control (AI-for-quantum-adjacent) — no primaries to follow yet.
-- [Hacker News](https://hn.algolia.com/?query=quantum) carried independent (Ars Technica) coverage of a neutral-atom vendor's error-corrected-qubit roadmap claim — still vendor-roadmap-sourced, no new technical primary.
-- [r/QuantumComputing](https://www.reddit.com/r/QuantumComputing/) access was intermittently rate-limited again this scan; last confirmed threads unchanged from the prior scan (Heron R2 entanglement test, Nighthawk benchmark validation).
-- Microsoft Majorana 2 skepticism continues to circulate on [Hacker News](https://hn.algolia.com/?query=quantum); underlying technical paper remains [arXiv:2606.03884](https://arxiv.org/abs/2606.03884).
+- [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/) surfaced two new general Q&A threads (state-preparation decision trees; Deutsch's algorithm query advantage) — no primaries to follow.
+- [r/QuantumComputing](https://www.reddit.com/r/QuantumComputing/) access has now been blocked for 3 consecutive scans; no new community signal obtainable this run via that channel.
+- [Hacker News](https://hn.algolia.com/?query=quantum) front page and quantum search showed no field-shaking item today — a "Quantum Computing Roadmaps" tracker tool surfaced but is not a primary source.
+- A corporate press release claimed neural-network parameter optimization for twin-field QKD — pure PR via newswire, no technical paper found; not treated as a signal.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-01](reports/2026-07-01.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-02](reports/2026-07-02.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

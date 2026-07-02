@@ -41,8 +41,8 @@ Independent / critical voices (NOT vendor — the counterweight to advantage hyp
 Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old unverified candidate stub). Vendor blogs are PRIMARY for their own hardware/results but advantage claims are hype-prone → follow to the technical primary:
 - Pasqal — https://www.pasqal.com/news/ · RSS https://www.pasqal.com/feed/ **[verified 2026-06-29]** — neutral-atom analog/QML
 - AWS Braket — https://aws.amazon.com/blogs/quantum-computing/ · RSS https://aws.amazon.com/blogs/quantum-computing/feed/ **[verified 2026-06-29]** — Braket SDK + hybrid quantum-ML how-tos
-- NVIDIA quantum — Atom https://developer.nvidia.com/blog/category/quantum-computing/feed/ **[verified 2026-06-29; the category INDEX 404s — use the `/feed/` Atom URL directly (same NVIDIA quirk as the AI radar)]** — CUDA-Q / GPU-accelerated hybrid QML
-- Alice & Bob — https://alice-bob.com/blog/ · RSS https://alice-bob.com/feed/ **[verified 2026-06-29 — promoted from source-discovery staging]** — cat-qubit hardware + AI-for-quantum-control
+- NVIDIA quantum — **[HEALED 2026-07-02: the Atom `/feed/` URL returns HTTP 200 but zero `<entry>` elements 2 runs running (Jul 1, Jul 2) — abandon the feed. Use `tvly extract https://developer.nvidia.com/blog/tag/quantum-computing/ --extract-depth advanced` instead (confirmed working, returns dated post list; latest Jun 11 2026 InfiniBand post, off-scope)]** — CUDA-Q / GPU-accelerated hybrid QML
+- Alice & Bob — **[HEALED 2026-07-02: RSS https://alice-bob.com/feed/ returns HTTP 200 with channel metadata but zero `<item>` elements 2+ runs running — abandon the feed. Use `tvly extract https://alice-bob.com/blog/` instead (confirmed working, returns full post list; latest still "This Is Not a Product Launch" Jun 10 2026, already captured)]** — cat-qubit hardware + AI-for-quantum-control
 - Rigetti — https://www.rigetti.com/news **[verified 2026-06-29; HTML → `tvly extract` (no Squarespace feed)]**
 - PsiQuantum — https://www.psiquantum.com/blog **[verified 2026-06-29; HTML → `tvly extract`]** — photonic FTQC
 - QuEra — https://www.quera.com/blog **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom
@@ -63,6 +63,18 @@ Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old 
 
 Method: `radar-repo-watch`. Watch releases (`<repo>/releases.atom`), notable forks, and
 profile activity. New releases/frameworks are citable artifacts; movement is a queue signal.
+
+**[ENVIRONMENT CONSTRAINT, first observed 2026-07-02]** — direct `curl` to `github.com`
+(including public unauthenticated paths like `/releases.atom`) now returns a 403 from this
+session's proxy: "sessions are bound to their configured repositories... Use repository-scoped
+endpoints." The session's GitHub access (both raw HTTP and the GitHub MCP server) is scoped to
+`neetx/quantum-ai-radar` only — external repos are unreachable via curl or MCP. WORKING FALLBACK:
+`tvly extract https://github.com/<owner>/<repo>/releases` (Tavily's crawler is not subject to
+this session's egress scoping) — returns the release list, parse the top entry. Use this for
+every watched repo going forward; retest raw `curl .../releases.atom` occasionally in case the
+restriction lifts. Fork-tree analysis (`radar-repo-watch`'s fork scan) is currently NOT
+executable this way — no working substitute found 2026-07-02; best-effort `tvly search` for
+"<org> new repository" is a weak proxy, log as degraded until a better method is found.
 
 ### Watched repositories  (all **[verified 2026-06-26]** via GitHub API)
 - PennyLaneAI/pennylane — open-source quantum-ML platform (Xanadu)
@@ -111,9 +123,9 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 - Unitary Fund — https://unitary.foundation/ **[verified 2026-06-26]** — independent open-quantum-software nonprofit (mitiq, metriq); watch for community signals & releases.
 
 ### YouTube — TRUSTED-CURATOR POINTER LANE (check EVERY run, intake only)
-- Qiskit (IBM) — https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A **[channel_id resolved 2026-06-27; RSS feed confirmed active; latest Jun 27 2026]** — Qiskit / QML tutorials, talks, seminars.
-- PennyLane (Xanadu) — https://www.youtube.com/feeds/videos.xml?channel_id=UCuC1_7x7JvLupAMMwEEM2RA **[channel_id resolved 2026-06-27; last video 2024-04-23 — channel appears inactive; verify if still posting before relying on it]** — quantum-ML demos & tutorials.
-- Sabine Hossenfelder — https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw **[channel_id resolved 2026-06-27; RSS feed confirmed active; latest Jun 24 2026]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
+- Qiskit (IBM) — https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A **[channel_id resolved 2026-06-27; RSS feed confirmed active Jun27-30; now returning HTTP 404 2 runs running (Jul1, Jul2) — `/channel/<id>/videos` via tvly extract also fails ("Error fetching content"); base youtube.com loads fine (200), so this looks like a proxy/routing issue specific to the feeds/channel paths, not the channel itself. FALLBACK (2026-07-02): `tvly search "<channel name> YouTube latest video"` — imprecise (no reliable date) but returns some signal; re-test the feed URL directly next run before repeating this workaround]** — Qiskit / QML tutorials, talks, seminars.
+- PennyLane (Xanadu) — https://www.youtube.com/feeds/videos.xml?channel_id=UCuC1_7x7JvLupAMMwEEM2RA **[channel_id resolved 2026-06-27; last video 2024-04-23 — channel appears inactive; same feed-path 404 as Qiskit/Sabine 2026-07-01/02, use the tvly-search fallback noted above]** — quantum-ML demos & tutorials.
+- Sabine Hossenfelder — https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw **[channel_id resolved 2026-06-27; RSS feed confirmed active Jun27-30; now HTTP 404 2 runs running (Jul1, Jul2), same feed-path issue — use the tvly-search fallback noted above]** — BROAD physics channel, but a prominent skeptic of quantum-computing hype; filter for quantum-computing / advantage-claim items only (serves the hype-skepticism mandate).
 - (agent: add more quantum / QML channels as they prove high-signal; resolve each `channel_id` once from the channel page, follow each video to the named primary, cite the primary. Do NOT invent channel names. Scouting note 2026-06-26: the quantum/QML creator space is THIN — dominated by official org channels + broad-physics explainers; do not pad with off-topic generalist channels.)
 
 ### Curated digests + explainer/aggregator blogs (INTAKE LANE — swept every run)
