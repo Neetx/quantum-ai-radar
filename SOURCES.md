@@ -56,7 +56,8 @@ Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old 
 
 - arXiv **quant-ph** (core) — https://arxiv.org/list/quant-ph/recent **[verified 2026-06-26]** ; QML = `cat:quant-ph` cross-listed with `cs.LG`/`cs.ET` (metadata via `export.arxiv.org/api/query?search_query=cat:quant-ph+AND+abs:%22machine+learning%22&sortBy=submittedDate`).
 - Quantum (the open journal) — https://quantum-journal.org/ · RSS https://quantum-journal.org/feed/ **[verified 2026-06-26]**
-- **[candidate]** PRX Quantum (journals.aps.org/prxquantum), npj Quantum Information (nature.com/npjqi), Nature/Science quantum papers — verify feeds on first sweep.
+- npj Quantum Information — https://www.nature.com/npjqi/ · RSS https://www.nature.com/npjqi.rss **[verified 2026-07-03 — feed returns clean dated items with DOIs, e.g. s41534-026-xxxxx; peer-reviewed, primary]**
+- **[candidate]** PRX Quantum (journals.aps.org/prxquantum) — still 403 on direct `curl` as of 2026-07-03 (re-tested); Nature/Science quantum papers — verify feeds on first sweep.
 - **[candidate]** Conferences (proceedings/talks): QIP (Quantum Information Processing), TQC, Q2B — the field's key venues; verify on first sweep.
 - metriq.info — community quantum-benchmark aggregator (Unitary Fund) **[verified 2026-06-26]** — track benchmark submissions/results (an independent reality-check on vendor performance claims).
 
@@ -117,7 +118,7 @@ survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
 
 Method: `radar-pulse`. Intake feeds `observation_queue` (unverified) + the pulse note; never
 name/quote individuals beyond a bare URL. Multi-channel earthquake check.
-- **r/QuantumComputing** — read its Atom feed directly: https://www.reddit.com/r/QuantumComputing/.rss **[HEALED 2026-06-30 — bare `curl` returns empty/403 (failed Jun 27 + Jun 29); fetch with a browser User-Agent: `curl -sL -A "Mozilla/5.0" .../.rss` — resolves reliably. Tavily is the secondary fallback]**. The canonical active quantum community.
+- **r/QuantumComputing** — read its Atom feed via the OLD-REDDIT domain: `curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" https://old.reddit.com/r/QuantumComputing/.rss` **[HEALED 2026-07-03 — the www.reddit.com `.rss` path (healed 2026-06-30 with a browser UA) started 403'ing again and stayed broken for 5 consecutive runs (Jun 30 Pass2 – Jul 3); www.reddit.com's `.json` API also 403s even with a UA. `old.reddit.com/.rss` with the same UA returns HTTP 200 with a full, current item list — confirmed working 2026-07-03. Use old.reddit.com going forward; retest www.reddit.com occasionally in case it un-blocks]**. The canonical active quantum community.
 - r/MachineLearning — for the ML side (via Tavily) **[candidate]**. (Note: r/QuantumML and r/quantum returned 403/empty at scaffold — dropped; re-add if they prove active.)
 - Hacker News — Algolia API https://hn.algolia.com/api/v1/search?tags=front_page (+ `query=quantum`) **[verified pattern; known reliable]** — earthquake check.
 - Quantum Computing Stack Exchange — Atom feed https://quantumcomputing.stackexchange.com/feeds **[verified 2026-06-26]** — Q&A community; a recurring question/answer can flag emerging methods or confusions worth tracking (intake → follow to a primary).

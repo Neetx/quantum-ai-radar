@@ -1,28 +1,31 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-4-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--02-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-5-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--03-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-02, Pass 2):**
-- No trend stage moves this pass — a full re-sweep confirmed no new evidence beyond [Pass 1's captures](reports/2026-07-02.md) (arXiv had not posted a new listing yet).
-- Queue +1: [arXiv:2606.25117](https://arxiv.org/abs/2606.25117) (Λ-lr-QAOA feasibility scheduling, Leonardo) → watchlist at 25 (cap).
-- Source heal: YouTube feeds for [Qiskit](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A), PennyLane and Sabine Hossenfelder restored to HTTP 200 after a 2-run outage; IQM and Oxford Ionics newsrooms verified reachable.
-- Earlier today (Pass 1): [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) promoted emerging → **accelerating** on [arXiv:2606.29687](https://arxiv.org/abs/2606.29687) (Kol et al., MIT, LLM-found QAOA-conjecture proof verified in Lean 4); [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) and [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) both promoted seed → **emerging**.
+**Since last scan (2026-07-03):**
+- New trend seeded: [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) — 3 independent groups ([Dao](https://arxiv.org/abs/2606.25600), [Qi & Earls](https://arxiv.org/abs/2607.01336), [Duque et al.](https://arxiv.org/abs/2607.02292)) publish on classical neural-network ansätze for quantum many-body wavefunctions within ~10 days.
+- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) evidence refreshed: [a 107-qubit experimental surface-code logical-operations demonstration](https://arxiv.org/abs/2607.01473) (USTC/Zhu-Pan group) swapped in as the trend's flagship new primary.
+- Watchlist churned but held at the 25-item cap: 15 stale single-group items dropped, 16 new captures queued — including 3 peer-reviewed primaries from a newly-verified source, [npj Quantum Information](https://www.nature.com/npjqi/).
+- Source heal: [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) access restored via the old-reddit domain after 5 consecutive blocked runs on the main domain.
 
 ## Trends
 
-🌱 0 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 2 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.00939) |
-| [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-06-30](https://quantum-journal.org/papers/q-2026-06-30-2149/) |
+| [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.01473) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-02](https://arxiv.org/abs/2607.02363) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 📈 emerging | [2026-07-01](https://arxiv.org/abs/2607.00945) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-01](https://arxiv.org/abs/2607.00301) |
+| [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 🌱 seed | [2026-07-02](https://arxiv.org/abs/2607.02292) |
 
 ## Worth studying
 
+- [Surface code logical operations on a superconducting quantum processor (arXiv:2607.01473)](https://arxiv.org/abs/2607.01473) — Lin, Guo, Ma et al. (USTC/Zhu-Pan group, Jul 2026): experimentally realizes patch-based surface-code logical operations on a 107-qubit superconducting processor — a flagship large-scale demonstration of logical-operation techniques.
+- [Mechanistic Interpretability and Causal Feature Steering of Neural Quantum States via Sparse Autoencoders (arXiv:2607.01336)](https://arxiv.org/abs/2607.01336) — Qi, Earls (Jul 2026): imports LLM mechanistic-interpretability tooling to open up the black box of Neural Quantum States — a notable cross-boundary methodology.
 - [When AI meets quantum information: A comprehensive review (arXiv:2607.00365)](https://arxiv.org/abs/2607.00365) — Chen, Gan, Jin et al. (18 authors, Jul 1): two-directional survey of AI-for-QI and QI-for-AI — a strong orientation map for this field.
 - [A Machine-Verified Proof of a Quantum-Optimization Conjecture (arXiv:2606.29687)](https://arxiv.org/abs/2606.29687) — Kol, Ben-Shahar, Sulimany, Englund (MIT, Jun 29): resolves a decade-old QAOA conjecture using an LLM-found proof verified end-to-end in Lean 4.
 - [Machine Learning Decoding of Circuit-Level Noise for Bivariate Bicycle Codes (Quantum journal)](https://quantum-journal.org/papers/q-2026-06-30-2149/) — Blue, Avlani, He, Ziyin, Chuang (MIT, Jun 30): peer-reviewed neural decoder for bivariate bicycle QEC codes under circuit-level noise.
@@ -38,11 +41,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/) surfaced two new general Q&A threads (state-preparation decision trees; Deutsch's algorithm query advantage) — no primaries to follow.
-- [r/QuantumComputing](https://www.reddit.com/r/QuantumComputing/) access has now been blocked for 4 consecutive scans; no new community signal obtainable this run via that channel.
-- [Hacker News](https://hn.algolia.com/?query=quantum) front page and quantum search showed no field-shaking item today — a "Quantum Computing Roadmaps" tracker tool surfaced but is not a primary source.
-- Qiskit's [YouTube channel](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A) (feed just healed) posted a Daniel Lidar seminar talk; [Sabine Hossenfelder](https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw) posted general quantum-hype-skepticism commentary — neither names a specific new primary.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) access restored this run (via the old-reddit domain) after 5 consecutive blocked scans; current threads are general Q&A, no new primaries named.
+- [Quantum Computing Stack Exchange](https://quantumcomputing.stackexchange.com/) surfaced only routine Q&A threads today — no primaries to follow.
+- [Hacker News](https://hn.algolia.com/?query=quantum) front page and quantum search showed no field-shaking item; a resurfaced 2024 Pasqal press item and already-captured papers, no earthquake.
+- Qiskit's and Sabine Hossenfelder's [YouTube channels](https://www.youtube.com/feeds/videos.xml?channel_id=UC1yNl2E66ZzKApQdRuTQ4tw) posted no new quantum-computing-specific content since the last scan.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-02](reports/2026-07-02.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-03](reports/2026-07-03.md) · weekly: [2026-W26](reports/weekly/2026-W26.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
