@@ -115,6 +115,7 @@ survives verification (real feed, on-axis, not SEO/hype-PR). Line format:
 `domain/org — times seen — last on-axis artifact (date) — first seen YYYY-MM-DD`.
 
 - (cleared 2026-06-29: quandela.com + alice-bob.com PROMOTED to the hardware-vendors swept list above in the verified scouting pass — see Phase-1)
+- nature.com/ncomms (Nature Communications) — 1 — "Characterising the failure mechanisms of error-corrected quantum logic gates" (Harper et al., Sydney/IBM, peer-reviewed 2026-07) — first seen 2026-07-05 — on-axis peer-reviewed venue carrying QEC/FTQC primaries; not in the swept registry (only Quantum, npj QI, PRX Quantum, Nature/Science flagship are). Discovered via the tracked QC Report digest. Weekly: verify the npjqi-style RSS (`nature.com/ncomms.rss`) and promote if it recurs on-axis.
 
 ## Social & community channels (Phase 2 — INTAKE ONLY, never evidence)
 
