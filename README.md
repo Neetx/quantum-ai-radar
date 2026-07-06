@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-5-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--05-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-5-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--06-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-05):**
-- Quiet-extract day — arXiv (quant-ph/cs.LG/cs.ET) still capped at 2026-07-02, a 3rd day of weekend/holiday posting lag; no trend received new evidence and no stages moved.
-- Queue: added a peer-reviewed [Sydney/IBM mid-circuit-measurement failure-mechanisms paper](https://arxiv.org/abs/2504.07258) (now in Nature Communications) and a [tensor-network-state paper](https://www.nature.com/articles/s41534-026-01298-9); dropped 3 stale single-group items — held at the 25-item cap.
-- Flagged an off-axis cluster: an [LBNL hadronization simulation on 104 qubits of IBM Heron](https://quantumcomputingreport.com/lbnl-researcher-leverages-104-qubits-on-ibm-heron-to-simulate-subatomic-hadronization/) joins the queued IBM-Nighthawk QCD-nucleon sim — utility-scale lattice-gauge-theory/HEP simulation on 100+ qubit hardware (2 groups, below bar; primary not yet located).
-- Study shelf: added the [MCM failure-mechanisms benchmark](https://arxiv.org/abs/2504.07258) — a hardware-grounded characterization of a key FTQC bottleneck.
+**Since last scan (2026-07-06):**
+- Quiet-extract day (4th in a row) — arXiv (quant-ph/cs.LG/cs.ET) is *still* capped at 2026-07-02, the weekend/holiday posting lag persisting into Monday; no trend received new evidence, no stages moved, no new queue items.
+- Fixed both forced source-heals: **PRX Quantum** now via its [APS RSS feed](https://feeds.aps.org/rss/recent/prxquantum.xml) (the `/recent` extract had broken), and the **Quandela blog** via `tvly search` by domain — both back to working access paths after 2 consecutive post-heal failures each.
+- Full coverage: every registered vendor blog was individually opened this run (correcting yesterday's "not-re-opened — carried" shortcut); the aggregating digests confirm nothing new on-axis today beyond a UCF funding award (no artifact → intake-only).
+- The utility-scale [LGT/HEP-simulation-on-100+-qubit-hardware cluster](https://quantumcomputingreport.com/lbnl-researcher-leverages-104-qubits-on-ibm-heron-to-simulate-subatomic-hadronization/) holds at 2 groups (LBNL hadronization still unverified — no primary locatable while arXiv is frozen); below the trend bar, watched.
 
 ## Trends
 
@@ -42,10 +42,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 _Unverified intake — community signals, not trend evidence._
 
 - The DOE's ["Quantum Genesis" initiative](https://www.energy.gov/articles/energy-department-announces-initiative-create-and-deploy-worlds-first-scientifically) (fault-tolerant quantum computer by 2028, announced 2026-06-23) continues to dominate [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) and Hacker News — a policy/funding commitment rather than a technical artifact; watch for follow-on vendor technical disclosures.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) also carries the [IBM Nighthawk real-world validation](https://hn.algolia.com/?query=quantum) discussion, a Majorana-topological-qubit critique thread, and a Heron R2 entanglement Q&A — no new primaries named.
-- [Hacker News](https://hn.algolia.com/?query=quantum) quantum search surfaced a [Show HN ILP-based QEC-code-search project](https://github.com/ynnk-research/Modular-Assembly-of-High-Performance-Logical-Blocks) — queued, individual/community provenance.
-- Qiskit's [YouTube channel](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A) posted a "Demonstrations of Quantum Speedup" pre-seminar primer (pointer only, no primary); Sabine Hossenfelder's channel posted nothing new quantum-specific.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) and [Hacker News](https://hn.algolia.com/?query=quantum) carry the IBM Nighthawk validation discussion, a Majorana critique thread, and general explainers (3blue1brown, post-quantum-crypto) — nothing new on-axis, no primaries named.
+- The only genuinely-new digest item today is a UCF ORAU **award** for topological-mechanical-braiding circuit stabilization — a funding announcement with no technical artifact, so intake-only per the Hard rules.
+- Qiskit's [YouTube channel](https://www.youtube.com/feeds/videos.xml?channel_id=UClBNq7mCMf5xm8baE_VMl3A) unchanged (Jun-27 Lidar seminar); Sabine Hossenfelder's channel posted nothing new quantum-specific.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-05](reports/2026-07-05.md) · weekly: [2026-W27](reports/weekly/2026-W27.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-06](reports/2026-07-06.md) · weekly: [2026-W27](reports/weekly/2026-W27.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
