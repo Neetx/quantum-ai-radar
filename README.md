@@ -1,18 +1,18 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-5-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--09-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-6-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--10-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-09):**
-- Two trends gained a new independent group (no stage moves — neither cleared its stage's breadth bar). [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) reaches a **5th group** with Xanadu/PennyLane's [spectral Born machines](https://arxiv.org/abs/2607.06675) (IQP/Born-machine generalization via group Fourier analysis; ships a `tcdq` PennyLane module; a 190-qubit / 1M-parameter rRNA demo).
-- [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) reaches a **7th group** with [sparse long-range entangling gates](https://arxiv.org/abs/2607.07547) (Daley group) — circuit geometry / qubit reconfigurability as a task-dependent trainability resource; now approaching the accelerating band (flagged for W28).
-- The **"QML-advantage boundary"** theme keeps growing on both sides: [The NISQ Trap](https://arxiv.org/abs/2607.07530) (position paper — NISQ advantage demos classically closed within ~18 months, exit = fault tolerance) is a strong 3rd skepticism artifact alongside the pro-advantage results — now a live candidate for its own trend.
-- Two study picks ([The NISQ Trap](https://arxiv.org/abs/2607.07530), [spectral Born machines](https://arxiv.org/abs/2607.06675)). Queue held at 25 (added 5, dropped 5 stale Jul-3 single-group items).
+**Since last scan (2026-07-10):**
+- **New trend created** — [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) 🌱, promoted via the daily convergence check from **6 independent groups** on the classical-quantum boundary asking "does a claimed quantum(-ML) advantage survive?" — a skepticism side ([Frozen-Tree](https://arxiv.org/abs/2607.04054), [cloud-microphysics baselines](https://arxiv.org/abs/2607.04915), [The NISQ Trap](https://arxiv.org/abs/2607.07530), [SK-spin-glass QAOA](https://arxiv.org/abs/2607.08708)) and a pro-advantage side ([provable learning separation](https://arxiv.org/abs/2607.06472), [continual-learning plasticity](https://arxiv.org/abs/2511.17228)).
+- Today's fresh boundary artifact: [Absence of quantum advantage for approximate spin glass optimization](https://arxiv.org/abs/2607.08708) (Sels, Morone) — a semiclassical truncated-Wigner analysis where the classical limit slightly *outperforms* true spin-1/2 QAOA on the Sherrington-Kirkpatrick model.
+- New study pick: [Plaquette](https://arxiv.org/abs/2607.08767) (Xanadu/Ulm) — an FTQC design suite that compiles a device's actual open-system error model (Kraus / Lindblad / reconstructed channel) into the right sampler class to compute logical performance directly from hardware physics.
+- Queue: net −2 (24) — 6 boundary items moved into the new trend, 4 added (grokking/double-descent in QNNs, Plaquette, a PRX Quantum tensor-network decoder, a quantum-reservoir-computing watch cluster).
 
 ## Trends
 
-🌱 0 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
@@ -21,9 +21,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 📈 emerging | [2026-07-08](https://arxiv.org/abs/2607.07547) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-07](https://arxiv.org/abs/2607.06675) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-02](https://arxiv.org/abs/2607.02292) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08708) |
 
 ## Worth studying
 
+- [Plaquette: A hardware-aware design platform for fault-tolerant quantum computers (arXiv:2607.08767)](https://arxiv.org/abs/2607.08767) — Conchello Vendrell, Dhand, Plenio et al. (Xanadu/Ulm, Jul 9): takes a device's actual open-system error model — Kraus operators, Hamiltonian-Lindblad dynamics, or a reconstructed channel — and auto-compiles it into the right sampler class (stabilizer, a new XPauli sampler for leakage, near-Clifford for coherent errors, or full-state reference), so hardware teams compute logical FTQC performance directly from device physics instead of Pauli-twirled approximations. Validated on leakage (superconducting), intermediate-state scattering (neutral atoms), and heating (trapped ions) — a directly-useful tool for realistic FTQC threshold/overhead estimates.
 - [The NISQ Trap: Eight Years of Demonstrations the Hardware Was Built to Lose (arXiv:2607.07530)](https://arxiv.org/abs/2607.07530) — (Jul 8): a sharp position paper arguing that essentially every NISQ-era "quantum advantage" demo has been classically reproduced or closed by a simulability theorem within ~18 months — because the circuits NISQ hardware can run with fidelity are exactly the regions classical algorithms compress efficiently — and locating the genuine exit in fault tolerance. Essential skeptical framing for near-term (including QML) advantage claims.
 - [Spectral Born machines: classically trainable quantum generative models for discrete data (arXiv:2607.06675)](https://arxiv.org/abs/2607.06675) — Huang, Maxwell, Belis, Peters, Pye, Jahangiri, Bowles (Xanadu/PennyLane, Jul 7): generalizes IQP Born machines via group Fourier analysis into quantum generative models with a QFT-based inductive bias — classically hard to sample yet classically trainable via a spectral-MMD loss, shipped as a `tcdq` PennyLane module; scales to a 190-qubit / 1M-parameter model learning a distribution over 93-nucleotide rRNA. A directly-usable, unusually large-scale generative-QML tool.
 - [Provable learning separation for predicting time-evolution of quantum many-body systems (arXiv:2607.06472)](https://arxiv.org/abs/2607.06472) — (Jul 7): a rigorous PAC-learning separation on a physically-natural QML task — a quantum learner learns many-body dynamics from short-time probe samples and infers via Hamiltonian simulation + classical shadows, while no classical poly-time algorithm can (BQP-complete embedding). The clean PRO-advantage counterweight to recent dequantization results.
@@ -41,9 +43,9 @@ _Unverified intake — community signals, not trend evidence._
 
 - The DOE's ["Quantum Genesis" initiative](https://www.energy.gov/articles/energy-department-announces-initiative-create-and-deploy-worlds-first-scientifically) (fault-tolerant quantum computer by 2028, announced 2026-06-23) continues to dominate [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) — a policy/funding commitment rather than a technical artifact; watch for follow-on vendor technical disclosures.
 - [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) still carries the IBM Nighthawk QCD/cybersecurity validation discussion — reinforcing interest in the HEP-simulation cluster the ledger tracks; no new primary named.
-- [Hacker News](https://hn.algolia.com/?query=quantum) skepticism (a crypto-engineer's critique of quantum-computing timelines; "replace the IBM Quantum backend with /dev/urandom") echoes **The NISQ Trap**'s thesis — a community signal for the boundary/skepticism theme, no new primary.
-- Digests (Quantum Insider, Quantum Computing Report) were funding/personnel/partnership PR this run — intake-only. Hugging Face Papers trending carried general ML/LLM work, no quantum items.
+- Digests surfaced two **AI-for-quantum** items this run (a Hefei "Elea-Cafe" CZ-gate-calibration workflow and a Max Planck Light group using AI to design improved QEC codes) — both trend-002-adjacent, but no primary artifact could be opened this session, so they stay intake-only. Enabling-hardware news (Diraq/imec 8-qubit 99%-fidelity 300 mm CMOS silicon; QuTech's open Tuna-17 processor launch) was digest-level only.
+- Otherwise digests (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) were funding/personnel/partnership PR — intake-only. Hugging Face Papers carried general ML/LLM work, no quantum items.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-09](reports/2026-07-09.md) · weekly: [2026-W27](reports/weekly/2026-W27.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-10](reports/2026-07-10.md) · weekly: [2026-W27](reports/weekly/2026-W27.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
