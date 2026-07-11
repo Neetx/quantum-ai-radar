@@ -1,27 +1,28 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-6-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-2-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--10-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-7-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-3-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-23-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--11-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-10):**
-- **New trend created** — [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) 🌱, promoted via the daily convergence check from **6 independent groups** on the classical-quantum boundary asking "does a claimed quantum(-ML) advantage survive?" — a skepticism side ([Frozen-Tree](https://arxiv.org/abs/2607.04054), [cloud-microphysics baselines](https://arxiv.org/abs/2607.04915), [The NISQ Trap](https://arxiv.org/abs/2607.07530), [SK-spin-glass QAOA](https://arxiv.org/abs/2607.08708)) and a pro-advantage side ([provable learning separation](https://arxiv.org/abs/2607.06472), [continual-learning plasticity](https://arxiv.org/abs/2511.17228)).
-- Today's fresh boundary artifact: [Absence of quantum advantage for approximate spin glass optimization](https://arxiv.org/abs/2607.08708) (Sels, Morone) — a semiclassical truncated-Wigner analysis where the classical limit slightly *outperforms* true spin-1/2 QAOA on the Sherrington-Kirkpatrick model.
-- New study pick: [Plaquette](https://arxiv.org/abs/2607.08767) (Xanadu/Ulm) — an FTQC design suite that compiles a device's actual open-system error model (Kraus / Lindblad / reconstructed channel) into the right sampler class to compute logical performance directly from hardware physics.
-- Queue: net −2 (24) — 6 boundary items moved into the new trend, 4 added (grokking/double-descent in QNNs, Plaquette, a PRX Quantum tensor-network decoder, a quantum-reservoir-computing watch cluster).
+**Since last scan (2026-07-11) — W28 weekly recalibration:**
+- Stage/confidence moves: [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) → 🚀 **accelerating** (7 independent groups, fastest-growing trend); [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) → 📈 **emerging** + medium (6 sustained groups); [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) confidence → **high**; [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) confidence → **medium**.
+- **New trend created** — [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) 🌱, promoted via the weekly convergence check from 3 independent groups ([No Reference-Free Generalization](https://arxiv.org/abs/2606.22331), [PAC-Bayesian entanglement bound](https://arxiv.org/abs/2607.06230), [grokking + double descent in QNNs](https://arxiv.org/abs/2607.08350)) — distinct from trainability theory.
+- Housekeeping: capture-leak backstop caught & queued [GroverFigureOfMerit](https://arxiv.org/abs/2607.08636); source-discovery verified & dropped Nature Communications (multidisciplinary firehose, negligible quantum density); no dormancy or archival (every trend ≤10 days since last evidence).
+- Queue at 23; a split of [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) into hardware-AI vs LLM-agentic-reasoning is **proposed** for W29.
 
 ## Trends
 
-🌱 1 · 📈 3 · 🚀 2 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 3 · 🚀 3 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
-| [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.00939) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-08](https://arxiv.org/abs/2607.07547) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.01473) |
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 📈 emerging | [2026-07-08](https://arxiv.org/abs/2607.07547) |
+| [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.00939) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 📈 emerging | [2026-07-09](https://arxiv.org/abs/2607.08708) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-07](https://arxiv.org/abs/2607.06675) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-02](https://arxiv.org/abs/2607.02292) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08708) |
+| [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08350) |
 
 ## Worth studying
 
@@ -43,9 +44,9 @@ _Unverified intake — community signals, not trend evidence._
 
 - The DOE's ["Quantum Genesis" initiative](https://www.energy.gov/articles/energy-department-announces-initiative-create-and-deploy-worlds-first-scientifically) (fault-tolerant quantum computer by 2028, announced 2026-06-23) continues to dominate [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) — a policy/funding commitment rather than a technical artifact; watch for follow-on vendor technical disclosures.
 - [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) still carries the IBM Nighthawk QCD/cybersecurity validation discussion — reinforcing interest in the HEP-simulation cluster the ledger tracks; no new primary named.
-- Digests surfaced two **AI-for-quantum** items this run (a Hefei "Elea-Cafe" CZ-gate-calibration workflow and a Max Planck Light group using AI to design improved QEC codes) — both trend-002-adjacent, but no primary artifact could be opened this session, so they stay intake-only. Enabling-hardware news (Diraq/imec 8-qubit 99%-fidelity 300 mm CMOS silicon; QuTech's open Tuna-17 processor launch) was digest-level only.
+- Digests surfaced two **AI-for-quantum** items over the week (a Hefei "Elea-Cafe" CZ-gate-calibration workflow and a Max Planck Light group using AI to design improved QEC codes) — both trend-002-adjacent, but no primary artifact could be opened, so they stay intake-only. Enabling-hardware news (Diraq/imec 8-qubit 99%-fidelity 300 mm CMOS silicon; QuTech's open Tuna-17 processor launch) was digest-level only.
 - Otherwise digests (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) were funding/personnel/partnership PR — intake-only. Hugging Face Papers carried general ML/LLM work, no quantum items.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-10](reports/2026-07-10.md) · weekly: [2026-W27](reports/weekly/2026-W27.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (23)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-10](reports/2026-07-10.md) · weekly: [2026-W28](reports/weekly/2026-W28.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
