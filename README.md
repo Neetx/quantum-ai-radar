@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-8-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-3-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--14-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-8-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-3-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--15-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-14):**
-- **Three trends gained evidence** (weekend feed-lag cleared; the Jul-12/13 arXiv batch is in): [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) 🚀 → 8th group ([Lie-algebraic zero-shot transfer for barren-plateau mitigation 2607.11174](https://arxiv.org/abs/2607.11174)); [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) 📈 → 7th group ([provable probe-based learning advantage 2607.11829](https://arxiv.org/abs/2607.11829), pro-advantage side); [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) 🌱 → a sharp [honest-baseline result 2607.09905](https://arxiv.org/abs/2607.09905) (QRC advantage vanishes when the classical baseline is tuned equally).
-- **New watch micro-cluster** — QML security / adversarial robustness: two independent groups the same day ([input-aware backdoor attack on QNNs 2607.11843](https://arxiv.org/abs/2607.11843), [measurement-cost defense against attacks on quantum classifiers 2607.11095](https://arxiv.org/abs/2607.11095)); queued, promote at a 3rd group.
-- Queue held at 25: added the security micro-cluster, a [Fourier-locking optimization-failure study 2607.11013](https://arxiv.org/abs/2607.11013) (trainability), and a [meta-decoder with VQC architecture search 2607.10707](https://arxiv.org/abs/2607.10707); dropped 2 stale single-group items.
-- Housekeeping: framework releases unchanged; r/QuantumComputing RSS blocked this run (degraded, retry next); capture-leak sweep 89 ids / 0 fresh leaks.
+**Since last scan (2026-07-15):**
+- **QML trainability gains a 9th independent group** — [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) 🚀 appends [a native-2D pairwise ansatz result 2607.12996](https://arxiv.org/abs/2607.12996): matching planar superconducting connectivity gives better expressibility AND smaller global-observable gradient variance than 1D chain/ring ansätze at shallow depth — tying trainability to hardware-native circuit geometry. last_evidence → 2026-07-14.
+- **AI-for-quantum's LLM-agentic / formal-methods leg keeps growing** — queued a proof-kernel-checked [Lean-4 formalization of QNN expressivity+trainability theory 2607.12981](https://arxiv.org/abs/2607.12981) (now 4 Lean/formal groups, a trend-004 crossover), plus a [transformer circuit-synthesis honest-limits study 2607.12780](https://arxiv.org/abs/2607.12780) and a [forked-PINN for non-Markovian open-quantum control 2607.12567](https://arxiv.org/abs/2607.12567). The W29 proposal to split trend-002 stands.
+- Queue held at 25 (added 4, dropped 4 stale single-group items; two preserved on the study shelf).
+- Housekeeping: journals quiet; framework releases unchanged; r/QuantumComputing RSS recovered (was a transient block); exploration (cs.ET) off-axis; capture-leak sweep 98 ids / 1 queued.
 
 ## Trends
 
@@ -16,7 +16,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-13](https://arxiv.org/abs/2607.11174) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12996) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.01473) |
 | [AI-for-quantum](TRENDS.md#id-trend-002-ai-for-quantum-ml-and-llm-guided-quantum-hardware-and-code-design) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.00939) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 📈 emerging | [2026-07-13](https://arxiv.org/abs/2607.11829) |
@@ -45,10 +45,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- The classical-quantum boundary the ledger tracks (trends 006/008) keeps drawing community attention: this run's arXiv batch itself carried a QRC honest-baseline result and a fresh QML-adversarial-robustness pair, echoing the recurring "does the advantage / the model survive a fair fight?" theme.
+- A new community claim — a BITS-Pilani-led team reporting "India's first verified quantum advantage" — circulated on r/QuantumComputing, but no technical primary was located this run, so per the Hard rules it stays intake-only (advantage claims require the technical artifact, not press/community reports).
 - The DOE's "Quantum Genesis" fault-tolerant-by-2028 initiative and the IBM Nighthawk QCD/cybersecurity validation thread continue to circulate on r/QuantumComputing and Hacker News — policy/hardware interest, cross-covered, no new on-axis QML primary opened.
-- Digests (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) were funding/personnel/partnership PR; Hacker News and cs.ET exploration carried general/off-axis work, no forced-capture quantum items. r/QuantumComputing's feed was unreachable this run (blocked — retry next).
+- r/QuantumComputing's RSS feed recovered this run (last run's block was transient). Hacker News and cs.ET exploration carried general/off-axis work (post-quantum crypto, neuromorphic/EDA), no forced-capture quantum items.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-14](reports/2026-07-14.md) · weekly: [2026-W28](reports/weekly/2026-W28.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-15](reports/2026-07-15.md) · weekly: [2026-W28](reports/weekly/2026-W28.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
