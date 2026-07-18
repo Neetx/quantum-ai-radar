@@ -1,25 +1,26 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-9-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-4-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-15-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--18-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-9-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-5-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-13-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--18-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-18, W29 amendment):**
-- **trend-002 split applied** — the former unified AI-for-quantum trend is divided into [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) 🚀 (classical ML/RL/PINN controlling, calibrating, decoding and designing quantum hardware — 10 groups) and a new [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) 🚀 trend (LLMs, multi-agent frameworks and machine-checked Lean formalization reasoning *about* circuits/algorithms/proofs — 10 groups, incl. a 4-group Lean formal-methods sub-cluster). Both at accelerating/medium.
-- **11 queued primaries promoted into evidence** across the two legs — e.g. [Fermilab/NEXUS CNN charge-jump detector 2607.14293](https://arxiv.org/abs/2607.14293) and [evolution-level PINN control 2607.14884](https://arxiv.org/abs/2607.14884) (hardware) and [Agentic Certified-QNN Lean formalization 2607.12981](https://arxiv.org/abs/2607.12981) and [LeanQIT 2607.09632](https://arxiv.org/abs/2607.09632) (agentic reasoning).
-- Watchlist 26 → 15; this is the dedicated amendment commit (further W29 recalibration follows).
+**Since last scan (2026-07-18, W29 weekly):**
+- **trend-002 split** — the former unified AI-for-quantum trend is divided into [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) 🚀 (classical ML/RL/PINN controlling, calibrating, decoding and designing quantum hardware — 10 groups) and a new [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) 🚀 trend (LLMs, multi-agent frameworks and machine-checked Lean formalization reasoning *about* circuits/algorithms/proofs — 10 groups, incl. a 4-group Lean formal-methods sub-cluster). 11 queued primaries promoted into evidence.
+- **[Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) 📈→🚀 accelerating** — 8 bidirectional independent groups over ~11 days, from dequantization refutations ([Frozen-Tree 2607.04054](https://arxiv.org/abs/2607.04054)) to provable separations ([2607.06472](https://arxiv.org/abs/2607.06472)).
+- **Confidence raises:** [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) medium→**high** (9 groups, DLA toolset corroborated across ≥4 + a Lean machine-check); Neural Quantum States and Quantum Reservoir Computing both low→**medium**.
+- Watchlist 26 → 13 (11 promoted at the split, 1 dropped, 1 tombstone removed); capture-leak 0 genuine.
 
 ## Trends
 
-🌱 1 · 📈 4 · 🚀 4 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 3 · 🚀 5 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-07-16](https://arxiv.org/abs/2607.14884) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 🚀 accelerating | [2026-07-15](https://arxiv.org/abs/2607.13325) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12981) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12996) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.01473) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.13325) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.13790) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.14311) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-10](https://arxiv.org/abs/2607.09113) |
@@ -50,4 +51,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (15)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-17](reports/2026-07-17.md) · weekly: [2026-W28](reports/weekly/2026-W28.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (13)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-17](reports/2026-07-17.md) · weekly: [2026-W29](reports/weekly/2026-W29.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
