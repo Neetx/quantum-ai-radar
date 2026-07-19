@@ -41,7 +41,11 @@ a self-eval failure.
 run" list in `SOURCES.md` against the week's `logs/source_rotation.md` — every listed source
 must appear as `opened` or `degraded`. Any source MISSING all week is a coverage lie: heal it
 now (`radar-source-heal`), or if already healed and still un-sweepable, propose
-heal-or-REMOVE (don't list what you won't sweep).
+heal-or-REMOVE (don't list what you won't sweep). This diff must enumerate EVERY entry
+under each "swept every run" heading, INCLUDING bullets nested under a sub-label (e.g. a
+"non-GitHub channels:" sub-block), not just top-level list entries: a nested
+swept-every-run source is a coverage PROMISE exactly like a top-level one. Never assert "0
+sources missing" without having run this full list-vs-log diff.
 Then compare the coverage log against the ledger: which sources produced evidence, which
 produced nothing repeatedly; are the scope priorities in `strategy_notes` actually covered?
 Tunnel-vision check: if ALL of this week's new evidence landed on pre-existing trends, record

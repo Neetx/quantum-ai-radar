@@ -43,6 +43,12 @@ distinction governs what you DO with a hit, not whether you CHECK it.
   note. Never evidence; never name individuals.
 - **Repo/release & watch (every run)** — `radar-repo-watch`: releases of watched repos,
   notable forks, and any domain advisory feed — citable artifacts; movement is a queue signal.
+  The discovery lane is MULTI-CHANNEL, not GitHub-only: iterate and LOG (opened / degraded)
+  EVERY channel listed under a "swept every run" heading in `SOURCES.md` — the GitHub-native
+  channels AND any non-GitHub ones the domain uses (model/dataset hubs, conference
+  tool-showcases, package-registry SEARCH). A "swept every run" heading binds EVERY bullet
+  under it, nested sub-bullets included; a discovery log line that names only some channels
+  while others sit listed-but-unlogged is a coverage miss.
 - **Exploration slot (MANDATORY)** — `radar-explore`: iterate the discovery-venue list
   (advancing date window), significance-first: read the top items REGARDLESS of sub-topic;
   a genuinely significant item OFF every current axis still gets queued ("significant, off-axis").
