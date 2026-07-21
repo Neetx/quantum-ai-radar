@@ -1,17 +1,17 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-9-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-5-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-17-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--20-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-10-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-5-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-22-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--21-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-20):**
-- **[Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-scrutiny-dequantization-honest-baselines-and-provable-separations) 🚀** — two Jul-17 primaries fill the evidence cap at 10 independent groups: [Fourier Wall 2607.15815](https://arxiv.org/abs/2607.15815) (angle-encoded QML's tabular-data losses are *structural* — a certified recipe for where advantage can live) and [quantum-classical crossover 2607.16116](https://arxiv.org/abs/2607.16116) (a concrete FT crossover for mixed-field Ising dynamics vs tensor-network + VMC). Balance now 6 skepticism / 4 pro-advantage — the split forward-bet stands.
-- **Study shelf** — [Universal topological gates via braiding + fusing S3 anyons on Quantinuum H2 (2601.20956)](https://arxiv.org/abs/2601.20956), now in Nature: a complete universal fault-tolerant gate set *without* magic-state distillation.
-- **Watchlist 13 → 17** — queued operator-shadows/learning-separations ([2607.15493](https://arxiv.org/abs/2607.15493)), a 2nd quantum-continual-learning item ([QEWC 2607.16030](https://arxiv.org/abs/2607.16030)), fast QLDPC logical ops ([2607.16166](https://arxiv.org/abs/2607.16166)), and a 2nd QML-interpretability item ([2607.15433](https://arxiv.org/abs/2607.15433)). capture-leak: 0 genuine.
+**Since last scan (2026-07-21):**
+- **New trend — [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) 🌱** created by convergence: a 3rd independent group landed — [CutBackdoor 2607.18126](https://arxiv.org/abs/2607.18126) (a circuit-cut-triggered supply-chain backdoor on VQAs) joins the input-aware backdoor ([2607.11843](https://arxiv.org/abs/2607.11843)) and the measurement-cost-as-defense analysis ([2607.11095](https://arxiv.org/abs/2607.11095)).
+- **Watchlist 17 → 22** — queued three new trainability primaries ([Lie-group mode connectivity 2607.17554](https://arxiv.org/abs/2607.17554), [identity-paired progressive-depth 2607.16800](https://arxiv.org/abs/2607.16800), [entanglement-geometry/cutting/trainability 2607.17872](https://arxiv.org/abs/2607.17872)), an [AI-for-quantum CNN pre-decoder 2607.18204](https://arxiv.org/abs/2607.18204), and an [LLM-driven quantum-optimal-control workflow 2607.17498](https://arxiv.org/abs/2607.17498).
+- **Tally correction** — the QML-interpretability micro-cluster is only 2 independent groups: [2607.13827](https://arxiv.org/abs/2607.13827) and [2607.15433](https://arxiv.org/abs/2607.15433) are both the same author; the new [Briegel-group 2607.17327](https://arxiv.org/abs/2607.17327) is the genuine 2nd group. capture-leak: 0 genuine.
 
 ## Trends
 
-🌱 1 · 📈 3 · 🚀 5 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 2 · 📈 3 · 🚀 5 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
@@ -23,6 +23,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.13790) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.14311) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-10](https://arxiv.org/abs/2607.09113) |
+| [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 🌱 seed | [2026-07-20](https://arxiv.org/abs/2607.18126) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08350) |
 
 ## Worth studying
@@ -44,10 +45,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) surfaced an open-source AutoML tool that searches 17 quantum-ML classifiers (PennyLane + Optuna) and benchmarks them against classical baselines — a community artifact echoing this radar's advantage-scrutiny theme; intake-only (no primary paper).
+- [Hacker News](https://news.ycombinator.com/) front-page quantum items remain dominated by post-quantum-cryptography and QC-timeline-skepticism threads (Signal/OpenSSH PQC, "a cryptography engineer's perspective on QC timelines", Willow-advantage discussion) — off the QML axis or already tracked; no new on-axis primary.
 - Vendor roadmap-qubit-count posts (IonQ targeting 8000 logical qubits by 2029; Quantinuum hundreds) circulate on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) — hype-prone marketing claims, intake-only per the Hard rules (require the technical primary).
-- A recurring debate over peer-reviewed two-qubit gate-fidelity reporting across vendors persists on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/); [Hacker News](https://news.ycombinator.com/) carried a PennyLane front-page item and a room-temperature quantum-material story (off the QML axis). Recent on-axis captures came via the arXiv/journal sweep, not the social lane.
+- A recurring debate over peer-reviewed two-qubit gate-fidelity reporting across vendors persists on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/); recent on-axis captures came via the arXiv/journal sweep, not the social lane.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (17)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-20](reports/2026-07-20.md) · weekly: [2026-W29](reports/weekly/2026-W29.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (22)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-21](reports/2026-07-21.md) · weekly: [2026-W29](reports/weekly/2026-W29.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
