@@ -79,6 +79,17 @@ restriction lifts. Fork-tree analysis (`radar-repo-watch`'s fork scan) is curren
 executable this way — no working substitute found 2026-07-02; best-effort `tvly search` for
 "<org> new repository" is a weak proxy, log as degraded until a better method is found.
 
+**[HEAL 2026-07-22 — framework-release VERSION+DATE]** For the pip-installable frameworks
+(qiskit, pennylane, cirq-core, cudaq, amazon-braket-sdk, unitaryfund/mitiq), the current
+version AND its exact release date are reliable from PyPI JSON — `curl -sL
+https://pypi.org/pypi/<pkg>/json` → `info.version` + `releases[version][0].upload_time` — which
+does NOT hit github.com (so no 403) and, unlike the `tvly extract .../releases` fallback, is not
+JS-rendered so it gives dated timestamps and the FULL version list (the tvly extract had been
+under-reporting mitiq, showing only 0.47.0→1.0.0 and no date). Use PyPI JSON as the primary
+method for framework release versions/dates; it resolved that mitiq v1.0.0 is dated 2026-03-25
+(pre-scaffold, NOT a new event) after two runs where the tvly extract could not confirm the date.
+Package names: cuda-quantum = `cudaq`; PRX/journal releases are not on PyPI (keep RSS for those).
+
 ### Watched repositories  (all **[verified 2026-06-26]** via GitHub API)
 - PennyLaneAI/pennylane — open-source quantum-ML platform (Xanadu)
 - Qiskit/qiskit — quantum SDK (IBM)

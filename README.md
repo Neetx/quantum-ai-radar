@@ -1,13 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-10-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-5-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-22-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--21-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-10-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-5-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--22-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-21):**
-- **New trend — [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) 🌱** created by convergence: a 3rd independent group landed — [CutBackdoor 2607.18126](https://arxiv.org/abs/2607.18126) (a circuit-cut-triggered supply-chain backdoor on VQAs) joins the input-aware backdoor ([2607.11843](https://arxiv.org/abs/2607.11843)) and the measurement-cost-as-defense analysis ([2607.11095](https://arxiv.org/abs/2607.11095)).
-- **Watchlist 17 → 22** — queued three new trainability primaries ([Lie-group mode connectivity 2607.17554](https://arxiv.org/abs/2607.17554), [identity-paired progressive-depth 2607.16800](https://arxiv.org/abs/2607.16800), [entanglement-geometry/cutting/trainability 2607.17872](https://arxiv.org/abs/2607.17872)), an [AI-for-quantum CNN pre-decoder 2607.18204](https://arxiv.org/abs/2607.18204), and an [LLM-driven quantum-optimal-control workflow 2607.17498](https://arxiv.org/abs/2607.17498).
-- **Tally correction** — the QML-interpretability micro-cluster is only 2 independent groups: [2607.13827](https://arxiv.org/abs/2607.13827) and [2607.15433](https://arxiv.org/abs/2607.15433) are both the same author; the new [Briegel-group 2607.17327](https://arxiv.org/abs/2607.17327) is the genuine 2nd group. capture-leak: 0 genuine.
+**Since last scan (2026-07-22):**
+- **[Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) 📈 gains a 6th independent group** — [Enhanced NQS via Annealed Gradient Descent 2607.18865](https://arxiv.org/abs/2607.18865) (PKU) names and fixes "subspace trapping," a finite-sample NQS optimization pathology; clears the W29 "watch for a 6th group" flag (held emerging, accelerating decision flagged for W30).
+- **[QML security](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) 🌱 gains a 2nd artifact** — a [SoK/red-teaming framework for VQE 2607.19318](https://arxiv.org/abs/2607.19318) extends the axis from QNN classifiers to VQE chemistry workloads (same group as [CutBackdoor 2607.18126](https://arxiv.org/abs/2607.18126), so still 3 independent groups — no stage move).
+- **Watchlist 22 → 25** — queued two boundary/skepticism results ([disorder→classical-simulability of an IQP advantage 2607.18938](https://arxiv.org/abs/2607.18938), [bound-entanglement-insufficient learning-advantage 2607.19017](https://arxiv.org/abs/2607.19017)), a [QRC review 2607.18552](https://arxiv.org/abs/2607.18552), and a [circuit-cutting optimizer 2607.18888](https://arxiv.org/abs/2607.18888); dropped one below-bar item.
+- **mitiq v1.0.0 is not new** — PyPI dates it 2026-03-25 (pre-scaffold); yesterday's coverage flag resolved, nothing to route. capture-leak: 24 ids checked / 0 genuine.
 
 ## Trends
 
@@ -20,10 +21,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12981) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12996) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-01](https://arxiv.org/abs/2607.01473) |
-| [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.13790) |
+| [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-21](https://arxiv.org/abs/2607.18865) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.14311) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-10](https://arxiv.org/abs/2607.09113) |
-| [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 🌱 seed | [2026-07-20](https://arxiv.org/abs/2607.18126) |
+| [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 🌱 seed | [2026-07-21](https://arxiv.org/abs/2607.19318) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🌱 seed | [2026-07-09](https://arxiv.org/abs/2607.08350) |
 
 ## Worth studying
@@ -46,9 +47,9 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 _Unverified intake — community signals, not trend evidence._
 
 - [Hacker News](https://news.ycombinator.com/) front-page quantum items remain dominated by post-quantum-cryptography and QC-timeline-skepticism threads (Signal/OpenSSH PQC, "a cryptography engineer's perspective on QC timelines", Willow-advantage discussion) — off the QML axis or already tracked; no new on-axis primary.
-- Vendor roadmap-qubit-count posts (IonQ targeting 8000 logical qubits by 2029; Quantinuum hundreds) circulate on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) — hype-prone marketing claims, intake-only per the Hard rules (require the technical primary).
+- Vendor roadmap and hardware-debut posts (a German firm debuting 100+ qubit diamond processors; IBM promising large-scale fault tolerance by 2029; IonQ targeting 8000 logical qubits, Quantinuum hundreds) circulate on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) — hype-prone marketing claims, intake-only per the Hard rules (require the technical primary).
 - A recurring debate over peer-reviewed two-qubit gate-fidelity reporting across vendors persists on [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/); recent on-axis captures came via the arXiv/journal sweep, not the social lane.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (22)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-21](reports/2026-07-21.md) · weekly: [2026-W29](reports/weekly/2026-W29.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-22](reports/2026-07-22.md) · weekly: [2026-W29](reports/weekly/2026-W29.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
