@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-11-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-27-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--27-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-11-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-29-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--07--28-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-07-25):**
-- **[Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) gains a 6th independent group** — a utility-scale, real-hardware (100+ qubit `ibm_marrakesh`) [QRC/quantum-kernel demo](https://arxiv.org/abs/2605.24252) for real Smart Meter time-series forecasting, honestly reporting the simulator-to-hardware gap.
-- **Two "missed-item" catches** surfaced via vendor-blog and digest cross-checks: the QRC item above, plus an IonQ/QuantumBasel [hardware-instrumented quantum-fine-tuning energy study](https://arxiv.org/abs/2605.02798) — both now on the [study shelf](#worth-studying).
-- **AI-for-quantum ML-circuit-generation cluster reaches 3 groups** inside [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) — [autoregressive-drift](https://arxiv.org/abs/2607.12780), [DQAOA-GPT](https://arxiv.org/abs/2607.20225) and a new [transformer-based molecular-ground-state synthesizer](https://arxiv.org/abs/2607.22468) all cap-blocked, watched for a future cap-swap.
-- **Watchlist grew 17 → 27** on a 10-capture day (most trend caps are frozen full) — full reasons in [reports/2026-07-27](reports/2026-07-27.md).
+**Since last scan (2026-07-27):**
+- **[Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) gains a 7th group with its most concrete claim yet** — a [fully-quantum-walk Gibbs sampler](https://arxiv.org/abs/2607.22818) pairs a beyond-quadratic speedup with a full fault-tolerant resource estimate against real classical hardware, cutting the advantage crossover from ~10³ years to under a day.
+- **NVIDIA released [Ising Calibration 1.5](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/)**, an open 31B-parameter VLM for automated quantum-hardware calibration — now on the [study shelf](#worth-studying), completing NVIDIA's decode+calibrate AI-for-quantum tool pair.
+- **A 2nd photonic-trainability item** landed — [classical simulation and model concentration in passive linear optics](https://arxiv.org/abs/2607.24728) extends the qubit barren-plateau↔classical-simulability tradeoff to bosonic circuits, forming a small watch-cluster with last week's photonic-trainability paper.
+- **Watchlist grew 27 → 29** (6 captures, 4 burndown drops, 2 promoted to evidence) — full reasons in [reports/2026-07-28](reports/2026-07-28.md).
 
 ## Trends
 
@@ -16,20 +16,21 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
+| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-07-24](https://arxiv.org/abs/2607.22818) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-07-23](https://arxiv.org/abs/2607.21337) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-07-21](https://arxiv.org/abs/2607.19563) |
-| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-07-21](https://arxiv.org/abs/2607.19017) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-07-16](https://arxiv.org/abs/2607.14884) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12996) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-07-14](https://arxiv.org/abs/2607.12981) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-27](https://arxiv.org/abs/2607.24399) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 📈 emerging | [2026-07-23](https://arxiv.org/abs/2607.21409) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-07-21](https://arxiv.org/abs/2607.18865) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 📈 emerging | [2026-07-15](https://arxiv.org/abs/2607.14311) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-07-10](https://arxiv.org/abs/2607.09113) |
 | [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 🌱 seed | [2026-07-21](https://arxiv.org/abs/2607.19318) |
 
 ## Worth studying
 
+- [NVIDIA Ising Enables Fully Automated Quantum Computer Calibration](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) — NVIDIA Quantum Computing Division (Jul 27): Ising Calibration 1.5, an open 31B-param vision-language model that diagnoses and tunes quantum processors from calibration plots, with a new QCalEval benchmark and a single-GPU-deployable quantized build — pairs with NVIDIA's own decoder release below to cover both halves of the AI-for-quantum-hardware stack.
 - [Hybrid Quantum-Classical Machine Learning Algorithms for Multi-Output Time-Series Forecasting at Utility Scale (arXiv:2605.24252)](https://arxiv.org/abs/2605.24252) — Polché, Puram, Lal et al. (E.ON/WISER, May 22): two hybrid QRC/quantum-kernel models forecast 103 real household Smart Meter time-series on a real 100+ qubit IBM processor, honestly reporting where the simulator-to-hardware gap bites and where the advantage survives.
 - [Measuring Accuracy and Energy-to-Solution of Quantum Fine-Tuning of Foundational AI Models (arXiv:2605.02798)](https://arxiv.org/abs/2605.02798) — Knitter, Kim, Wurzer et al. (IonQ/QuantumBasel, May 4): directly instruments power consumption on a real trapped-ion QPU running hybrid fine-tuning end-to-end — QPU energy scales linearly with qubit count vs exponential classical simulation, an experimentally grounded break-even around 34 qubits.
 - [Efficient classical simulation of large-scale unitary cluster Jastrow circuits (arXiv:2607.21337)](https://arxiv.org/abs/2607.21337) — Belagali, Van Camp, Pradeep, Das, Anand, LaRose (Jul 23): a polynomial-time classical algorithm computes the energy of any single-layer unitary cluster Jastrow circuit, reproducing the largest such quantum-chemistry experiment to date (77-qubit / 10,570-gate IBM run, originally post-processed on 6400 Fugaku nodes) in under a minute on a laptop — and reaching a LOWER ground-state energy than the hardware. A self-contained dequantization of a flagship UCJ "advantage" claim.
@@ -47,11 +48,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- A skeptical [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) thread pushes back on a D-Wave/Japan Tobacco "quantum AI" drug-discovery announcement — the radar could not locate the technical write-up the thread references, so the claim stays unverified per the Hard rules (vendor PR is never evidence on its own).
-- Vendor consolidation news (IBM to acquire HRL Laboratories) continues to circulate; business/roadmap PR, intake-only.
-- [Hacker News](https://news.ycombinator.com/) had no new quantum front-page item this scan; the recurring post-quantum-crypto/QC-timeline-skepticism threads remain off-axis or already tracked.
-- Digest traffic (The Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) is dominated by funding/business/policy PR this scan; one digest pointer did lead to a genuine missed technical primary (see "Worth studying" above).
+- A "SAXON Q" German-firm PR claims a 100+ qubit diamond-based room-temperature quantum processor; only press/SEO coverage was located, no technical write-up — stays unverified.
+- A skeptical [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) thread pushing back on a D-Wave/Japan Tobacco "quantum AI" drug-discovery announcement is still unresolved — no technical primary located yet.
+- [Hacker News](https://news.ycombinator.com/) quantum discussion this scan was mostly community re-coverage of already-tracked results (Google's RL-for-QEC paper) plus the recurring post-quantum-crypto threads — nothing new on-axis.
+- Vendor blogs (Alice & Bob) hosted a student hackathon write-up on RL/CMA-ES cat-qubit stabilization and an essay on AI-for-quantum-control architecture — informal/conceptual, below the bar for a tracked primary.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (27)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-27](reports/2026-07-27.md) · weekly: [2026-W30](reports/weekly/2026-W30.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (29)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-07-28](reports/2026-07-28.md) · weekly: [2026-W30](reports/weekly/2026-W30.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
