@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-32-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--03-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-34-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--04-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-01):**
-- **[Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) promoted to accelerating** — a genuinely fresh 7th independent group, [Fisher-Orthogonal Memory in QRC](https://arxiv.org/abs/2607.29219), resolves last week's "watch for a fresh 6th/7th group" flag.
-- **IBM's "three demonstrations of trusted quantum advantage" press wave** all traced to primaries already tracked here — the [Qedma Floquet result](https://arxiv.org/abs/2607.24937) now carries a reported (vendor-side) classical-simulation attempt that couldn't reproduce it, and the [IBM/UChicago result](https://arxiv.org/abs/2607.25941) builds on a rigorous 2025 hardness proof.
-- **Two capture-leak fixes**: a [neural QEC pre-decoder](https://arxiv.org/abs/2607.28422) and [IQM's quantum-informed surrogate-sampling paper](https://arxiv.org/abs/2607.22372), both missed by earlier sweeps, now queued.
-- **Watchlist grew 24 → 32** — new adds include a flagship non-abelian [qLDPC code paper](https://arxiv.org/abs/2607.28795) (Preskill/Bluvstein) and a [Cirac-authored classical-simulation tool](https://arxiv.org/abs/2607.28753), both also in Worth studying.
+**Since last scan (2026-08-03):**
+- **A photonic/bosonic QML-trainability micro-cluster reached 3 independent groups** — [Expressive Power and Limitations of Multi-photon QNNs](https://arxiv.org/abs/2608.01365) joins two already-queued papers extending barren-plateau theory to the photonic platform, flagged for the next trend-004 cap-swap.
+- **A notable trainability/dequantization crossover** from a Dacheng Tao-co-authored group — [Learnable yet not simulable: a quantum resource theory of learning models](https://arxiv.org/abs/2608.02325) asks which quantum resource governs classical learnability beyond the efficient-simulation regime.
+- **New study pick**: [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications](https://arxiv.org/abs/2608.01194) — a broad orientation-map review for a field this radar tracks across six separate trends.
+- **Watchlist churned 32 → 34** — two 2-week-stale micro-clusters (QML interpretability, quantum continual-learning) dropped with no 3rd group ever landing; 4 fresh items added.
 
 ## Trends
 
@@ -32,6 +32,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications (arXiv:2608.01194)](https://arxiv.org/abs/2608.01194) — Monbroussou, Periyasamy, Kuzmin, Sekatski, Patapovich, Sagingalieva (Aug 2): a broad orientation-map review of hybrid QNN architectures, benchmarks and applications.
 - [High-rate qLDPC processors (arXiv:2607.28795)](https://arxiv.org/abs/2607.28795) — Bhardwaj, Ma, Meister, King, Bluvstein, Preskill et al. (Jul 30): "mitten codes," a non-abelian qLDPC processor-code family reaching distance 18+ with only a few hundred data qubits, evading the distance bounds that constrain abelian constructions.
 - [Gaussian-augmented bosonic matrix-product states (arXiv:2607.28753)](https://arxiv.org/abs/2607.28753) — Tjoa, Cirac (Jul 30): a general-purpose classical-simulation tool for bosonic many-body states, with efficiently-computable expectation values and exact parent Hamiltonians — squarely on the classical-quantum-boundary axis.
 - [Triangle Criterion: A Mixed-State Magic Criterion with Applications in Distillation and Detection (PRX Quantum 7, 033016)](https://doi.org/10.1103/rcpf-8nh9) — Liu, Haug, Ye, Liu, Roth (Jul 24): a simple criterion for detecting nonstabilizerness ("magic") and certifying undistillability of mixed quantum states.
@@ -40,19 +41,18 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [MPStab: an hybrid stabilizers tensor-network quantum circuit simulator (arXiv:2607.24258)](https://arxiv.org/abs/2607.24258) — Crognaletti, Robbiano, Grossi, Robbiati (Jul 27): an open-source simulator combining the stabilizer formalism with tensor networks.
 - [Generative AI Beyond Tokens: Quantum Resource Consumption of IQP Circuits (arXiv:2607.26711)](https://arxiv.org/abs/2607.26711) — Krüger, Mauerer (Jul 27): reframes quantum generative modeling through a resource-theoretic lens — how much magic (non-stabiliserness) does it actually consume?
 - [Lowering the implementation barrier of neutral-atom quantum computing with agentic workflows (arXiv:2607.25834)](https://arxiv.org/abs/2607.25834) — Dalyac, Dauphin, Henriet, Jurczak (Pasqal, Jul 28): an LLM agentic workflow runs the full design→compilation→execution pipeline on two real Pasqal QPUs overnight, honestly reporting its own failure modes.
+- [Observable Estimation in the Absence of Classical Verification (arXiv:2607.25998)](https://arxiv.org/abs/2607.25998) — IBM Quantum (Jul 28): a framework for independently validating quantum-simulation observable estimates once reliable classical benchmarks run out.
 - [NVIDIA Ising Enables Fully Automated Quantum Computer Calibration](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) — NVIDIA Quantum Computing Division (Jul 27): a 31B-parameter vision-language model that diagnoses and tunes quantum processors from calibration plots.
 - [Hybrid Quantum-Classical Machine Learning Algorithms for Multi-Output Time-Series Forecasting at Utility Scale (arXiv:2605.24252)](https://arxiv.org/abs/2605.24252) — Polché, Puram, Lal et al. (E.ON/WISER, May 22): two hybrid QRC/quantum-kernel models forecast 103 real household Smart Meter time-series on a real 100+ qubit IBM processor.
-- [Measuring Accuracy and Energy-to-Solution of Quantum Fine-Tuning of Foundational AI Models (arXiv:2605.02798)](https://arxiv.org/abs/2605.02798) — Knitter, Kim, Wurzer et al. (IonQ/QuantumBasel, May 4): directly instruments power consumption on a real trapped-ion QPU running hybrid fine-tuning end-to-end.
-- [Efficient classical simulation of large-scale unitary cluster Jastrow circuits (arXiv:2607.21337)](https://arxiv.org/abs/2607.21337) — Belagali, Van Camp, Pradeep, Das, Anand, LaRose (Jul 23): a polynomial-time classical algorithm reproducing the largest single-layer-UCJ quantum-chemistry hardware experiment to date in under a minute on a laptop.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) has been discussing IBM's "trusted quantum advantage" press wave and a thread on AI assisting in producing two independent proofs for the same cryptography problem, alongside the usual weekly career thread.
-- [Hacker News](https://news.ycombinator.com/) quantum discussion centered on the same IBM press wave from multiple angles, plus routine post-quantum-cryptography threads — nothing new on-axis beyond what's already queued.
-- YouTube's Qiskit and Sabine Hossenfelder feeds have been structurally unreachable (the feed endpoint itself, not per-channel) for 6+ consecutive scans — a proposed amendment to downgrade both to a lower-cadence best-effort check is still awaiting the next weekly.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) is still discussing IBM's "trusted quantum advantage" press wave and a thread on AI assisting in producing two independent proofs for the same cryptography problem (extraction still failing on this one), alongside the usual weekly career thread.
+- [Hacker News](https://news.ycombinator.com/) quantum discussion centered on the same IBM press wave from more outlets, plus routine post-quantum-cryptography threads — nothing new on-axis beyond what's already queued.
+- YouTube's Qiskit and Sabine Hossenfelder feeds have been structurally unreachable (the feed endpoint itself, not per-channel) for 8+ consecutive scans — a proposed amendment to downgrade both to a lower-cadence best-effort check is still awaiting the next weekly.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (32)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-03](reports/2026-08-03.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (34)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-04](reports/2026-08-04.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
