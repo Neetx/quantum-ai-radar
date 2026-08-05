@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-34-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--04-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-32-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--05-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-03):**
-- **A photonic/bosonic QML-trainability micro-cluster reached 3 independent groups** — [Expressive Power and Limitations of Multi-photon QNNs](https://arxiv.org/abs/2608.01365) joins two already-queued papers extending barren-plateau theory to the photonic platform, flagged for the next trend-004 cap-swap.
-- **A notable trainability/dequantization crossover** from a Dacheng Tao-co-authored group — [Learnable yet not simulable: a quantum resource theory of learning models](https://arxiv.org/abs/2608.02325) asks which quantum resource governs classical learnability beyond the efficient-simulation regime.
-- **New study pick**: [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications](https://arxiv.org/abs/2608.01194) — a broad orientation-map review for a field this radar tracks across six separate trends.
-- **Watchlist churned 32 → 34** — two 2-week-stale micro-clusters (QML interpretability, quantum continual-learning) dropped with no 3rd group ever landing; 4 fresh items added.
+**Since last scan (2026-08-04):**
+- **Quantum-advantage frontier filled its evidence cap** with a striking new angle — [Separating quantum circuits from classical LLMs](https://arxiv.org/abs/2608.03962) (IBM) proves unconditional separations against the specific transformer/diffusion-LM architectures behind modern LLMs, not just generic classical algorithms.
+- **Neural Quantum States gained an 8th independent group** via a self-caught capture-leak fix — [Exact Neural-Network Representations of the Motzkin States](https://arxiv.org/abs/2607.22522) (CAS), found through a digest cross-check after being missed on first posting.
+- **A newly peer-reviewed honest-baseline result** on quantum-enhanced Transformers — [Quantum Adaptive Self-Attention](https://arxiv.org/abs/2504.05336), now published in Quantum Science and Technology, traces its "quantum" performance gain to a classical low-rank architectural bottleneck rather than quantum properties.
+- **Watchlist churned 34 → 32** — five stale/narrow single-group items dropped, one promoted to the study shelf, three fresh items added.
 
 ## Trends
 
@@ -17,7 +17,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-07-31](https://arxiv.org/abs/2607.29219) |
-| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-07-28](https://arxiv.org/abs/2607.25492) |
+| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-04](https://arxiv.org/abs/2608.03962) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-07-28](https://arxiv.org/abs/2607.25865) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-07-27](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-27](https://arxiv.org/abs/2607.24014) |
@@ -32,6 +32,8 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Separating quantum circuits from classical LLMs (arXiv:2608.03962)](https://arxiv.org/abs/2608.03962) — Arunachalam, Dutt, Krovi, Sengupta (IBM, Aug 4): unconditional separations between low-depth quantum computation and the transformer/diffusion-LM architectures behind modern LLMs — the first result of its kind, framed as opening "the study of quantum advantage in the era of large language models."
+- [Weak Permanent Anti-Concentration for Random Gaussian Matrices in Boson Sampling (arXiv:2607.22088)](https://arxiv.org/abs/2607.22088) — Meng, Cheng, Li, Yung (Jul 24): resolves the open case of the permanent anti-concentration conjecture underlying boson sampling's classical-hardness argument.
 - [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications (arXiv:2608.01194)](https://arxiv.org/abs/2608.01194) — Monbroussou, Periyasamy, Kuzmin, Sekatski, Patapovich, Sagingalieva (Aug 2): a broad orientation-map review of hybrid QNN architectures, benchmarks and applications.
 - [High-rate qLDPC processors (arXiv:2607.28795)](https://arxiv.org/abs/2607.28795) — Bhardwaj, Ma, Meister, King, Bluvstein, Preskill et al. (Jul 30): "mitten codes," a non-abelian qLDPC processor-code family reaching distance 18+ with only a few hundred data qubits, evading the distance bounds that constrain abelian constructions.
 - [Gaussian-augmented bosonic matrix-product states (arXiv:2607.28753)](https://arxiv.org/abs/2607.28753) — Tjoa, Cirac (Jul 30): a general-purpose classical-simulation tool for bosonic many-body states, with efficiently-computable expectation values and exact parent Hamiltonians — squarely on the classical-quantum-boundary axis.
@@ -42,17 +44,15 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Generative AI Beyond Tokens: Quantum Resource Consumption of IQP Circuits (arXiv:2607.26711)](https://arxiv.org/abs/2607.26711) — Krüger, Mauerer (Jul 27): reframes quantum generative modeling through a resource-theoretic lens — how much magic (non-stabiliserness) does it actually consume?
 - [Lowering the implementation barrier of neutral-atom quantum computing with agentic workflows (arXiv:2607.25834)](https://arxiv.org/abs/2607.25834) — Dalyac, Dauphin, Henriet, Jurczak (Pasqal, Jul 28): an LLM agentic workflow runs the full design→compilation→execution pipeline on two real Pasqal QPUs overnight, honestly reporting its own failure modes.
 - [Observable Estimation in the Absence of Classical Verification (arXiv:2607.25998)](https://arxiv.org/abs/2607.25998) — IBM Quantum (Jul 28): a framework for independently validating quantum-simulation observable estimates once reliable classical benchmarks run out.
-- [NVIDIA Ising Enables Fully Automated Quantum Computer Calibration](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) — NVIDIA Quantum Computing Division (Jul 27): a 31B-parameter vision-language model that diagnoses and tunes quantum processors from calibration plots.
-- [Hybrid Quantum-Classical Machine Learning Algorithms for Multi-Output Time-Series Forecasting at Utility Scale (arXiv:2605.24252)](https://arxiv.org/abs/2605.24252) — Polché, Puram, Lal et al. (E.ON/WISER, May 22): two hybrid QRC/quantum-kernel models forecast 103 real household Smart Meter time-series on a real 100+ qubit IBM processor.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) is still discussing IBM's "trusted quantum advantage" press wave and a thread on AI assisting in producing two independent proofs for the same cryptography problem (extraction still failing on this one), alongside the usual weekly career thread.
-- [Hacker News](https://news.ycombinator.com/) quantum discussion centered on the same IBM press wave from more outlets, plus routine post-quantum-cryptography threads — nothing new on-axis beyond what's already queued.
-- YouTube's Qiskit and Sabine Hossenfelder feeds have been structurally unreachable (the feed endpoint itself, not per-channel) for 8+ consecutive scans — a proposed amendment to downgrade both to a lower-cadence best-effort check is still awaiting the next weekly.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) is discussing whether full-fledged quantum computers "might always be five years away" and still carries the AI-assisted-proofs thread (extraction has now failed 3 consecutive scans), alongside the usual weekly career thread.
+- [Hacker News](https://news.ycombinator.com/) quantum discussion remains dominated by the IBM/Qedma advantage press wave from more outlets, plus routine post-quantum-cryptography threads — nothing new on-axis beyond what's already tracked.
+- YouTube's Qiskit and Sabine Hossenfelder feeds have been structurally unreachable (the feed endpoint itself, not per-channel) for 9+ consecutive scans — a proposed amendment to downgrade both to a lower-cadence best-effort check is still awaiting the next weekly.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (34)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-04](reports/2026-08-04.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (32)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-05](reports/2026-08-05.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
