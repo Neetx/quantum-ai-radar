@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-32-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--05-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-36-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--06-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-04):**
-- **Quantum-advantage frontier filled its evidence cap** with a striking new angle — [Separating quantum circuits from classical LLMs](https://arxiv.org/abs/2608.03962) (IBM) proves unconditional separations against the specific transformer/diffusion-LM architectures behind modern LLMs, not just generic classical algorithms.
-- **Neural Quantum States gained an 8th independent group** via a self-caught capture-leak fix — [Exact Neural-Network Representations of the Motzkin States](https://arxiv.org/abs/2607.22522) (CAS), found through a digest cross-check after being missed on first posting.
-- **A newly peer-reviewed honest-baseline result** on quantum-enhanced Transformers — [Quantum Adaptive Self-Attention](https://arxiv.org/abs/2504.05336), now published in Quantum Science and Technology, traces its "quantum" performance gain to a classical low-rank architectural bottleneck rather than quantum properties.
-- **Watchlist churned 34 → 32** — five stale/narrow single-group items dropped, one promoted to the study shelf, three fresh items added.
+**Since last scan (2026-08-05):**
+- **A flagship hardware milestone, peer-reviewed in Nature** — [An entangling gate for dual-rail erasure qubits](https://www.nature.com/articles/s41586-026-10822-y) (D-Wave): a two-qubit entangling gate for superconducting erasure qubits reaching ~99.9% fidelity, queued and added to the study shelf.
+- **A claim demanding extreme skepticism** — an [IACR eprint](https://eprint.iacr.org/2026/1591) claims a polynomial-time quantum algorithm for the Dihedral Coset Problem, which would break lattice-based post-quantum cryptography; the same claim shape was made (and retracted within days) by Yilei Chen's 2024 eprint — queued unverified, watching for expert scrutiny, not added as evidence.
+- **Watchlist grew 32 → 36** — two independent QAOA-trainability papers and a quantum-generative-models separation result queued (all against full evidence caps), one stale item dropped; deeper burndown deferred to the imminent weekly.
+- **YouTube's Qiskit and Sabine feeds are back** after ~7 consecutive dead scans since Jul-30 — the standing proposal to downgrade them is now moot.
 
 ## Trends
 
@@ -32,6 +32,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [An entangling gate for dual-rail erasure qubits (Nature 656, 47–53)](https://www.nature.com/articles/s41586-026-10822-y) — D-Wave Quantum Inc. (published Aug 6): a fast, low-error two-qubit entangling gate for superconducting dual-rail erasure qubits, ~99.9% two-qubit fidelity — a flagship hardware milestone for the error-hierarchy-engineering approach to QEC.
 - [Separating quantum circuits from classical LLMs (arXiv:2608.03962)](https://arxiv.org/abs/2608.03962) — Arunachalam, Dutt, Krovi, Sengupta (IBM, Aug 4): unconditional separations between low-depth quantum computation and the transformer/diffusion-LM architectures behind modern LLMs — the first result of its kind, framed as opening "the study of quantum advantage in the era of large language models."
 - [Weak Permanent Anti-Concentration for Random Gaussian Matrices in Boson Sampling (arXiv:2607.22088)](https://arxiv.org/abs/2607.22088) — Meng, Cheng, Li, Yung (Jul 24): resolves the open case of the permanent anti-concentration conjecture underlying boson sampling's classical-hardness argument.
 - [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications (arXiv:2608.01194)](https://arxiv.org/abs/2608.01194) — Monbroussou, Periyasamy, Kuzmin, Sekatski, Patapovich, Sagingalieva (Aug 2): a broad orientation-map review of hybrid QNN architectures, benchmarks and applications.
@@ -43,16 +44,15 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [MPStab: an hybrid stabilizers tensor-network quantum circuit simulator (arXiv:2607.24258)](https://arxiv.org/abs/2607.24258) — Crognaletti, Robbiano, Grossi, Robbiati (Jul 27): an open-source simulator combining the stabilizer formalism with tensor networks.
 - [Generative AI Beyond Tokens: Quantum Resource Consumption of IQP Circuits (arXiv:2607.26711)](https://arxiv.org/abs/2607.26711) — Krüger, Mauerer (Jul 27): reframes quantum generative modeling through a resource-theoretic lens — how much magic (non-stabiliserness) does it actually consume?
 - [Lowering the implementation barrier of neutral-atom quantum computing with agentic workflows (arXiv:2607.25834)](https://arxiv.org/abs/2607.25834) — Dalyac, Dauphin, Henriet, Jurczak (Pasqal, Jul 28): an LLM agentic workflow runs the full design→compilation→execution pipeline on two real Pasqal QPUs overnight, honestly reporting its own failure modes.
-- [Observable Estimation in the Absence of Classical Verification (arXiv:2607.25998)](https://arxiv.org/abs/2607.25998) — IBM Quantum (Jul 28): a framework for independently validating quantum-simulation observable estimates once reliable classical benchmarks run out.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) is discussing whether full-fledged quantum computers "might always be five years away" and still carries the AI-assisted-proofs thread (extraction has now failed 3 consecutive scans), alongside the usual weekly career thread.
-- [Hacker News](https://news.ycombinator.com/) quantum discussion remains dominated by the IBM/Qedma advantage press wave from more outlets, plus routine post-quantum-cryptography threads — nothing new on-axis beyond what's already tracked.
-- YouTube's Qiskit and Sabine Hossenfelder feeds have been structurally unreachable (the feed endpoint itself, not per-channel) for 9+ consecutive scans — a proposed amendment to downgrade both to a lower-cadence best-effort check is still awaiting the next weekly.
+- [Hacker News](https://news.ycombinator.com/) surfaced an [IACR eprint](https://eprint.iacr.org/2026/1591) claiming a polynomial-time quantum algorithm for lattice problems via the Dihedral Coset Problem — treated with extreme skepticism (an equivalent 2024 claim was retracted within days) and queued unverified pending expert scrutiny, not treated as evidence.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) carries its usual recurring threads (quantum-timeline skepticism, weekly career thread) — nothing new on-axis.
+- YouTube's Qiskit and Sabine Hossenfelder feeds are reachable again after ~7 consecutive dead scans since Jul-30 — worth re-checking regularly again.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (32)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-05](reports/2026-08-05.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (36)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-06](reports/2026-08-06.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
