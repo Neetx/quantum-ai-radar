@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-36-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--06-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-31-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--07-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-05):**
-- **A flagship hardware milestone, peer-reviewed in Nature** — [An entangling gate for dual-rail erasure qubits](https://www.nature.com/articles/s41586-026-10822-y) (D-Wave): a two-qubit entangling gate for superconducting erasure qubits reaching ~99.9% fidelity, queued and added to the study shelf.
-- **A claim demanding extreme skepticism** — an [IACR eprint](https://eprint.iacr.org/2026/1591) claims a polynomial-time quantum algorithm for the Dihedral Coset Problem, which would break lattice-based post-quantum cryptography; the same claim shape was made (and retracted within days) by Yilei Chen's 2024 eprint — queued unverified, watching for expert scrutiny, not added as evidence.
-- **Watchlist grew 32 → 36** — two independent QAOA-trainability papers and a quantum-generative-models separation result queued (all against full evidence caps), one stale item dropped; deeper burndown deferred to the imminent weekly.
-- **YouTube's Qiskit and Sabine feeds are back** after ~7 consecutive dead scans since Jul-30 — the standing proposal to downgrade them is now moot.
+**Since last scan (2026-08-06):**
+- **Two self-caught capture-leak fixes** — [One Qubit Can Beat One Bit](https://arxiv.org/abs/2608.05240) (a modest, honestly-caveated quantum advantage claim for neural-network weight quantization) sat missed inside the *previous* run's own swept window; [Nuclear Quantum Effects as a Denoising Problem](https://arxiv.org/abs/2607.19680) (a purely classical diffusion model that exactly reproduces quantum-Boltzmann nuclear statistics) was a ~2-week-old miss caught via a digest cross-check — both queued now.
+- **The Dihedral Coset Problem claim gains context, not confirmation** — [The Quantum Insider](https://thequantuminsider.com/) names the author as Daniel R. Simon of AWS's Cryptography Group; no refutation or withdrawal found yet on the [eprint](https://eprint.iacr.org/2026/1591) — still unverified, still watching.
+- **Watchlist burndown: 36 → 31** — 10 stale/narrow single-group items dropped with reasons (one fully preserved via the study shelf), 5 new items queued; deeper burndown and several flagged cap-swap decisions (QEC tooling, AI-for-quantum, QML trainability, advantage scrutiny) remain for the imminent weekly.
+- No stage moves — today's captures all landed on trend axes already at a full evidence cap.
 
 ## Trends
 
@@ -32,12 +32,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Machine learning for sample-based quantum diagonalization (arXiv:2608.05314)](https://arxiv.org/abs/2608.05314) — Bonilla Vargas (Aug 6): a critical review of generative and learned electronic-configuration selectors for SQD/QSCI, the pragmatic centre of gravity of pre-fault-tolerant quantum chemistry.
 - [An entangling gate for dual-rail erasure qubits (Nature 656, 47–53)](https://www.nature.com/articles/s41586-026-10822-y) — D-Wave Quantum Inc. (published Aug 6): a fast, low-error two-qubit entangling gate for superconducting dual-rail erasure qubits, ~99.9% two-qubit fidelity — a flagship hardware milestone for the error-hierarchy-engineering approach to QEC.
 - [Separating quantum circuits from classical LLMs (arXiv:2608.03962)](https://arxiv.org/abs/2608.03962) — Arunachalam, Dutt, Krovi, Sengupta (IBM, Aug 4): unconditional separations between low-depth quantum computation and the transformer/diffusion-LM architectures behind modern LLMs — the first result of its kind, framed as opening "the study of quantum advantage in the era of large language models."
 - [Weak Permanent Anti-Concentration for Random Gaussian Matrices in Boson Sampling (arXiv:2607.22088)](https://arxiv.org/abs/2607.22088) — Meng, Cheng, Li, Yung (Jul 24): resolves the open case of the permanent anti-concentration conjecture underlying boson sampling's classical-hardness argument.
 - [Hybrid Quantum Neural Networks: Theory, Implementations, and Applications (arXiv:2608.01194)](https://arxiv.org/abs/2608.01194) — Monbroussou, Periyasamy, Kuzmin, Sekatski, Patapovich, Sagingalieva (Aug 2): a broad orientation-map review of hybrid QNN architectures, benchmarks and applications.
 - [High-rate qLDPC processors (arXiv:2607.28795)](https://arxiv.org/abs/2607.28795) — Bhardwaj, Ma, Meister, King, Bluvstein, Preskill et al. (Jul 30): "mitten codes," a non-abelian qLDPC processor-code family reaching distance 18+ with only a few hundred data qubits, evading the distance bounds that constrain abelian constructions.
-- [Gaussian-augmented bosonic matrix-product states (arXiv:2607.28753)](https://arxiv.org/abs/2607.28753) — Tjoa, Cirac (Jul 30): a general-purpose classical-simulation tool for bosonic many-body states, with efficiently-computable expectation values and exact parent Hamiltonians — squarely on the classical-quantum-boundary axis.
 - [Triangle Criterion: A Mixed-State Magic Criterion with Applications in Distillation and Detection (PRX Quantum 7, 033016)](https://doi.org/10.1103/rcpf-8nh9) — Liu, Haug, Ye, Liu, Roth (Jul 24): a simple criterion for detecting nonstabilizerness ("magic") and certifying undistillability of mixed quantum states.
 - [Quantum Convolutional HLA Immunogenic Peptide Prediction (Q-CHIPP) (Science Advances, doi:10.1126/sciadv.aec3824)](https://www.biorxiv.org/content/10.1101/2025.07.29.667313v1) — Peters, Rhrissorrakrai et al. (IBM/Cleveland Clinic, published Jul 30): a quantum convolutional neural network unifying MHC-binding and immunogenicity prediction for cancer neoantigens, scaled to 46 qubits of real hardware.
 - [SymFT: Universal Fault-Tolerant Quantum Circuit Simulation (arXiv:2607.28600)](https://arxiv.org/abs/2607.28600) — Fang, Lou, Li (Jul 30): a high-throughput classical simulator for Clifford-dominated fault-tolerant circuits via symbolic Clifford–Pauli frame factorization.
@@ -49,10 +49,10 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- [Hacker News](https://news.ycombinator.com/) surfaced an [IACR eprint](https://eprint.iacr.org/2026/1591) claiming a polynomial-time quantum algorithm for lattice problems via the Dihedral Coset Problem — treated with extreme skepticism (an equivalent 2024 claim was retracted within days) and queued unverified pending expert scrutiny, not treated as evidence.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) carries its usual recurring threads (quantum-timeline skepticism, weekly career thread) — nothing new on-axis.
-- YouTube's Qiskit and Sabine Hossenfelder feeds are reachable again after ~7 consecutive dead scans since Jul-30 — worth re-checking regularly again.
+- [Hacker News](https://news.ycombinator.com/) continues extensive discussion of the [IACR eprint](https://eprint.iacr.org/2026/1591) claiming a polynomial-time quantum algorithm for lattice problems via the Dihedral Coset Problem — now with the author's AWS affiliation confirmed via press coverage, still no refutation found, still queued unverified.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) echoes the same claim ("Solving the HSP for some dihedral groups") alongside its usual recurring threads — nothing new on-axis.
+- YouTube's Qiskit and Sabine Hossenfelder feeds flaked back to dead this run, one day after a confirmed heal — a single-run flake, not yet escalated.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (36)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-06](reports/2026-08-06.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (31)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-07](reports/2026-08-07.md) · weekly: [2026-W31](reports/weekly/2026-W31.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
