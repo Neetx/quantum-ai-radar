@@ -54,6 +54,13 @@ distinction governs what you DO with a hit, not whether you CHECK it.
   a genuinely significant item OFF every current axis still gets queued ("significant, off-axis").
 - **Self-healing** — if any source/tool fails the same way it did before, repair it this run
   per `radar-source-heal` (worklist = `degraded:` markers in the log); cap 1–2/run.
+- **Monthly vendor-blog backlog sweep** (first run of each calendar month, `date +%d` ≤ 7) —
+  the primary-feed sweep is a forward-looking advancing window with no periodic backlog
+  re-check; for each Phase-1 vendor/lab blog in `SOURCES.md`, look past the recent-items view
+  for any on-axis technical primary older than 30 days that was never captured, and route any
+  find per the normal evidence/queue rules. Motivated by the W31 monthly retrospective (two
+  primaries missed by 66 and 84 days, both found only via a lucky digest cross-check) and a
+  further deep-backfill miss the following week (16 days) — applied as a W31→W32 amendment.
 
 Scope, in priority order (track significance, cite the primary, summarize what it is):
 1. **Quantum AI — quantum computing FOR AI** (lead axis): quantum machine learning (QML) — variational / parameterized quantum circuits, quantum neural networks, quantum kernels & feature maps, quantum data encoding/loading, quantum transformers/attention, quantum generative & reinforcement learning, quantum optimization for ML (QAOA / VQE-for-ML), hybrid quantum-classical training & inference, and claims/benchmarks of quantum advantage on ML tasks (treated skeptically — see Hard rules).
