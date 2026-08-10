@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-21-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--08-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--10-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-07, weekly recalibration):**
-- **Four cap-swaps refresh stale evidence** — [QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) gains IBM's [verifiable-RCS](https://arxiv.org/abs/2607.25941) result, [quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) gains the newly peer-reviewed [QASA](https://arxiv.org/abs/2504.05336) honest-baseline, plus fresh evidence for [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) (photonic circuits) and [quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) (an 8th independent group).
-- **[Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) confidence raised to high** — three full weeks sustained at medium with no evidence thinning.
-- **Dormancy watch: [QML security](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models)** — still 3 groups, 18 days quiet; will move to dormant next run without a 4th group.
-- **Watchlist burndown: 31 → 21** — 4 items promoted to evidence, 6 dropped (all fully preserved on the study shelf); a monthly vendor-blog backlog-sweep amendment applied to catch future deep-backfill misses.
+**Since last scan (2026-08-10):**
+- **Two strong cap-swap candidates flagged for the next weekly** — [NS-RIS](https://arxiv.org/abs/2608.06554), the first genuine benchmark evidence a Hidden Quantum Markov Model beats a classical HMM ([quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning)), and a rigorously-controlled ablation finding [no consistent quantum contribution](https://arxiv.org/abs/2608.06846) from a hybrid attention model ([quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations)).
+- **Vendor claim traced to its primary** — Q-CTRL's "practical quantum advantage" (3,000×) blog post traces to [arXiv:2605.04025](https://arxiv.org/abs/2605.04025), a 120-qubit Fermi-Hubbard simulation whose own framing is more careful than the marketing.
+- **Dormancy watch: [QML security](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models)** — now 20 days quiet, one day short of the dormancy line.
+- **Watchlist: 21 → 26** — 8 items added (incl. an off-taxonomy catch via a raw cs.ET exploration sweep), 3 dropped.
 
 ## Trends
 
@@ -32,6 +32,8 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Fast, accurate, high-resolution simulation of large-scale Fermi-Hubbard models on a digital quantum processor (arXiv:2605.04025)](https://arxiv.org/abs/2605.04025) — Hartnett, Najafi, Khindanov et al. (Q-CTRL, May 5, updated Aug 2026): a 120-qubit digital simulation matching TDVP tensor-network methods while running ~3 orders of magnitude faster at the classical-agreement frontier — the technical primary behind Q-CTRL's "practical quantum advantage" claim.
+- [NS-RIS: Newton-Schulz Retraction-Based Inference Enables HQMMs to Outperform Classical HMMs (arXiv:2608.06554)](https://arxiv.org/abs/2608.06554) — Ning Ning (Aug 6): the first benchmark evidence a Hidden Quantum Markov Model can significantly and consistently outperform an EM-trained classical HMM on non-quantum-generated data.
 - [Frozen-Tree Sampling Refutes Quantum Advantage of Random Circuit Sampling (arXiv:2607.04054)](https://arxiv.org/abs/2607.04054) — Sangchul Oh (Jul 4): an efficient classical sampler statistically indistinguishable from a random quantum circuit's output — a sharp, self-contained challenge to random-circuit-sampling as an advantage benchmark.
 - [Machine learning for sample-based quantum diagonalization (arXiv:2608.05314)](https://arxiv.org/abs/2608.05314) — Bonilla Vargas (Aug 6): a critical review of generative and learned electronic-configuration selectors for SQD/QSCI, the pragmatic centre of gravity of pre-fault-tolerant quantum chemistry.
 - [An entangling gate for dual-rail erasure qubits (Nature 656, 47–53)](https://www.nature.com/articles/s41586-026-10822-y) — D-Wave Quantum Inc. (published Aug 6): a fast, low-error two-qubit entangling gate for superconducting dual-rail erasure qubits, ~99.9% two-qubit fidelity — a flagship hardware milestone for the error-hierarchy-engineering approach to QEC.
@@ -42,18 +44,15 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Gaussian-augmented bosonic matrix-product states (arXiv:2607.28753)](https://arxiv.org/abs/2607.28753) — Tjoa, Cirac (Jul 30): a classical-simulation tool generalizing Gaussian states and matrix-product states for bosonic many-body systems, from a leading authority on the classical-quantum boundary.
 - [Triangle Criterion: A Mixed-State Magic Criterion with Applications in Distillation and Detection (PRX Quantum 7, 033016)](https://doi.org/10.1103/rcpf-8nh9) — Liu, Haug, Ye, Liu, Roth (Jul 24): a simple criterion for detecting nonstabilizerness ("magic") and certifying undistillability of mixed quantum states.
 - [Quantum Convolutional HLA Immunogenic Peptide Prediction (Q-CHIPP) (Science Advances, doi:10.1126/sciadv.aec3824)](https://www.biorxiv.org/content/10.1101/2025.07.29.667313v1) — Peters, Rhrissorrakrai et al. (IBM/Cleveland Clinic, published Jul 30): a quantum convolutional neural network unifying MHC-binding and immunogenicity prediction for cancer neoantigens, scaled to 46 qubits of real hardware.
-- [SymFT: Universal Fault-Tolerant Quantum Circuit Simulation (arXiv:2607.28600)](https://arxiv.org/abs/2607.28600) — Fang, Lou, Li (Jul 30): a high-throughput classical simulator for Clifford-dominated fault-tolerant circuits via symbolic Clifford–Pauli frame factorization.
-- [MPStab: an hybrid stabilizers tensor-network quantum circuit simulator (arXiv:2607.24258)](https://arxiv.org/abs/2607.24258) — Crognaletti, Robbiano, Grossi, Robbiati (Jul 27): an open-source simulator combining the stabilizer formalism with tensor networks.
-- [Generative AI Beyond Tokens: Quantum Resource Consumption of IQP Circuits (arXiv:2607.26711)](https://arxiv.org/abs/2607.26711) — Krüger, Mauerer (Jul 27): reframes quantum generative modeling through a resource-theoretic lens — how much magic (non-stabiliserness) does it actually consume?
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- [Hacker News](https://news.ycombinator.com/) continues extensive discussion of the [IACR eprint](https://eprint.iacr.org/2026/1591) claiming a polynomial-time quantum algorithm for lattice problems via the Dihedral Coset Problem — author affiliation (AWS) confirmed via press coverage, still no refutation found, still unverified.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) echoes the same claim ("Solving the HSP for some dihedral groups") alongside its usual recurring threads — nothing new on-axis.
-- YouTube's Qiskit and Sabine Hossenfelder feeds have flickered between healthy and dead over the past two weeks — a structural endpoint issue this radar is watching, not escalated.
+- [Hacker News](https://news.ycombinator.com/) continues discussion of the [IACR eprint](https://eprint.iacr.org/2026/1591) claiming a polynomial-time quantum algorithm for lattice problems via the Dihedral Coset Problem — provenance confirmed (received Aug 3, approved Aug 6, sole-authored, not peer-reviewed), still no refutation or independent reproduction reported, still unverified.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) discussion echoes ongoing skepticism about a major vendor's recent hardware claims, alongside its usual recurring threads — nothing new on-axis.
+- YouTube's Qiskit and Sabine Hossenfelder feeds are healthy again this scan, after flickering between healthy and dead over the prior two weeks.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (21)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-07](reports/2026-08-07.md) · weekly: [2026-W32](reports/weekly/2026-W32.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-10](reports/2026-08-10.md) · weekly: [2026-W32](reports/weekly/2026-W32.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
