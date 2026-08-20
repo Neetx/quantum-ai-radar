@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-35-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--19-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-33-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--20-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-19):**
-- **Neural Quantum States gained an 11th independent group** — [Foundation Neural Effective Hamiltonian](https://arxiv.org/abs/2608.14208) swapped into evidence, displacing the trend's founding item.
-- **A self-caught capture-leak fix** — [KAIST's honest-baseline Rydberg quantum-optimization result](https://arxiv.org/abs/2608.12858), missed by an earlier sweep, now captured and a study pick.
-- **New study picks** — the KAIST result above, and a newly-peer-reviewed [generative-ML sample-based-quantum-diagonalization workflow](https://arxiv.org/abs/2512.06858).
-- **Watchlist steady at 35** — 6 new captures after a real 5-item burndown, net flat.
+**Since last scan (2026-08-20):**
+- **Quantum-advantage scrutiny refreshed its evidence** — [a dequantization test of spectral filtering in quantum generative models](https://arxiv.org/abs/2608.14169) swapped in via cap-swap.
+- **A fresh 2-item RL-circuit-optimization micro-cluster** appeared the same day — [AlphaClifford](https://arxiv.org/abs/2608.18946) (MCTS-based Clifford synthesis) and [an RL+deterministic-reduction circuit optimizer](https://arxiv.org/abs/2608.19103); watching for a 3rd group.
+- **New study picks** — [Bernstein-Vazirani Networks](https://arxiv.org/abs/2608.19043), a non-variational interference-based QML framework, and Stanford's [Quantum Speedups Require Structure or Depth](https://arxiv.org/abs/2608.19158).
+- **Watchlist down to 33** — a real 9-item burndown (the largest in several weeks) against 8 new captures.
 
 ## Trends
 
@@ -17,7 +17,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-08-13](http://link.aps.org/doi/10.1103/y14y-7kp3) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-13](https://arxiv.org/abs/2608.13110) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-14](https://arxiv.org/abs/2608.14169) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-13](https://arxiv.org/abs/2608.13521) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.10382) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.08996) |
@@ -32,6 +32,8 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Bernstein-Vazirani Networks: Quantum Machine Learning by Interference (arXiv:2608.19043)](https://arxiv.org/abs/2608.19043) — Meli, Birdal, Tiwari, Golyanik, Moeller (Aug 19): a gradient-free, non-variational QML framework using quantum-Fourier-sampling-style interference for supervised learning, with universal function approximation via (over)complete interference bases — a genuinely different design point from the dominant variational-circuit paradigm.
+- [Quantum Speedups Require Structure or Depth (arXiv:2608.19158)](https://arxiv.org/abs/2608.19158) — Blanc, Docter, Strassle, Tan (Stanford, Aug 19): settles a basic conjecture for parallel quantum algorithms — unstructured problems need superconstant-depth circuits for superpolynomial speedups and polynomial depth for exponential ones — with new implications for BPP vs. BQP relative to a random oracle.
 - [Shots-to-Approximate-Solution Scaling in Neutral-Atom Quantum Optimization (arXiv:2608.12858)](https://arxiv.org/abs/2608.12858) — Jung, Ahn (KAIST): introduces an excitation-matched RANDOM baseline to isolate genuine quantum concentration from postprocessing artifacts; on 125-site Rydberg arrays, quantum annealing beats the baseline for near-exact targets but the enhancement vanishes for relaxed ones — a model of honest, regime-aware advantage methodology.
 - [Physics Informed Generative Machine Learning for Sample-based Quantum Diagonalization (arXiv:2512.06858)](https://arxiv.org/abs/2512.06858) — Patra, Mondal, Halder, Halder, Laskar, Goel, Maitra (IIT Bombay, newly peer-reviewed): PIGen-SQD combines generative ML with physics-informed configuration screening to recover accurate fermionic configurations from noisy quantum-hardware samples in the SQD pipeline.
 - [The ePrint:2026/1591 Quantum Algorithm Does Not Solve DCP (eprint.iacr.org/2026/1693)](https://eprint.iacr.org/2026/1693) — Gupte (MIT), Ragavan (Google Quantum AI/MIT), Zhandry (Google Quantum AI/Stanford): a Lean-4-machine-verified refutation (code released) of a claimed polynomial-time quantum algorithm for the Dihedral Coset Problem — a model of fast, rigorous scrutiny of an extraordinary quantum-algorithms claim.
@@ -42,18 +44,16 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment (arXiv:2608.13110)](https://arxiv.org/abs/2608.13110) — Manabe, Gu, Pan (Aug 13): a certified-minimum-width tensor-network contraction classically simulates IBM's 70-qubit doped-Clifford sampling experiment.
 - [Hamilton-Zero: A Neural Tensor-Network Foundation Model for Ground States of Arbitrary Quadratic Qubit Hamiltonians (arXiv:2608.11911)](https://arxiv.org/abs/2608.11911) — Heightman, Orlova, Mantrov, Ustimenko (Aug 12): a ~0.5B-parameter foundation model, trained with LLM/deep-RL techniques, amortizes ground-state search across an arbitrary set of Hamiltonians — trained up to 64 qubits, fine-tuned up to 1024, evaluated up to 8100.
 - [Pauli Propagation: A Computational Framework for Simulating Quantum Systems (PRX Quantum 7, 032001)](http://link.aps.org/doi/10.1103/6vd7-l9bn) — Rudolph, Jones, Teng, Angrisani, Holmes (EPFL/Algorithmiq, Aug 11): a comprehensive, peer-reviewed account of Pauli propagation as a classical simulation method for digital quantum circuits, and its use in verifying/challenging near-term hardware claims.
-- [Convolutional QFT: a constructive compilation strategy for the Quantum Fourier Transform (arXiv:2608.05435)](https://arxiv.org/abs/2608.05435) — Coote, Biercuk, Baum (Q-CTRL, Aug 5): a 100-qubit QFT on IBM hardware, the largest experimental QFT to date, honestly reporting declining process fidelity at scale rather than claiming "advantage."
-- [The Input Problem: A Permanent Bottleneck for Quantum Machine Learning (arXiv:2608.08433)](https://arxiv.org/abs/2608.08433) — Muhammad Faryad (Aug 7): measured gate counts for classical-data-loading circuits show the resulting Θ(N) cost is a counting theorem, not an engineering limitation — and it eliminates the quadratic advantage several QML algorithms claim.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
 - A prominent independent voice's blog post still reports (third-hand, unverified, no paper) that an unreleased AI model has solved several open math/theoretical-CS problems, including one touching quantum-game parallel repetition — see [Shtetl-Optimized](https://scottaaronson.blog/?p=9979); still an extreme-hype-skepticism watch item pending any actual technical writeup.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed healthy today — routine skepticism/career threads, no new primary.
-- Hacker News surfaced a generic quantum-computing overview piece with no technical primary — checked and excluded as blogspam.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed routine today — career/Q&A threads, no new primary.
+- A vendor tutorial post (choosing between QSP/QSVT/GQSP techniques) was checked in full and confirmed to be an educational explainer, not a new research primary.
 - YouTube's Qiskit and Sabine Hossenfelder feeds broke again (`/feeds/videos.xml` 404) — a recurring intermittent structural break, low-stakes intake-only lane either way.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (35)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-19](reports/2026-08-19.md) · weekly: [2026-W33](reports/weekly/2026-W33.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (33)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-20](reports/2026-08-20.md) · weekly: [2026-W33](reports/weekly/2026-W33.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)

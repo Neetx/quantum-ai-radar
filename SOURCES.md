@@ -50,7 +50,7 @@ Hardware vendors / labs (verified 2026-06-29 scouting pass — replaces the old 
 - Quandela — https://www.quandela.com/resources/blog/ **[HEALED 2026-07-06: the `--extract-depth advanced` method (2026-07-04) itself degraded to nav/product chrome for 2 consecutive runs (Jul-4 Pass1, Jul-5) — a forced heal worklist item. FIX: `tvly search --include-domains quandela.com --time-range month` returns the recent post list with titles/snippets (Tavily's index sees the JS-rendered posts where the extractor now fails); confirmed 2026-07-06 (surfaced the already-captured NVQLink post + a new off-axis "Quandela & Welinq custom quantum memory" partnership PR). Use search-by-domain as the primary method; retry the advanced extract occasionally in case the site un-breaks. Prior finds via the advanced method: NVQLink GPU–QPU integration (2026-06-23) and the MerLin photonic-QML framework]** — photonic QML
 - Atom Computing — https://atom-computing.com/news/ **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom
 - Infleqtion — https://www.infleqtion.com/news **[verified 2026-06-29; HTML → `tvly extract`]** — neutral-atom / quantum sensing
-- IQM — https://www.meetiqm.com/newsroom **[verified 2026-07-02; curl returns 000 (site blocks datacenter IPs) → `tvly extract` works]** — superconducting; mostly business/governance PR, filter for technical content
+- IQM — https://www.iqm.tech/newsroom **[URL migrated 2026-08-20: `meetiqm.com/newsroom` now 301-redirects to `iqm.tech/newsroom` — update bookmarks to the new domain; curl still returns 000 (site blocks datacenter IPs) → use `tvly extract` (normal) or `WebFetch` (confirmed working 2026-08-20 when tvly is unavailable)]** — superconducting; mostly business/governance PR, filter for technical content
 - Oxford Ionics — https://oxfordionics.com/news **[verified 2026-07-02; path resolved (was 404 2026-06-29) → `tvly extract`]** — trapped-ion (now part of IonQ post-acquisition)
 
 ## Research / publication venues (primary)
@@ -79,6 +79,18 @@ every watched repo going forward; retest raw `curl .../releases.atom` occasional
 restriction lifts. Fork-tree analysis (`radar-repo-watch`'s fork scan) is currently NOT
 executable this way — no working substitute found 2026-07-02; best-effort `tvly search` for
 "<org> new repository" is a weak proxy, log as degraded until a better method is found.
+
+**[HEAL 2026-08-20 — 2nd working fallback when tvly itself is unavailable]** During a session
+where `tvly` returned "exceeds your plan's set usage limit" on every call (search AND extract —
+a full quota exhaustion, not a per-source failure), the built-in `WebFetch` tool reached
+`github.com` release pages AND fork-listing pages directly with no 403 (confirmed working on
+`Qiskit/qiskit/releases`, `merlinquantum/merlin/releases`, and
+`PennyLaneAI/pennylane/forks?sort=stargazers`) — unlike raw `curl`, WebFetch is not subject to
+this session's egress scoping either. Use `WebFetch` as the fallback for GitHub watch (releases
+AND fork-tree) whenever `tvly` is down; prefer `tvly extract` as primary when it is healthy
+(WebFetch's summarized output occasionally garbles exact dates, e.g. reporting a 2024 year for a
+clearly-2026 release — cross-check any WebFetch-reported date against PyPI JSON for pip-installed
+frameworks before trusting it).
 
 **[HEAL 2026-07-22 — framework-release VERSION+DATE]** For the pip-installable frameworks
 (qiskit, pennylane, cirq-core, cudaq, amazon-braket-sdk, unitaryfund/mitiq), the current
