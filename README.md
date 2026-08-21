@@ -1,37 +1,39 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-33-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--20-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-37-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--21-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-20):**
-- **Quantum-advantage scrutiny refreshed its evidence** — [a dequantization test of spectral filtering in quantum generative models](https://arxiv.org/abs/2608.14169) swapped in via cap-swap.
-- **A fresh 2-item RL-circuit-optimization micro-cluster** appeared the same day — [AlphaClifford](https://arxiv.org/abs/2608.18946) (MCTS-based Clifford synthesis) and [an RL+deterministic-reduction circuit optimizer](https://arxiv.org/abs/2608.19103); watching for a 3rd group.
-- **New study picks** — [Bernstein-Vazirani Networks](https://arxiv.org/abs/2608.19043), a non-variational interference-based QML framework, and Stanford's [Quantum Speedups Require Structure or Depth](https://arxiv.org/abs/2608.19158).
-- **Watchlist down to 33** — a real 9-item burndown (the largest in several weeks) against 8 new captures.
+**Since last scan (2026-08-21):**
+- **QML trainability theory went dormant** — [last independent evidence](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) is now 25 days old with no fresh queue activity either (time-driven, not a quality judgment).
+- **Quantum-advantage scrutiny cap-swapped in a rigorous no-go proof** — [Assessing Quantum Advantage for Gaussian Process Regression](https://www.nature.com/articles/s41534-026-01350-8) (npj QI), showing no exponential speedup across a wide range of scenarios.
+- **Two new study picks** — [an irreducible quantum advantage in aligning world models with reality](https://arxiv.org/abs/2608.19779) and [an exact quantum construction for softmax attention](https://arxiv.org/abs/2608.11173).
+- **Watchlist grew to 37** despite burndown — watch a fresh 2-item micro-cluster on the Aaronson–Ambainis quantum-speedup-structure conjecture: [Blanc et al.](https://arxiv.org/abs/2608.19158) + [Liu & Mutreja](https://arxiv.org/abs/2608.20297).
 
 ## Trends
 
-🌱 0 · 📈 2 · 🚀 7 · 🌊 0 · 🏔 0 · 📉 0 · 💤 4
+🌱 0 · 📈 2 · 🚀 6 · 🌊 0 · 🏔 0 · 📉 0 · 💤 5
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-14](https://www.nature.com/articles/s41534-026-01350-8) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-08-13](http://link.aps.org/doi/10.1103/y14y-7kp3) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-14](https://arxiv.org/abs/2608.14169) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-13](https://arxiv.org/abs/2608.13521) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.10382) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.08996) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-07-27](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) |
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-07-27](https://arxiv.org/abs/2607.24728) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-08-14](https://arxiv.org/abs/2608.14208) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-08-06](https://arxiv.org/abs/2608.06554) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 💤 dormant | [2026-07-28](https://www.nature.com/articles/s41534-026-01330-y) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 💤 dormant | [2026-07-28](https://arxiv.org/abs/2607.25834) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 💤 dormant | [2026-07-27](https://arxiv.org/abs/2607.24728) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 💤 dormant | [2026-07-24](https://arxiv.org/abs/2607.22468) |
 | [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 💤 dormant | [2026-07-21](https://arxiv.org/abs/2607.19318) |
 
 ## Worth studying
 
+- [An Irreducible Quantum Advantage in Aligning World Models with Reality (arXiv:2608.19779)](https://arxiv.org/abs/2608.19779) — Lumbreras, Ma, Thompson, Gu (Aug 20): under memory constraints, a coherent quantum world-model can align an agent's optimal policy with reality using strictly less memory than any classical world-model — a structural quantum advantage result connecting quantum resource theory to RL/world-model learning.
+- [A Quantum Roadmap for Softmax Attention (arXiv:2608.11173)](https://arxiv.org/abs/2608.11173) — Reinhardt, Hauser (Aug 11): for attention on the probability simplex, softmax attention admits an EXACT (not heuristic) quantum realization — attention scores become Hadamard-test statistics under a Born-rule bijection, one of the few precise quantum-native constructions for a core Transformer primitive.
 - [Bernstein-Vazirani Networks: Quantum Machine Learning by Interference (arXiv:2608.19043)](https://arxiv.org/abs/2608.19043) — Meli, Birdal, Tiwari, Golyanik, Moeller (Aug 19): a gradient-free, non-variational QML framework using quantum-Fourier-sampling-style interference for supervised learning, with universal function approximation via (over)complete interference bases — a genuinely different design point from the dominant variational-circuit paradigm.
 - [Quantum Speedups Require Structure or Depth (arXiv:2608.19158)](https://arxiv.org/abs/2608.19158) — Blanc, Docter, Strassle, Tan (Stanford, Aug 19): settles a basic conjecture for parallel quantum algorithms — unstructured problems need superconstant-depth circuits for superpolynomial speedups and polynomial depth for exponential ones — with new implications for BPP vs. BQP relative to a random oracle.
 - [Shots-to-Approximate-Solution Scaling in Neutral-Atom Quantum Optimization (arXiv:2608.12858)](https://arxiv.org/abs/2608.12858) — Jung, Ahn (KAIST): introduces an excitation-matched RANDOM baseline to isolate genuine quantum concentration from postprocessing artifacts; on 125-site Rydberg arrays, quantum annealing beats the baseline for near-exact targets but the enhancement vanishes for relaxed ones — a model of honest, regime-aware advantage methodology.
@@ -42,18 +44,17 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Assessing Quantum Advantage for Gaussian Process Regression (npj Quantum Information)](https://arxiv.org/abs/2505.22502) — Lowe, Kim, Bondesan (Imperial College London, newly peer-reviewed): rigorously proves proposed quantum GP-regression algorithms carry no exponential speedup across a wide range of scenarios, independent of data-loading complexity.
 - [Exponential quantum advantage for learning signals with a single qubit (arXiv:2608.13521)](https://arxiv.org/abs/2608.13521) — Kannan, Prabhu, Khan, Sohoni, Song, Roy, Senanian, Fatemi, McMahon, Cotler (Aug 13): couples one controllable qubit to a conventional sensor for a proved AND experimentally-demonstrated exponential measurement reduction (10^7-fold) in learning classical signals.
 - [Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment (arXiv:2608.13110)](https://arxiv.org/abs/2608.13110) — Manabe, Gu, Pan (Aug 13): a certified-minimum-width tensor-network contraction classically simulates IBM's 70-qubit doped-Clifford sampling experiment.
-- [Hamilton-Zero: A Neural Tensor-Network Foundation Model for Ground States of Arbitrary Quadratic Qubit Hamiltonians (arXiv:2608.11911)](https://arxiv.org/abs/2608.11911) — Heightman, Orlova, Mantrov, Ustimenko (Aug 12): a ~0.5B-parameter foundation model, trained with LLM/deep-RL techniques, amortizes ground-state search across an arbitrary set of Hamiltonians — trained up to 64 qubits, fine-tuned up to 1024, evaluated up to 8100.
-- [Pauli Propagation: A Computational Framework for Simulating Quantum Systems (PRX Quantum 7, 032001)](http://link.aps.org/doi/10.1103/6vd7-l9bn) — Rudolph, Jones, Teng, Angrisani, Holmes (EPFL/Algorithmiq, Aug 11): a comprehensive, peer-reviewed account of Pauli propagation as a classical simulation method for digital quantum circuits, and its use in verifying/challenging near-term hardware claims.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- A prominent independent voice's blog post still reports (third-hand, unverified, no paper) that an unreleased AI model has solved several open math/theoretical-CS problems, including one touching quantum-game parallel repetition — see [Shtetl-Optimized](https://scottaaronson.blog/?p=9979); still an extreme-hype-skepticism watch item pending any actual technical writeup.
+- A digest cross-check surfaced a ~35-day-old primary on rigorous Hamiltonian learning from weak measurements that had never been captured — now queued as a backlog catch.
 - [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed routine today — career/Q&A threads, no new primary.
-- A vendor tutorial post (choosing between QSP/QSVT/GQSP techniques) was checked in full and confirmed to be an educational explainer, not a new research primary.
+- A prominent independent voice's blog posted a new personal essay unrelated to quantum computing — see [Shtetl-Optimized](https://scottaaronson.blog/); no new technical content this run.
+- A PennyLane post rounding up September's quantum conferences was checked in full and confirmed to be an events calendar, not a new research primary.
 - YouTube's Qiskit and Sabine Hossenfelder feeds broke again (`/feeds/videos.xml` 404) — a recurring intermittent structural break, low-stakes intake-only lane either way.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (33)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-20](reports/2026-08-20.md) · weekly: [2026-W33](reports/weekly/2026-W33.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (37)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-21](reports/2026-08-21.md) · weekly: [2026-W33](reports/weekly/2026-W33.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
