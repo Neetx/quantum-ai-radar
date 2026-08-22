@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-37-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--21-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--22-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-21):**
-- **QML trainability theory went dormant** — [last independent evidence](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) is now 25 days old with no fresh queue activity either (time-driven, not a quality judgment).
-- **Quantum-advantage scrutiny cap-swapped in a rigorous no-go proof** — [Assessing Quantum Advantage for Gaussian Process Regression](https://www.nature.com/articles/s41534-026-01350-8) (npj QI), showing no exponential speedup across a wide range of scenarios.
-- **Two new study picks** — [an irreducible quantum advantage in aligning world models with reality](https://arxiv.org/abs/2608.19779) and [an exact quantum construction for softmax attention](https://arxiv.org/abs/2608.11173).
-- **Watchlist grew to 37** despite burndown — watch a fresh 2-item micro-cluster on the Aaronson–Ambainis quantum-speedup-structure conjecture: [Blanc et al.](https://arxiv.org/abs/2608.19158) + [Liu & Mutreja](https://arxiv.org/abs/2608.20297).
+**Since last scan (2026-08-22, weekly recalibration):**
+- **Two long-running trends caught up on confidence** — [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) and [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) both raised medium → high confidence, having sustained a full evidence cap for 5-6 weeks with no thinning.
+- **AI-for-quantum (hardware) refreshed** — a 26-day evidence freeze resolved via [a cap-swap bringing in RL-Trotter](https://arxiv.org/abs/2608.20139), which treats Trotter approximation error as a controllable RL resource for long-time quantum simulation.
+- **Watchlist cut from 37 to 24** in the weekly burndown — 11 items resolved with one-line reasons; live scrutiny arcs (the [IBM+Qedma Floquet claim](TRENDS.md#observation_queue), a fresh RL-circuit-optimization 2-item cluster, the Aaronson–Ambainis quantum-speedup-structure cluster) were deliberately kept.
+- **eprint.iacr.org promoted** to a verified research venue after its 2nd on-axis appearance (the Simon dihedral-coset-problem refutation).
 
 ## Trends
 
@@ -16,12 +16,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
+| [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-08-20](https://arxiv.org/abs/2608.20139) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-14](https://www.nature.com/articles/s41534-026-01350-8) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-08-13](http://link.aps.org/doi/10.1103/y14y-7kp3) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-13](https://arxiv.org/abs/2608.13521) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.10382) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.08996) |
-| [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-07-27](https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-08-14](https://arxiv.org/abs/2608.14208) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-08-06](https://arxiv.org/abs/2608.06554) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 💤 dormant | [2026-07-28](https://www.nature.com/articles/s41534-026-01330-y) |
@@ -50,11 +50,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 _Unverified intake — community signals, not trend evidence._
 
 - A digest cross-check surfaced a ~35-day-old primary on rigorous Hamiltonian learning from weak measurements that had never been captured — now queued as a backlog catch.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed routine today — career/Q&A threads, no new primary.
-- A prominent independent voice's blog posted a new personal essay unrelated to quantum computing — see [Shtetl-Optimized](https://scottaaronson.blog/); no new technical content this run.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed routine through the week — career/Q&A threads, no new primary.
+- A prominent independent voice's blog posted a new personal essay unrelated to quantum computing — see [Shtetl-Optimized](https://scottaaronson.blog/); no new technical content.
 - A PennyLane post rounding up September's quantum conferences was checked in full and confirmed to be an events calendar, not a new research primary.
 - YouTube's Qiskit and Sabine Hossenfelder feeds broke again (`/feeds/videos.xml` 404) — a recurring intermittent structural break, low-stakes intake-only lane either way.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (37)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-21](reports/2026-08-21.md) · weekly: [2026-W33](reports/weekly/2026-W33.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-21](reports/2026-08-21.md) · weekly: [2026-W34](reports/weekly/2026-W34.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
