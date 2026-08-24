@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--22-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--24-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-22, weekly recalibration):**
-- **Two long-running trends caught up on confidence** — [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) and [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) both raised medium → high confidence, having sustained a full evidence cap for 5-6 weeks with no thinning.
-- **AI-for-quantum (hardware) refreshed** — a 26-day evidence freeze resolved via [a cap-swap bringing in RL-Trotter](https://arxiv.org/abs/2608.20139), which treats Trotter approximation error as a controllable RL resource for long-time quantum simulation.
-- **Watchlist cut from 37 to 24** in the weekly burndown — 11 items resolved with one-line reasons; live scrutiny arcs (the [IBM+Qedma Floquet claim](TRENDS.md#observation_queue), a fresh RL-circuit-optimization 2-item cluster, the Aaronson–Ambainis quantum-speedup-structure cluster) were deliberately kept.
-- **eprint.iacr.org promoted** to a verified research venue after its 2nd on-axis appearance (the Simon dihedral-coset-problem refutation).
+**Since last scan (2026-08-24):**
+- **Quantum-advantage scrutiny picked up a Science-published dequantization** — a PhysicsWorld/Reddit pointer traced to [Tindall et al.'s tensor-network refutation](https://www.science.org/doi/10.1126/science.adx2728) of D-Wave's "beyond-classical" spin-glass-annealing claim, cap-swapped into [trend-006](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations).
+- **Two new queue items** — a [DLA/trainability-scaling paper](https://arxiv.org/abs/2608.20603) on the now-dormant QML-trainability axis, and an [ML-for-circuit-decomposition](https://arxiv.org/abs/2608.20660) result.
+- **Watchlist held near target** (24 → 25) — one stale single-theory item dropped, two added.
+- **Quiet otherwise** — arXiv, journals and ~20 vendor blogs unchanged since Friday; `tvly` remains quota-exhausted (already flagged to the curator at the W34 weekly).
 
 ## Trends
 
@@ -32,6 +32,8 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Dynamics of disordered quantum systems with two- and three-dimensional tensor networks (Science 392, 868–872; arXiv:2503.05693)](https://www.science.org/doi/10.1126/science.adx2728) — Tindall, Mello, Fishman, Stoudenmire, Sels (Flatiron/Simons CCQ + Boston University): lattice-specific tensor networks with belief propagation reproduce D-Wave's Advantage2 spin-glass-annealing dynamics at state-of-the-art accuracy on a laptop, directly dequantizing a 2025 "beyond-classical" claim.
+- [Neural quantum states in condensed matter: advances, best practices, and prospects (arXiv:2608.21291)](https://arxiv.org/abs/2608.21291) — Rigo, Wurst, Nutakki, Schmitt, Kennes (Aug 21): a researcher-facing orientation perspective on architectures, symmetry constraints, optimization and sampling strategies for neural quantum states, with an honest account of remaining challenges.
 - [An Irreducible Quantum Advantage in Aligning World Models with Reality (arXiv:2608.19779)](https://arxiv.org/abs/2608.19779) — Lumbreras, Ma, Thompson, Gu (Aug 20): under memory constraints, a coherent quantum world-model can align an agent's optimal policy with reality using strictly less memory than any classical world-model — a structural quantum advantage result connecting quantum resource theory to RL/world-model learning.
 - [A Quantum Roadmap for Softmax Attention (arXiv:2608.11173)](https://arxiv.org/abs/2608.11173) — Reinhardt, Hauser (Aug 11): for attention on the probability simplex, softmax attention admits an EXACT (not heuristic) quantum realization — attention scores become Hadamard-test statistics under a Born-rule bijection, one of the few precise quantum-native constructions for a core Transformer primitive.
 - [Bernstein-Vazirani Networks: Quantum Machine Learning by Interference (arXiv:2608.19043)](https://arxiv.org/abs/2608.19043) — Meli, Birdal, Tiwari, Golyanik, Moeller (Aug 19): a gradient-free, non-variational QML framework using quantum-Fourier-sampling-style interference for supervised learning, with universal function approximation via (over)complete interference bases — a genuinely different design point from the dominant variational-circuit paradigm.
@@ -43,18 +45,17 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [The Quantum Optimization Benchmarking Library (Nature Computational Science 6, 653–671)](https://www.ibm.com/quantum/blog/qoblib) — Koch, Bernal Neira, Chen, Woerner et al. (IBM/ZIB/TU Berlin/Purdue, newly peer-reviewed): an open-source "intractable decathlon" of ten optimization problem classes with both classical AND quantum baselines/tooling — a shared, honest yardstick for quantum-optimization claims.
 - [Assessing Quantum Advantage for Gaussian Process Regression (npj Quantum Information)](https://arxiv.org/abs/2505.22502) — Lowe, Kim, Bondesan (Imperial College London, newly peer-reviewed): rigorously proves proposed quantum GP-regression algorithms carry no exponential speedup across a wide range of scenarios, independent of data-loading complexity.
 - [Exponential quantum advantage for learning signals with a single qubit (arXiv:2608.13521)](https://arxiv.org/abs/2608.13521) — Kannan, Prabhu, Khan, Sohoni, Song, Roy, Senanian, Fatemi, McMahon, Cotler (Aug 13): couples one controllable qubit to a conventional sensor for a proved AND experimentally-demonstrated exponential measurement reduction (10^7-fold) in learning classical signals.
-- [Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment (arXiv:2608.13110)](https://arxiv.org/abs/2608.13110) — Manabe, Gu, Pan (Aug 13): a certified-minimum-width tensor-network contraction classically simulates IBM's 70-qubit doped-Clifford sampling experiment.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- A digest cross-check surfaced a ~35-day-old primary on rigorous Hamiltonian learning from weak measurements that had never been captured — now queued as a backlog catch.
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) stayed routine through the week — career/Q&A threads, no new primary.
+- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) surfaced a PhysicsWorld pointer to a Science-published tensor-network dequantization result, now routed to trend-006 and the study shelf.
+- A ticker-stock company's press release claiming an AI decoder beats Google-dataset benchmarks was checked for an accompanying technical paper — none found, stays intake-only.
 - A prominent independent voice's blog posted a new personal essay unrelated to quantum computing — see [Shtetl-Optimized](https://scottaaronson.blog/); no new technical content.
-- A PennyLane post rounding up September's quantum conferences was checked in full and confirmed to be an events calendar, not a new research primary.
+- Hacker News carried a marketing video about a vendor's "quantum computing mainframe" — no accompanying technical primary, not queued.
 - YouTube's Qiskit and Sabine Hossenfelder feeds broke again (`/feeds/videos.xml` 404) — a recurring intermittent structural break, low-stakes intake-only lane either way.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-21](reports/2026-08-21.md) · weekly: [2026-W34](reports/weekly/2026-W34.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-24](reports/2026-08-24.md) · weekly: [2026-W34](reports/weekly/2026-W34.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
