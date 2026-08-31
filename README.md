@@ -1,18 +1,18 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-22-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--29-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-13-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-27-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--08--31-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-08-29):**
-- **[Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) goes dormant** — 23 days without a genuinely new independent group (last was [Ning Ning's HQMM result](https://arxiv.org/abs/2608.06554)); 📈→💤.
-- **[Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swap** — [a foundational FTQC no-go theorem](https://arxiv.org/abs/2608.26272) (spacetime overhead can never be reduced to a true constant) enters evidence, displacing the trend's oldest, most generic item.
-- **[Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) fills its cap at 10 groups** — [an "edge of chaos" QRC paper](https://arxiv.org/abs/2608.25511) becomes the trend's 10th independent group.
-- **Watchlist churned** (25 → 22) — 2 promoted to trend evidence via cap-swap, 1 resolved to the study shelf after a 4-week hype-skepticism watch.
+**Since last scan (2026-08-31):**
+- **[Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) revives** — a Basque-consortium clinical-trial generative model [executed on real IBM Heron r2 hardware](https://arxiv.org/abs/2608.28168) is a genuine 10th independent group; 💤→📈.
+- **[Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map)-adjacent unification** — [QRC and Quantum Extreme-Learning Machines shown to be one architecture](https://arxiv.org/abs/2608.28440), queued as a cap-swap candidate.
+- Three same-window ML QEC-decoder papers ([surface-code](https://arxiv.org/abs/2608.27682), [near-memory QLDPC](https://arxiv.org/abs/2608.27901), [concatenated codes](https://arxiv.org/abs/2608.28571)) land on [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc)'s already-tracked ML-decoder sub-theme.
+- **Watchlist churned** (27 → 27) — 8 resolved with one-line reasons, 13 fresh captures added.
 
 ## Trends
 
-🌱 0 · 📈 3 · 🚀 6 · 🌊 0 · 🏔 0 · 📉 0 · 💤 4
+🌱 0 · 📈 4 · 🚀 6 · 🌊 0 · 🏔 0 · 📉 0 · 💤 3
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
@@ -22,16 +22,18 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-08-20](https://arxiv.org/abs/2608.20139) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-08-14](https://arxiv.org/abs/2608.14169) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.08996) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-08-28](https://arxiv.org/abs/2608.28168) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-08-27](https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 📈 emerging | [2026-08-25](https://arxiv.org/abs/2608.24229) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-08-14](https://arxiv.org/abs/2608.14208) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 💤 dormant | [2026-08-06](https://arxiv.org/abs/2608.06554) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 💤 dormant | [2026-07-27](https://arxiv.org/abs/2607.24728) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 💤 dormant | [2026-07-24](https://arxiv.org/abs/2607.22468) |
 | [QML security & adversarial robustness](TRENDS.md#id-trend-010-qml-security--adversarial-robustness-attacks-on-and-defenses-for-variational-quantum-models) | 💤 dormant | [2026-07-21](https://arxiv.org/abs/2607.19318) |
 
 ## Worth studying
 
+- [A quantum generative model for in silico clinical trials using scarce training datasets (arXiv:2608.28168)](https://arxiv.org/abs/2608.28168) — Sanz Larrarte, Dastbasteh, Sanchez-Navarro, Diez-Campelo, Prosper, Alfonso-Pierola, Hernaez, Capponi, Crespo Bofill, Etxezarreta Martinez (Aug 28): a quantum generative model trained on scarce Myelodysplastic Syndrome patient data, executed on real IBM Heron r2 hardware, beating classical baselines on generalization/expressivity.
+- [From quantum reservoirs to quantum extreme learning machines through a nearest-neighbor spin chain with tunable quantum memory (arXiv:2608.28440)](https://arxiv.org/abs/2608.28440) — Ramon-Escandell, Riera, Płodzień (Aug 28): shows Quantum Reservoir Computing and Quantum Extreme-Learning Machines are the two limits of one architecture, connected by how many qubits carry memory.
 - [Resolving Structure in Prethermal Floquet Dynamics with Precision Quantum Computation (arXiv:2607.24937)](https://arxiv.org/abs/2607.24937) — Leviatan, Watad, Perry, Broers, Mullath, Alberton, Arad, Atia (IBM+Qedma): resolves prethermal Floquet-magnet dynamics beyond reliable classical methods; a serious but still vendor-reported classical-attack attempt (RIKEN+BlueQubit) failed to reproduce it — an open case, not yet independently dequantized or peer-reviewed either way.
 - [Holding the Light: Teaching an AI to Lock and Tune our Quantum Computer's Lasers](https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers) — QuEra (Aug 27): an LLM agent autonomously diagnoses and recovers laser-lock faults on QuEra's live neutral-atom hardware — 99.3% automated recovery success, recovery time cut from minutes to seconds, zero unattended lock drops over a 19-hour test.
 - [Superextensive learning in quantum reservoirs at the onset of information scrambling (arXiv:2608.25511)](https://arxiv.org/abs/2608.25511) — Freiheit, Campaioli (Aug 26): imports the complex-systems "edge of chaos" hypothesis into quantum reservoir computing, using out-of-time-order correlators to locate the onset of information scrambling in 2D Ising-network reservoirs.
@@ -43,19 +45,17 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Satisfying Quantum Codes: Physics-Informed and Hardware-Aware Code Design with SAT Solvers (arXiv:2608.23460)](https://arxiv.org/abs/2608.23460) — DalFavero, Watkins, LaBorde, Russo, Egger, Quiroz, LaRose (Aug 24): formulates QEC-code design as Boolean satisfiability, proves the design problem is NP-complete, and ships a flexible SAT-based framework for physics-informed and hardware-aware code search.
 - [Dynamics of disordered quantum systems with two- and three-dimensional tensor networks (Science 392, 868–872; arXiv:2503.05693)](https://www.science.org/doi/10.1126/science.adx2728) — Tindall, Mello, Fishman, Stoudenmire, Sels (Flatiron/Simons CCQ + Boston University): lattice-specific tensor networks with belief propagation reproduce D-Wave's Advantage2 spin-glass-annealing dynamics at state-of-the-art accuracy on a laptop, directly dequantizing a 2025 "beyond-classical" claim.
 - [Neural quantum states in condensed matter: advances, best practices, and prospects (arXiv:2608.21291)](https://arxiv.org/abs/2608.21291) — Rigo, Wurst, Nutakki, Schmitt, Kennes (Aug 21): a researcher-facing orientation perspective on architectures, symmetry constraints, optimization and sampling strategies for neural quantum states, with an honest account of remaining challenges.
-- [An Irreducible Quantum Advantage in Aligning World Models with Reality (arXiv:2608.19779)](https://arxiv.org/abs/2608.19779) — Lumbreras, Ma, Thompson, Gu (Aug 20): under memory constraints, a coherent quantum world-model can align an agent's optimal policy with reality using strictly less memory than any classical world-model.
-- [A Quantum Roadmap for Softmax Attention (arXiv:2608.11173)](https://arxiv.org/abs/2608.11173) — Reinhardt, Hauser (Aug 11): for attention on the probability simplex, softmax attention admits an EXACT (not heuristic) quantum realization, one of the few precise quantum-native constructions for a core Transformer primitive.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
-- [r/QuantumComputing](https://old.reddit.com/r/QuantumComputing/) is still circulating the paywalled Nature News feature on an AI tool that lets researchers "vibe code" quantum programs — no accessible technical primary or named tool located across several runs now.
-- The same subreddit carried a thread on LLMs for quantum-algorithm design, plus routine career/conference/explainer threads — no primaries.
-- Digest coverage this week stayed dominated by funding/personnel/M&A announcements (NSF's $290M quantum institutes, EuroHPC awards, an IBM/HRL acquisition close, a Pasqal Nasdaq listing) — no accompanying technical primaries.
-- Q-CTRL announced a maritime GPS-free quantum-gravimetric-navigation field trial — a press release with no accompanying technical paper, quantum-sensing watch-area at best.
-- YouTube's Qiskit/Sabine feeds broke intermittently again this week (`/feeds/videos.xml` 404/500) — the same recurring, low-stakes intake-only structural break carried for weeks.
+- Reddit's r/QuantumComputing RSS returned an empty body this run (HTTP 200, 0 bytes) — a new degradation mode, watched for recurrence.
+- Hacker News carried two borderline quantum items ("Cancer is a Quantum System", "Rational quantum mechanics") — neither links an accessible technical primary, judged fringe/non-primary.
+- Digest coverage stayed dominated by funding/business news (a Pasqal Nasdaq debut, a CAD $195M Xanadu manufacturing investment) — no accompanying technical primaries.
+- A Quantum Zeitgeist item on Quantum Machines + Academia Sinica using an RL agent for two-qubit gate calibration could not be corroborated on the vendor's own blog (403) — routed as unverified, the vendor staged as a discovered-source candidate.
+- YouTube's Qiskit/Sabine feeds healed again this week (`/feeds/videos.xml` back to HTTP 200) after last week's intermittent break.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (22)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-28](reports/2026-08-28.md) · weekly: [2026-W35](reports/weekly/2026-W35.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (27)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-08-31](reports/2026-08-31.md) · weekly: [2026-W35](reports/weekly/2026-W35.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
