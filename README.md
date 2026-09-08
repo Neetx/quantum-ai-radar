@@ -1,14 +1,13 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-18-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--07-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-19-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--08-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-09-05, W36 weekly):**
-- **[Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) promoted seed → emerging** — a 4th independent group, [Qmes](https://arxiv.org/abs/2609.04652), automates encoding-circuit selection via meta-learning.
-- **[Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swap** — gains Li & Jiang's [high-rank-encoding approximate-QEC theory paper](https://arxiv.org/abs/2609.00778).
-- **Two strong flagged cap-swap candidates queued** — a new independent group each for [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) ([representation-theoretic barren-plateau framework](https://arxiv.org/abs/2609.04462)) and [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) ([SAR/InSAR change detection on real IonQ hardware](https://arxiv.org/abs/2609.05313)).
-- **Watchlist grew 7 → 18** after a quiet arXiv weekend — 13 fresh captures, 0 dropped.
+**Since last scan (2026-09-08):**
+- Quiet scan on the ledger — arXiv posted zero new quant-ph items all run (US Labor Day extended the weekend posting freeze); no stage moves, no cap-swaps.
+- **Watchlist grew 18 → 19** — one new item, Quantum Machines' [real-time QEC control account for non-Clifford gates](TRENDS.md#observation_queue) (undated, unverified).
+- Two strong flagged cap-swap candidates still held from the prior run: [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) ([representation-theoretic barren-plateau framework](https://arxiv.org/abs/2609.04462)) and [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) ([SAR/InSAR change detection on real IonQ hardware](https://arxiv.org/abs/2609.05313)).
 
 ## Trends
 
@@ -50,12 +49,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- Reddit's r/QuantumComputing (via the healed Tavily topical-search method) stayed dominated by discussion of IBM's Nighthawk r2 announcement, plus routine career/hardware threads.
-- Hacker News surfaced a DOE "Genesis Mission" AI-for-science initiative, judged non-quantum-specific policy/funding and left out of the ledger; otherwise dominated by already-tracked items and foundational-physics pieces outside this radar's quantum-computing/QML scope.
+- Reddit's r/QuantumComputing stayed dominated by routine career/"will quantum ever be useful" threads, nothing new.
+- Hacker News surfaced a link to IBM's live system-status page for the already-tracked Nighthawk r2 QPU, and a paywalled quantum-physics piece from a journalism aggregator (not a primary source) that wasn't pursued further.
 - Digest coverage (Quantum Insider, Quantum Computing Report) stayed dominated by funding/business/partnership news, with no accompanying technical primaries beyond items already routed to the ledger.
-- A Quantum Machines/Rigetti "AI-powered calibration" press release surfaced via a vendor-blog search but traced to December 2024 — stale, not a new event.
+- Quantum Machines' blog became extractable for the first time since being tracked — see the new watchlist item — though publish dates remain unrecoverable from the page itself.
 - YouTube's Qiskit/Sabine feeds continue their recurring intermittent break — no working substitute found across many weeks.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (18)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-07](reports/2026-09-07.md) · weekly: [2026-W36](reports/weekly/2026-W36.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (19)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-08](reports/2026-09-08.md) · weekly: [2026-W36](reports/weekly/2026-W36.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
