@@ -1,35 +1,35 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-28-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--11-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-18-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--12-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-09-11):**
-- [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) grew to a 5th independent group: [GenQAS](https://arxiv.org/abs/2609.11248), a reinforcement-learning framework using prioritized generative replay to fix sample starvation in quantum architecture search.
-- Three cap-swaps refreshed standing candidates with fresh independent groups: [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions), [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) and [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations).
-- Xanadu and AMD released [Backline](https://pennylane.ai/blog/2026/09/real-time-classical-processing-with-backline-amd), an open-source real-time quantum-classical co-processing fabric built into PennyLane's Catalyst compiler — captured to the watchlist and study shelf.
-- **Watchlist grew 26 → 28** (4 promoted, 3 dropped, 9 added) — see the [burndown](TRENDS.md#observation_queue).
+**Since last scan (2026-09-12, weekly recalibration):**
+- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) promoted to accelerating — 6 independent groups in ~8 days, the tightest cadence of any trend at this stage; latest: [Finkelstein et al.](https://arxiv.org/abs/2609.10505).
+- [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) moved to dormant — 23 days without a fresh independent group, a 3-week recalibration gap this run corrects.
+- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) cap-swapped in [ECDSA.Fail](https://arxiv.org/abs/2609.09582), a 12th independent group, resolving a growing dormancy risk.
+- Confidence raised on [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) and [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits); watchlist deep-burned 31 → 18.
 
 ## Trends
 
-🌱 1 · 📈 6 · 🚀 7 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 5 · 🚀 7 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-09-10](https://arxiv.org/abs/2609.11847) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-09-09](https://arxiv.org/abs/2609.09292) |
+| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-09-09](https://arxiv.org/abs/2609.10505) |
+| [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-09-08](https://arxiv.org/abs/2609.09582) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-09-03](https://arxiv.org/abs/2609.03194) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-09-03](https://arxiv.org/abs/2609.04462) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-25](https://arxiv.org/abs/2608.24527) |
-| [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-08-20](https://arxiv.org/abs/2608.20139) |
-| [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-08-10](https://arxiv.org/abs/2608.08996) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 📈 emerging | [2026-09-10](https://arxiv.org/abs/2609.11248) |
-| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 📈 emerging | [2026-09-09](https://arxiv.org/abs/2609.10505) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-09-08](https://openai.com/index/codex-quantum-computing-experiments/) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-09-07](https://arxiv.org/abs/2609.07645) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-09-05](https://arxiv.org/abs/2609.06307) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 📈 emerging | [2026-08-31](https://arxiv.org/abs/2608.31117) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 🌱 seed | [2026-08-27](https://arxiv.org/abs/2608.29302) |
+| [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 💤 dormant | [2026-08-20](https://arxiv.org/abs/2608.20139) |
 
 ## Worth studying
 
@@ -50,12 +50,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- Hacker News stayed quiet on quantum this run beyond items already routed above; a "post-quantum DNSSEC" story and a "Quantum Black" (McKinsey design-system) name collision were both checked and are off this radar's quantum-computing scope.
-- Digest coverage (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) stayed dominated by funding/business/partnership news (Infleqtion/Cisco, Altera/Riverlane, IBM/Lockheed/ETH Zürich), with the Backline release and a Chalmers hardware speedup the technical exceptions.
-- Quantum Machines' blog reverted to unextractable again this run — a continuing caution against treating any single successful extraction as a confirmed fix.
-- GitHub release-note detail (beyond PyPI version numbers) and fork-tree analysis were unreachable by either working method this run — a first for the WebFetch fallback specifically; watch if it recurs.
+- Hacker News stayed quiet on quantum beyond items already routed above this week; a viral "AI agents solved a Navier-Stokes Millennium Prize problem" story was checked and confirmed a classical mathematics result with no quantum-computing component.
+- Digest coverage (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) stayed dominated by funding/business/partnership news, with the Backline release and IonQ's ECC blueprint the technical exceptions.
+- Quantum Machines' blog kept flipping between extractable and nav-shell-only across the week — still not a stable heal, treat any single successful extraction as a bonus, not a fix.
+- GitHub release-note detail (beyond PyPI version numbers) and fork-tree analysis were briefly unreachable by both working methods on 09-11 — a first; watched, not yet a forced-heal trigger.
 - YouTube's Qiskit/Sabine feeds continue their recurring intermittent break — no working substitute found across many weeks.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (28)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-11](reports/2026-09-11.md) · weekly: [2026-W36](reports/weekly/2026-W36.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (18)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-11](reports/2026-09-11.md) · weekly: [2026-W37](reports/weekly/2026-W37.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
