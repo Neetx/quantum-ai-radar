@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-28-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--15-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-14-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-29-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--16-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-09-15, daily):**
-- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) and [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) each gained a fresh independent group with room under their evidence cap — [Structured Quantum Kernels for Chaotic Forecasting](https://arxiv.org/abs/2609.13360) and [Certification cost of quantum models](https://arxiv.org/abs/2609.14424).
-- Notable real-hardware capture: [Proving olympiad geometry theorems on a superconducting quantum processor](https://arxiv.org/abs/2609.14533) — an AI/symbolic-reasoning task actually executed on a quantum processor, from Dong-Ling Deng's group.
-- arXiv's query API hit a 2nd consecutive rate-limit outage — `rss.arxiv.org` promoted from fallback to primary method; see [SOURCES.md](SOURCES.md).
-- An IonQ blog post resurfaced a ~6-month-old fault-tolerant resource estimate for breaking 256-bit elliptic-curve signatures ([arXiv:2603.28627](https://arxiv.org/abs/2603.28627)), queued as a Practical QEC tooling cap-swap candidate.
+**Since last scan (2026-09-16, daily):**
+- A 12-day capture-leak fix and new study pick: [Do Quantum AIs Dream in Paths? Path-Integral Slow Thinking through Grover Interference](https://arxiv.org/abs/2609.05842) — a quantum-native mechanism for LLM-style "slow thinking," queued as [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs)'s next cap-swap candidate.
+- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) gained a flagged next-candidate extending dequantization to reinforcement learning: [Towards Surrogate Based Dequantization of Quantum Reinforcement Learning](https://arxiv.org/abs/2609.16266).
+- A ~11-month-old primary newly peer-reviewed and publicized this week — [Surface code scaling on heavy-hex superconducting quantum processors](https://arxiv.org/abs/2510.18847) (Nat Commun 17, 9201) — queued as a [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swap candidate.
+- arXiv's query API recovered after 2 consecutive rate-limit outages; `rss.arxiv.org` stays primary pending a 2nd consecutive confirmed recovery — see [SOURCES.md](SOURCES.md).
 
 ## Trends
 
@@ -33,6 +33,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 ## Worth studying
 
+- [Do Quantum AIs Dream in Paths? Path-Integral Slow Thinking through Grover Interference (arXiv:2609.05842)](https://arxiv.org/abs/2609.05842) — Cai, Deng, Chen (Sep 4): reframes LLM-style "slow thinking" as coherent path-integral dynamics — an exact verifier splits reasoning trajectories into accepted/rejected components that interfere under Grover amplitude amplification, avoiding the policy-collapse failure mode of classical RLVR training.
 - [Proving olympiad geometry theorems on a superconducting quantum processor (arXiv:2609.14533)](https://arxiv.org/abs/2609.14533) — Wang, Sun, Cui, Zou, Zhang et al., Dong-Ling Deng's group (Sep 13): implements quantum pseudo-division algebraic elimination AND a hybrid quantum-strategy-guided backward-reasoning search to experimentally prove two geometry theorems, including a 1978 IMO problem, on a real superconducting processor.
 - [Quantum neural network equipped with backpropagation on a qudit processor (arXiv:2609.12500)](https://arxiv.org/abs/2609.12500) — Yuan, Xu, Du, Zhao, Cheng, Li, Hou, Zhou, Li, Lin (Sep 11): an experimental qudit-based QNN trained via backpropagation on a real trapped-ion (⁴⁰Ca⁺) processor, exploiting qudits' larger per-unit Hilbert space for more expressive QNNs at fixed processor size.
 - [Reinforcement Learning for Syndrome Extraction (arXiv:2609.12020)](https://arxiv.org/abs/2609.12020) — Ye, Pabla, Palsberg (Sep 10): RL plus importance sampling searches the exponentially large space of syndrome-extraction circuit implementations for QEC, outperforming prior search methods at every scale tested.
@@ -44,18 +45,16 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [Geometric inflation of deviations challenges neural quantum states in dynamics of quantum Ising models (arXiv:2609.07645)](https://arxiv.org/abs/2609.07645) — Krinitsin, Rigo, Abedi, Schmitt (Sep 7): a controlled quench-dynamics benchmark shows accurate NQS dynamics simulation is surprisingly hard even in regimes of limited physical complexity, tightening prior parameter-count assumptions.
 - [A Sim-to-Real Study of Surface-Code Decoder Benchmarking (arXiv:2609.04557)](https://arxiv.org/abs/2609.04557) — Manor, Erhili, Jebbouri (Sep 3): tests whether decoder rankings under synthetic noise transfer to Google's Willow processor, the first below the surface-code threshold — rank agreement appears only once the noise model is sufficiently realistic.
 - [SAR and InSAR Change Detection with Quantum Generative Models (arXiv:2609.05313)](https://arxiv.org/abs/2609.05313) — Sekwao, De, Hocken, Staniewicz, Epifanovsky, Stringham (Sep 3): a quantum generative model executed on an IonQ trapped-ion processor improves satellite radar change-detection for disaster response — a fresh independent group for trend-003.
-- [Experimental validation of a compact fault-tolerant architecture for trapped ions (arXiv:2609.03194)](https://arxiv.org/abs/2609.03194) — Berthusen, Lavasani, Benhemou et al. (Quantinuum, Sep 3): validates a full early-fault-tolerant architecture — efficient logical encoding, low-overhead logical operations, AND non-Clifford resources, all at once — on Quantinuum's 98-qubit Helios trapped-ion processor.
-
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
 - r/QuantumComputing returned only evergreen "what is QML" / "best library" discussion threads this run — no new signal.
-- Hacker News surfaced a self-published post claiming quantum solutions to open cryptography/math problems — the same unverified hoax pattern behind recent weeks' exclusions.
-- Digest coverage (Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) was dominated by a wave of NVIDIA CUDA-Q Logical integration/partnership announcements — business PR, not research.
-- arXiv's query API was rate-limited for a 2nd consecutive run — see [SOURCES.md](SOURCES.md) for the now-promoted RSS-based method.
-- npj Quantum Information's research-articles page degraded again to a nav-only shell under extraction — treat any successful pull as a bonus, not a stable method.
+- Hacker News's front page carried mostly post-quantum-cryptography and business items this run; two technical leads (an NVIDIA CUDA-Q platform expansion, a USC/Quantum Elements surface-code result) both traced to primaries already captured above.
+- Digest coverage (Quantum Insider, Quantum Zeitgeist) was dominated by routine hardware-vendor partnership/personnel PR, plus one unconfirmed "shallow circuits beat language models" headline whose underlying primary could not be pinned down this run.
+- arXiv's query API recovered after 2 consecutive rate-limit outages — see [SOURCES.md](SOURCES.md); the RSS-based fallback stays primary pending one more confirmed recovery.
+- Hugging Face's Daily Papers listing (this run's exploration slot) stayed general-ML/LLM only, with zero quantum-relevant items — logged as checked, not skipped.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (28)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-15](reports/2026-09-15.md) · weekly: [2026-W37](reports/weekly/2026-W37.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (29)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-16](reports/2026-09-16.md) · weekly: [2026-W37](reports/weekly/2026-W37.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
