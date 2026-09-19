@@ -15,6 +15,12 @@ breadth of orgs, presence in tools/standards/practice).
 - **Demote** honestly when evidence thinned.
 - **Dormancy**: 21+ days without evidence → `dormant`. If `last_evidence` is 45+ days old,
   move the entry to `ARCHIVE.md` as a one-line post-mortem.
+- **MANDATORY per-trend checklist (amended W38, motivated by trend-011 sitting past the 21-day
+  line unflagged for a week after an explicit W37 "watch next week" note):** compute
+  `today − last_evidence` for EVERY trend in one pass before making any other stage decision
+  (a one-line table/script is enough) and flag every trend at 14+ days as a watch item in the
+  weekly report, every trend at 21+ days as a dormancy action this run — do not rely on a prior
+  week's flag alone to carry the watch forward; recompute fresh every week.
 - **Merge** overlapping trends (keep the older id, union aliases, keep the 10 strongest
   evidence items, note the merge).
 - **Confidence**: raise to `high` when EITHER ≥2 INDEPENDENT authoritative primary sources
