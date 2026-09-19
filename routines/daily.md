@@ -121,7 +121,12 @@ every run.
   sustained multi-week confirmation; otherwise `medium`.
 - `observation_queue` maintenance (every run): add today's weak signals; promote those that
   clear the bar; cap-driven burndown to ~25 (resolve the oldest — promote or drop with a
-  one-line reason in today's report; never silently delete).
+  one-line reason in today's report; never silently delete). GUARD (amended W38, motivated by
+  the W37 process-hygiene finding — a daily narrated 3 drops that were never actually removed
+  from the file): immediately after narrating any drop in the day's report, mechanically
+  `grep '<id>' TRENDS.md` to confirm the bullet is actually gone before finalizing the report —
+  a narrated-but-unapplied drop is a silent ledger/report mismatch, not caught by the
+  capture-leak sweep (which checks the opposite direction: named-but-never-queued).
 - Convergence check (every run): scan the whole queue for sub-themes where ≥3 independent
   groups now hold artifacts → promote that cluster to a `seed`.
 - Capture-leak reconciliation (every run — a CONCRETE mechanical sweep, not a judgment call):
