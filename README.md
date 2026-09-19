@@ -1,18 +1,18 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-15-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-7-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-32-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--18-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-15-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-6-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--09--19-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-09-18, daily):**
-- [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) gained a real-hardware scale record: [temporal information processing on a 4,500-qubit quantum annealer](https://arxiv.org/abs/2609.19308) — the largest quantum-ML experiment performed to date.
-- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) gained FormalFlow, a 126,367-line, fully agent-generated Lean 4 proof of the quantum soundness underlying MIP*=RE: [arXiv:2609.19814](https://arxiv.org/abs/2609.19814).
-- [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) promoted seed → emerging on a 4th independent group: [normalizing-flow Bayesian parameter estimation for noisy quantum states](https://arxiv.org/abs/2609.19534).
-- New study pick, a ~7-month backlog catch: Quandela's [MerLin discovery engine](https://arxiv.org/abs/2602.11092) systematically reproduces 18 QML papers as a shared honest-baseline suite — flagged as [quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations)'s next cap-swap candidate.
+**Since last scan (2026-09-19, weekly):**
+- [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) demoted accelerating → dormant — 25 days quiet since its last group, [a continuous-domain Gibbs-sampling separation](https://arxiv.org/abs/2608.24527), with no queue candidate.
+- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) confidence raised low → medium — 7 independent groups now in evidence, each on a concrete artifact, most recently [structured quantum kernels for chaotic forecasting](https://arxiv.org/abs/2609.13360).
+- Observation queue burndown: 32 → 24 (8 drops with one-line reasons), back under the ~25 cap; study shelf pruned of 10 picks older than 30 days.
+- Two W37-proposed process amendments applied this run: a per-daily drop-verification guard, and a mandatory per-trend dormancy checklist in the weekly routine (see [2026-W38 report](reports/weekly/2026-W38.md)).
 
 ## Trends
 
-🌱 1 · 📈 7 · 🚀 7 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 7 · 🚀 6 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
@@ -22,7 +22,6 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-09-15](https://arxiv.org/abs/2609.17896) |
 | [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-09-11](https://arxiv.org/abs/2609.13360) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-09-03](https://arxiv.org/abs/2609.04462) |
-| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-08-25](https://arxiv.org/abs/2608.24527) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 📈 emerging | [2026-09-17](https://arxiv.org/abs/2609.19534) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 📈 emerging | [2026-09-13](https://arxiv.org/abs/2609.14424) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 📈 emerging | [2026-09-10](https://arxiv.org/abs/2609.12020) |
@@ -31,6 +30,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-09-07](https://arxiv.org/abs/2609.07645) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-09-05](https://arxiv.org/abs/2609.06307) |
 | [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) | 🌱 seed | [2026-09-16](https://arxiv.org/abs/2609.18565) |
+| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 💤 dormant | [2026-08-25](https://arxiv.org/abs/2608.24527) |
 
 ## Worth studying
 
@@ -52,11 +52,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 _Unverified intake — community signals, not trend evidence._
 
 - A startup engineering blog posted a substantive, well-evidenced critique of a major vendor's flagship quantum-chemistry results (citing the vendor's own released data), but the source doesn't yet qualify as a citable primary under this radar's rules — watched, not cited.
-- r/QuantumComputing's search-based access method itself broke this run (a bot-challenge wall) — a new degradation distinct from the login-wall it was fixed for in September.
-- Hacker News's front page and quantum-tagged search carried mostly post-quantum-cryptography and funding/PR items this run; no fresh technical signal.
+- r/QuantumComputing's search-based access method itself degraded again this run (a "prove your humanity" bot-challenge wall) — a new failure mode distinct from the login-wall it was fixed for in September.
+- Hacker News's front page and quantum-tagged search carried mostly post-quantum-cryptography and funding/PR items this week; no fresh technical signal.
 - Digest coverage (Quantum Computing Report, Quantum Insider, Quantum Zeitgeist) surfaced a vendor's open-source erasure-noise simulator release and a classical-shadows noise-robustness piece, both routed as minor/excluded rather than trend evidence.
-- arXiv's query API stayed healthy on every attempt this run — no degradation to report.
+- arXiv's query API stayed healthy across this week's runs, reverted to the documented primary method after two prior 429-degraded days.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (32)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-18](reports/2026-09-18.md) · weekly: [2026-W37](reports/weekly/2026-W37.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-09-18](reports/2026-09-18.md) · weekly: [2026-W38](reports/weekly/2026-W38.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
