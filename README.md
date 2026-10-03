@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-30-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--02-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--03-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-10-02):**
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swapped in a code-agnostic GNN decoder, [POLYMECHANON](https://arxiv.org/abs/2610.01683), that trains once and decodes any stabiliser code/noise model.
-- [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) cap-swapped in a 14th independent group — [spiking neural networks for real-time streaming qubit readout](https://arxiv.org/abs/2610.02129), FPGA-synthesized.
-- A login-wall heal (readable `dc.*` meta tags on paywalled Nature pages) verified [Complex-valued Quantum Neural Networks](https://www.nature.com/articles/s41534-026-01369-x), queued unverified since 09-30 — now on the study shelf.
-- Observation queue: 2 resolved to the study shelf, 9 dropped, 8 added — 33 → 30.
+**Since last scan (2026-10-03, weekly recalibration):**
+- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) confidence raised medium → high; [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) raised low → medium.
+- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swapped in a rare third-party [cross-stack QEC-software benchmark](https://arxiv.org/abs/2608.05202) (Q-CTRL fastest per unit error-reduction, Qedma QESEM largest absolute reduction) — the queue's longest-standing flagged candidate, held since 09-23.
+- [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) cap-swapped in a [waveguide-QED programmable-coherent-memory QRC](https://arxiv.org/abs/2609.27072) platform.
+- Observation queue: 2 resolved via cap-swap, 3 dropped — 30 → 25, at the ~25 target.
 
 ## Trends
 
@@ -61,4 +61,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (30)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-02](reports/2026-10-02.md) · weekly: [2026-W39](reports/weekly/2026-W39.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-02](reports/2026-10-02.md) · weekly: [2026-W40](reports/weekly/2026-W40.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
