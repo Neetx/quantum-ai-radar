@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--06-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-30-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--07-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-10-05):**
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) cap-swapped in a [modular neural decoder](https://arxiv.org/abs/2610.03869) that transfers across IBM and Google hardware, approaching AlphaQubit.
-- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) cap-swapped in [QAOS](https://arxiv.org/abs/2610.05304), a structured multi-agent operating system for applied quantum R&D — a 15th independent group.
-- [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) cap-swapped in [Hamiltonian learning under minimal quantum control](https://arxiv.org/abs/2610.06709), from two prominent complexity theorists.
-- [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) gained two groups extending AI-assisted search to [QEC code](https://arxiv.org/abs/2610.06623) and [magic-state-factory](https://arxiv.org/abs/2610.06535) discovery.
+**Since last scan (2026-10-06):**
+- [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) cap-swapped in a [quantum VAE disentangled-representation paper](https://arxiv.org/abs/2610.07196) — a 15th independent group.
+- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) cap-swapped in ["When Error Mitigation Makes Things Worse"](https://arxiv.org/abs/2609.38713) — real IBM Heron hardware shows standard ZNE can be worse than no mitigation at all — an 18th independent group.
+- IonQ publicized a [qLDPC speedup](https://arxiv.org/abs/2607.16166) (up to 74x for logical Clifford ops, 5.0x for Toffoli gates) — queued as [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc)'s next cap-swap candidate.
+- Watchlist grew to 30 on four fresh lead-axis QML finds, incl. a [quantum-entangled vision-language fusion network](https://arxiv.org/abs/2610.08216).
 
 ## Trends
 
@@ -23,14 +23,14 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) | 🚀 accelerating | [2026-10-03](https://arxiv.org/abs/2610.04588) |
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-10-02](https://arxiv.org/abs/2610.03869) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-10-01](https://arxiv.org/abs/2610.02129) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-09-30](https://arxiv.org/abs/2609.38713) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-09-25](https://arxiv.org/abs/2609.31066) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-09-25](https://arxiv.org/abs/2504.18694) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-09-22](https://arxiv.org/abs/2609.26705) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-09-22](http://link.aps.org/doi/10.1103/8k5v-ddtw) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-09-18](https://arxiv.org/abs/2609.21237) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-10-02](https://arxiv.org/abs/2610.03463) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-10-05](https://arxiv.org/abs/2610.07196) |
 | [QML/QEC security](TRENDS.md#id-trend-017-qmlqec-security-adversarial-attacks-on-and-defenses-for-quantum-classical-ml-components) | 📈 emerging | [2026-09-30](https://arxiv.org/abs/2609.38720) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-09-25](https://arxiv.org/abs/2609.31070) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 💤 dormant | [2026-09-08](https://openai.com/index/codex-quantum-computing-experiments/) |
 
 ## Worth studying
@@ -53,12 +53,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- r/QuantumComputing reachable this scan but only generic startup/security discussion threads surfaced — no quantum-computing primary.
+- r/QuantumComputing reachable this scan but only routine career/hackathon/explainer threads surfaced — no quantum-computing primary.
+- A "Show HN: quantum computing experiments with honest classical baselines" post surfaced a personal open-source repo on this radar's own skepticism theme, but it's not a qualifying primary source — watched for a possible arXiv write-up.
 - Quantum Computing Stack Exchange's Atom feed opened normally — routine Q&A activity, nothing rising to a trend signal.
 - Digest coverage (The Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) surfaced mostly routine funding/partnership/conference PR this scan.
-- Hacker News surfaced only off-axis physics explainers and classical post-quantum-cryptography items this scan — nothing new on-axis.
 - Hugging Face's Daily Papers exploration lane surfaced no quantum-relevant items this scan.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-06](reports/2026-10-06.md) · weekly: [2026-W40](reports/weekly/2026-W40.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (30)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-07](reports/2026-10-07.md) · weekly: [2026-W40](reports/weekly/2026-W40.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
