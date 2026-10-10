@@ -141,7 +141,12 @@ every run.
   id named-but-absent is a capture leak → QUEUE it this run (a below-bar primary belongs in the
   queue even when correctly NOT evidence for the trend whose notes mention it). State the result
   as `capture-leak: N ids checked / M queued` in today's report — its absence means the sweep was
-  skipped.
+  skipped. INVERSE GUARD (amended W41, motivated by the 2026-09-29 daily's finding that
+  trend-015's own creation note had named an id as "already queued" for ~4 weeks when no live
+  bullet for it ever existed — the opposite failure from a phantom drop): whenever today's report
+  narrates an id as "queued" or "added," mechanically `grep` for it in `TRENDS.md` to confirm a
+  live discrete bullet actually exists before finalizing the report, mirroring the drop/
+  promotion-verification guard above.
 - Append one dated line to `logs/source_rotation.md` (append-only). Update "Last updated".
 - Regenerate `README.md` from the updated ledger in the same commit (`radar-render-dashboard`).
 
