@@ -19,7 +19,11 @@ EXTRACT:
 skipped check.
 
 ## 1. Load state
-- Recover orphaned state first: check for any branch holding a `radar:` commit missing
+- Recover orphaned state first: if the clone is shallow, run `git fetch --unshallow` before
+  the orphan-state verdict (amended W41, motivated by 4+ independent sessions — 09-22, 09-29,
+  10-06, 10-09 — each hitting this blind spot ad hoc; a shallow clone can hide a `radar:`
+  commit that exists on another branch but outside the shallow history, producing a false
+  "no orphan found" verdict). Then check for any branch holding a `radar:` commit missing
   from your history; fetch and merge it (fast-forward preferred, never force) before work.
 - Read `TRENDS.md` in full.
 - Read the most recent report in `reports/` (skip if none yet).
