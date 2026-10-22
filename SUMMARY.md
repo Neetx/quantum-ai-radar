@@ -1,0 +1,9 @@
+# Quantum AI Radar — 2026-10-22
+
+- **New** · [Decoding quantum errors with NVIDIA Ising Decoding on AWS](https://aws.amazon.com/blogs/quantum-computing/decoding-quantum-errors-with-nvidia-ising-decoding-on-aws/) — AI-decoder training benchmarked across five GPU generations; 2.4–2.9× faster QEC decoding (→ [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design)).
+- **New** · [Jianmu-Q](https://arxiv.org/abs/2610.21942) — AI agents translate quantum field theory into quantum-simulation workflows (→ [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs)).
+- **New** · [Mamba Quantum Eigensolver (MQE)](https://arxiv.org/abs/2610.29779) — a state-space model replaces the Transformer in generative ground-state circuit synthesis (→ [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits)).
+- **New** · [Generative learning of time series with holographic quantum circuit sampling](https://arxiv.org/abs/2610.15083) — holographic quantum-circuit sampling used as a generative model for time series (→ [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning)).
+- **New** · [Readout Dependent Parameter Identifiability of Quantum Kernels](https://arxiv.org/abs/2610.29186) — which quantum-kernel parameters can be identified depends on the readout (→ [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking)).
+
+[Full report](reports/2026-10-22.md) · [Dashboard](README.md)

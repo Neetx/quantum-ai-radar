@@ -172,6 +172,8 @@ every run.
   promotion-verification guard above.
 - Append one dated line to `logs/source_rotation.md` (append-only). Update "Last updated".
 - Regenerate `README.md` from the updated ledger in the same commit (`radar-render-dashboard`).
+  Then overwrite `SUMMARY.md`, the daily summary page (same skill → *SUMMARY.md*): the run's
+  results in at most 6 one-line linked bullets — results only, no process detail; run its checks.
 
 ## 5. Study picks (study_shelf)
 Select 0–2 items a quantum-computing / quantum-ML researcher should know — a tool, paper, technique, dataset or release.
