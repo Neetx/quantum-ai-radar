@@ -1,4 +1,4 @@
-# AI Radar
+# Quantum AI Radar
 
 ![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-23-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--22-2f9e44?style=flat-square)
 
