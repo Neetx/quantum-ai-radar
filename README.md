@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--23-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-23-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--24-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-10-23):**
-- A capture-leak catch — [correlated decoding loses the surface code's effective distance below threshold](https://arxiv.org/abs/2610.26785) — cap-swaps into [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) as a 21st independent group, scrutinizing the decoding technique behind PyMatching and Riverlane's own decoder.
-- Crichigno & Flammia's [AI-agent circuit-optimization/compilation-certification paper](https://arxiv.org/abs/2610.31352) cap-swaps into [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) as a 19th independent group.
-- Three more same-day cap-swaps: [entanglement-induced feature maps for projected quantum kernels](https://arxiv.org/abs/2610.31260) → [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking); a [hierarchical-architecture neural wave function](https://arxiv.org/abs/2610.30257) → [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions); [Quantum Fokker-Planck solvers as trainable generative models](https://arxiv.org/abs/2610.31330) → [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning).
-- Watchlist moved 23 → 25 (0 resolved, 0 dropped, 2 added); see [watchlist](TRENDS.md#observation_queue).
+**Since last scan (2026-10-24, weekly recalibration):**
+- Weekly dormancy checklist cap-swapped two trends nearing the 21-day line: [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) absorbed [a phase-locking re-uploading-circuit paper](https://arxiv.org/abs/2610.21778) as a 16th independent group; [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) absorbed [a rigorous memory-ceiling bound](https://arxiv.org/abs/2610.26228) as a 21st independent group.
+- A 14-day-overdue watchlist item properly belonged to an existing trend's own axis: [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) absorbed [QuSema, an LLM-agent silent-bug detector for quantum libraries](https://arxiv.org/abs/2610.10258), as a 20th independent group.
+- Watchlist moved 25 → 23 (1 promoted as above, 1 dropped — a minor applied generative-QML cancer-detection result superseded by a fresher find already on [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning)); see [watchlist](TRENDS.md#observation_queue).
+- No stage moves, confidence raises, merges or archivals this week; study shelf pruned 7 picks past 30 days.
 
 ## Trends
 
@@ -20,14 +20,14 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-10-22](https://arxiv.org/abs/2610.31260) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-10-21](https://aws.amazon.com/blogs/quantum-computing/decoding-quantum-errors-with-nvidia-ising-decoding-on-aws/) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 🚀 accelerating | [2026-10-21](https://arxiv.org/abs/2610.29779) |
-| [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-10-19](https://nvidia.github.io/cuda-quantum/blogs/blog/2026/10/19/jupiter-magic-state-simulation/) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-10-19](https://arxiv.org/abs/2610.26785) |
+| [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-10-19](https://arxiv.org/abs/2610.26228) |
+| [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-10-19](https://nvidia.github.io/cuda-quantum/blogs/blog/2026/10/19/jupiter-magic-state-simulation/) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-10-17](https://arxiv.org/abs/2610.24426) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-10-16](https://arxiv.org/abs/2610.23268) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 🚀 accelerating | [2026-10-16](https://doi.org/10.1103/kjvf-jgqj) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-10-15](https://arxiv.org/abs/2610.21778) |
 | [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) | 🚀 accelerating | [2026-10-12](https://arxiv.org/abs/2610.17351) |
-| [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-10-10](https://arxiv.org/abs/2610.14454) |
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-10-08](https://arxiv.org/abs/2610.11261) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-10-22](https://arxiv.org/abs/2610.31330) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-10-22](https://arxiv.org/abs/2610.30257) |
 | [QML/QEC security](TRENDS.md#id-trend-017-qmlqec-security-adversarial-attacks-on-and-defenses-for-quantum-classical-ml-components) | 📈 emerging | [2026-10-19](https://arxiv.org/abs/2610.26240) |
@@ -59,4 +59,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-23](reports/2026-10-23.md) · weekly: [2026-W42](reports/weekly/2026-W42.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (23)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-23](reports/2026-10-23.md) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
