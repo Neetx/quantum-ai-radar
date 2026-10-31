@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--30-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--10--31-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-10-30):**
-- [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) absorbed [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](https://arxiv.org/abs/2610.40589) — multi-agent LLM system that reviews and challenges its own claims, run on real NV-diamond quantum spins; a 10th independent group, filling the cap.
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) absorbed [Fast and accurate neural triage decoding of ultra-high-rate quantum LDPC codes](https://arxiv.org/abs/2610.40490) — the first neural decoder demonstrated for qLDPC codes above 1/2 encoding rate.
-- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) absorbed [Provably efficient experimental classification of quantum data with quantum kernels](https://arxiv.org/abs/2610.39350) — real photonic-hardware demonstration tied to a general classification-efficiency theory.
-- Watchlist held near-cap at 26 (7 dropped, 5 added) — see [watchlist](TRENDS.md#observation_queue).
+**Since last scan (2026-10-31):**
+- [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) absorbed [Classical Pre-Training of Large Shallow Parametrized Quantum Circuits through Pauli Propagation and deployment on Quantum Hardware](https://arxiv.org/abs/2610.32571) — resolving a 16-day dormancy watch; a 17th independent group.
+- [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) confidence raised low → medium — 10 independent groups sustained over ~3 months.
+- Promoted [QC Design](https://qc.design/news), [FirstQFM](https://firstqfm.com/news) and [Kipu Quantum](https://www.kipu-quantum.com/news) into the primary source registry, each verified directly this run.
+- Watchlist trimmed to 25 at the cap — see [watchlist](TRENDS.md#observation_queue).
 
 ## Trends
 
@@ -22,12 +22,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 🚀 accelerating | [2026-10-27](https://doi.org/10.1088/2058-9565/aeb3b0) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-10-25](https://arxiv.org/abs/2610.34430) |
 | [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) | 🚀 accelerating | [2026-10-25](https://arxiv.org/abs/2610.34492) |
+| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-10-23](https://arxiv.org/abs/2610.32571) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-10-23](https://psi.inc/research/oqp-batch-2026/) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-10-21](https://arxiv.org/abs/2610.29170) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-10-19](https://arxiv.org/abs/2610.26785) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-10-17](https://arxiv.org/abs/2610.24426) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 🚀 accelerating | [2026-10-16](https://doi.org/10.1103/kjvf-jgqj) |
-| [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-10-15](https://arxiv.org/abs/2610.21778) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-10-29](https://arxiv.org/abs/2610.40589) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-10-27](https://arxiv.org/abs/2610.37116) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-10-22](https://arxiv.org/abs/2610.30257) |
@@ -52,11 +52,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 
 _Unverified intake — community signals, not trend evidence._
 
-- r/QuantumComputing was unreachable for a 3rd consecutive day (Tavily full quota exhaustion, old.reddit.com RSS also blocked); no pulse sampled from it today.
-- Hacker News surfaced recirculated coverage of an already-tracked OpenAI math-proof claim and the Intel/Classiq acquisition, plus an unrelated personal blog post about probing a quantum computer — no new on-axis primary.
-- Digests (The Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) skewed toward post-quantum-cryptography and hardware-business items; Quantum Computing Report's own coverage independently corroborated an IQM hardware milestone already reflected in the watchlist.
-- Hugging Face's Daily Papers exploration lane surfaced no quantum-relevant items this run.
+- r/QuantumComputing stayed unreachable through the end of the week (Tavily full quota exhaustion persisting into a 4th day, old.reddit.com RSS also blocked); no pulse sampled from it.
+- Hacker News and the tracked digests surfaced only already-captured or already-excluded stories this week (recirculated AI-math-proof claims, business/acquisition news) — no new on-axis primary from the community lane.
+- Digests (The Quantum Insider, Quantum Computing Report, Quantum Zeitgeist) skewed toward post-quantum-cryptography and hardware-business items this week; Quantum Computing Report's own coverage independently corroborated several vendor/arXiv finds already reflected in the trend table.
+- Hugging Face's Daily Papers exploration lane surfaced no quantum-relevant items this week.
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-30](reports/2026-10-30.md) · weekly: [2026-W43](reports/weekly/2026-W43.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-10-30](reports/2026-10-30.md) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
