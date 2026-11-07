@@ -53,6 +53,12 @@ distinction governs what you DO with a hit, not whether you CHECK it.
 - **Primary-feed sweep (MANDATORY every run)** — `radar-source-sweep`: iterate the full
   `SOURCES.md` primary-source + research-venue lists; fetch each, open items newer than the
   last scan, filter for on-scope relevance. Primary sources are citable evidence.
+  **Fixed line items (AMENDED W45, proposed W44 — motivated by 2 coverage-logging gaps that
+  week, both on/near a `tvly`-outage day):** log Google's 4 surfaces (quantumai.google,
+  "The Keyword" blog, Google Research blog, Google Open Source blog) BY NAME every run, never
+  as a bundled "Google (N surfaces)" count — name each one even when it finds nothing; same
+  for the independent-voices sub-block (Scott Aaronson's blog, Quantum Frontiers) — name BOTH
+  individually, distinct from the generic vendor-blog bundle, every run.
 - **Community pulse (every run, intake only)** — `radar-pulse`: iterate the social/curator
   lists; multi-channel earthquake check; feeds `observation_queue` unverified + the pulse
   note. Never evidence; never name individuals.
