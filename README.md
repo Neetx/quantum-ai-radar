@@ -1,18 +1,17 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-16-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-28-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--06-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-11-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-24-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--07-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-11-06):**
-- [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) absorbed [a Google-co-authored QC-AFQMC acceleration paper](https://arxiv.org/abs/2611.08151) — compressing quantum measurement data into ML models to speed up quantum Monte Carlo.
-- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) absorbed [a polynomial-time classical simulator](https://arxiv.org/abs/2611.08444) for boson/fermion sampling under thermal loss.
-- [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) absorbed [an entanglement-Hamiltonian learning paper](https://arxiv.org/abs/2611.07353), resolving this week's dormancy watch with a genuine new catch.
-- Watchlist moved to 28 after a 2-item capture-leak fix and 3 fresh finds, minus 2 drops; burndown continues next run.
+**Since last scan (2026-11-07):**
+- [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) moved to 💤 dormant (21 days quiet since [its last evidence](https://arxiv.org/abs/2610.24426)) after an empty dormancy probe across its own evidence channels — watching for a fresh independent group to revive it.
+- New trend: [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) — 4 independent groups extend IBM's sample-based quantum diagonalization technique beyond chemistry, from [a linear-systems solver](https://arxiv.org/abs/2610.41708) to [a real-hardware iron-oxide demo](https://quantumcomputingreport.com/los-alamos-and-qc-ware-model-correlated-iron-oxides-using-sample-based-quantum-diagonalization-on-ibm-hardware).
+- Watchlist fell to 24 as those 4 items were promoted into [the new trend](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) above rather than dropped.
 
 ## Trends
 
-🌱 0 · 📈 4 · 🚀 12 · 🌊 0 · 🏔 0 · 📉 0 · 💤 0
+🌱 1 · 📈 4 · 🚀 11 · 🌊 0 · 🏔 0 · 📉 0 · 💤 1
 
 | trend | stage | latest signal |
 |-------|-------|---------------|
@@ -27,11 +26,12 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-11-02](https://arxiv.org/abs/2611.02833) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 🚀 accelerating | [2026-10-30](https://arxiv.org/abs/2610.41957) |
 | [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-10-30](https://arxiv.org/abs/2610.41848) |
-| [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-10-17](https://arxiv.org/abs/2610.24426) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-11-05](https://arxiv.org/abs/2611.08151) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-11-04](https://arxiv.org/abs/2611.06630) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-10-29](https://arxiv.org/abs/2610.40589) |
 | [QML/QEC security](TRENDS.md#id-trend-017-qmlqec-security-adversarial-attacks-on-and-defenses-for-quantum-classical-ml-components) | 📈 emerging | [2026-10-19](https://arxiv.org/abs/2610.26240) |
+| [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) | 🌱 seed | [2026-11-03](https://arxiv.org/abs/2611.04496) |
+| [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 💤 dormant | [2026-10-17](https://arxiv.org/abs/2610.24426) |
 
 ## Worth studying
 
@@ -60,4 +60,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (28)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-06](reports/2026-11-06.md) · weekly: [2026-W44](reports/weekly/2026-W44.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (24)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-06](reports/2026-11-06.md) · weekly: [2026-W45](reports/weekly/2026-W45.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
