@@ -2,6 +2,7 @@
 name: radar-ledger-update
 description: |
   Safely update TRENDS.md (the Quantum AI Radar ledger): append evidence, move stages, manage observation_queue, source_rotation and strategy_notes without breaking the file contract. Use every time TRENDS.md is edited, before committing radar updates, and when promoting or archiving trends.
+  observation_queue keeps only its live bullets inline; its historical resolution narration lives in logs/queue_history.md (externalized 2026-11-14, W46).
 ---
 
 # Update the ledger safely
@@ -19,6 +20,14 @@ structure is a contract.
   append-only content lives in `logs/source_rotation.md` and `logs/calibration.md`
   respectively. Keep the two stub headers (the section order is the contract) but
   NEVER inline log lines back into TRENDS.md — appends go to the `logs/` files.
+- `## observation_queue` is NOT a pointer stub — it keeps its live bullets inline (that is
+  the whole point of a working set) — but its HISTORICAL resolution narration ("Daily"/
+  "Weekly recalibration" burndown summaries, "Checked-but-excluded" notes, capture-leak
+  backstop lines) externalizes the same way, to `logs/queue_history.md` (applied
+  2026-11-14, W46, per the W45 cooling-period proposal). When a run resolves an item
+  (promotes or drops it), append the one-line resolution reason to `logs/queue_history.md`,
+  not back into TRENDS.md; TRENDS.md keeps only the section header, its fixed format
+  description, and the current live bullets.
 - Trend block: `### [id: slug-NNN] Title` with fields `alias`, optional
   `pinned: true`, `stage`, `confidence`, `first_observed`, `last_evidence`,
   `evidence:` (list), `notes:`.
@@ -55,12 +64,15 @@ structure is a contract.
   stale). This is owed every run, never deferred to the weekly — a no-evidence
   pass is not a no-op for the queue. Items leave ONLY by resolution: promoted to a
   trend (the signal is captured there) or dropped with a one-line reason in the
-  day's/week's report (write-once, permanent). NEVER silently delete — because
-  every removal is either a promotion or a recorded drop, shrinking the queue
-  loses no knowledge. Re-date an item only if it is genuinely still worth watching.
+  day's/week's report AND in `logs/queue_history.md` (write-once, permanent). NEVER
+  silently delete — because every removal is either a promotion or a recorded drop,
+  shrinking the queue loses no knowledge. Re-date an item only if it is genuinely still
+  worth watching.
 - Append one dated line per session to `logs/source_rotation.md` (the coverage
   log; not the TRENDS.md stub). Append dated corrections to `logs/strategy_notes.md`
-  (the strategy log; not the TRENDS.md stub); never delete curator entries.
+  (the strategy log; not the TRENDS.md stub); never delete curator entries. Append
+  queue-resolution narration (burndown summaries, checked-but-excluded notes,
+  capture-leak backstop lines) to `logs/queue_history.md`, not into TRENDS.md.
 - `study_shelf`: newest first, format `date — [name](url) — one line of why`;
   single-artifact items allowed (the trend bar does not apply), opened primary
   sources only.
@@ -76,15 +88,21 @@ grep -n '^## ' TRENDS.md
 grep -c '^### \[id: ' TRENDS.md          # trend count matches expectations
 grep -nE '^  - [0-9]{4}-[0-9]{2}-[0-9]{2} — ' TRENDS.md | head -3   # evidence format
 grep -n '^Last updated:' TRENDS.md       # date is today
-# the three externalized logs must exist and only grow (append-only):
-for f in source_rotation strategy_notes calibration; do
+# the four externalized logs must exist and only grow (append-only):
+for f in source_rotation strategy_notes calibration queue_history; do
   test -f logs/$f.md && printf '%-16s ' $f && tail -1 logs/$f.md | head -c 70 && echo
 done
-# TRENDS.md must NOT have regrown a log body — all three stay short POINTER stubs.
+# TRENDS.md must NOT have regrown a log body — source_rotation/strategy_notes/calibration
+# stay short POINTER stubs; observation_queue stays header+description+LIVE BULLETS ONLY
+# (no "Daily"/"Weekly"/"Checked-but-excluded"/capture-leak narration lines).
 # A stub over ~10 lines means a run wrote the log INTO the ledger instead of logs/:
 awk '/^## /{if(s)printf "  %-16s %d lines%s\n",s,n,(n<10?"  ok":"  <- REGROWN, move it to logs/");s="";n=0}
      /^## (source_rotation|strategy_notes|calibration)/{s=substr($0,4)} {n++}
      END{if(s)printf "  %-16s %d lines%s\n",s,n,(n<10?"  ok":"  <- REGROWN, move it to logs/")}' TRENDS.md
+# observation_queue must hold no historical narration lines (only live "- YYYY-MM-DD —" bullets):
+awk '/^## observation_queue/{f=1;next} /^## /{f=0} f' TRENDS.md | grep -E '^(Daily|Weekly|\*\*capture-leak|Checked-but-excluded)' \
+  && echo "  <- REGROWN: historical narration leaked back into TRENDS.md, move it to logs/queue_history.md" \
+  || echo "  observation_queue: no historical narration inline  ok"
 ```
 
 If a check fails, fix the file before committing. Commit and push per the
