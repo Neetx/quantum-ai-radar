@@ -1,14 +1,13 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-28-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--13-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-23-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--14-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-11-13):**
-- [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) was promoted seed → emerging on [a physics-informed generator jointly trained across multiple Hamiltonians](https://arxiv.org/abs/2611.16080).
-- [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) gained [a quantum module that replaces transformer blocks inside an already-pretrained 30-billion-parameter LLM](https://arxiv.org/abs/2611.15250).
-- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) gained [a null-circuit protocol for testing hardware quantum-ML advantage claims](https://arxiv.org/abs/2610.41268).
-- [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) gained [a controlled study showing invariance prevents overfitting and shortcut learning in quantum neural networks](https://arxiv.org/abs/2611.14368).
+**Since last scan (2026-11-14, weekly recalibration):**
+- [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) confidence raised low → high — 6 independent groups now corroborate the sub-theme.
+- [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) gained [a near-complete classical query-complexity characterization of cyclic Forrelation](https://arxiv.org/abs/2610.41694).
+- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) gained [a QPU-derived molecular feature benchmark for kinase-inhibitor hit identification](https://arxiv.org/abs/2611.14179).
 
 ## Trends
 
@@ -26,8 +25,8 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-11-06](https://psi.inc/research/aaronson-ambainis/) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-11-04](https://arxiv.org/abs/2611.07187) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-11-03](https://arxiv.org/abs/2611.04179) |
+| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-11-10](https://arxiv.org/abs/2611.14179) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 🚀 accelerating | [2026-10-30](https://arxiv.org/abs/2610.41957) |
-| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-10-30](https://arxiv.org/abs/2610.42029) |
 | [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) | 📈 emerging | [2026-11-11](https://arxiv.org/abs/2611.16080) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-11-10](https://arxiv.org/abs/2611.13671) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-11-05](https://arxiv.org/abs/2611.08151) |
@@ -61,4 +60,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (28)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-13](reports/2026-11-13.md) · weekly: [2026-W45](reports/weekly/2026-W45.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (23)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-13](reports/2026-11-13.md) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
