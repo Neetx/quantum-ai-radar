@@ -140,7 +140,7 @@ every run.
   Before moving any trend to `dormant` (or archiving it), probe its silent window
   (`last_evidence` → today) on the channels its OWN evidence comes from: read the hosts and
   lane types of its current evidence list (lab or vendor blogs, threat-intel, advisories/CVEs,
-  repos, arXiv, journals…) and check those — by feed or sitemap/index diff where possible —
+  repos, arXiv, journals…) and check those — by feed or index page where possible —
   PLUS one independent news search over the window
   (`tvly search "<trend terms>" --topic news --start-date <last_evidence>`, intake only).
   A probe on a channel the trend's evidence never came from (e.g. arXiv-only for an in-the-wild,
