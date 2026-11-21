@@ -92,6 +92,10 @@ distinction governs what you DO with a hit, not whether you CHECK it.
 - **Exploration slot (MANDATORY)** — `radar-explore`: iterate the discovery-venue list
   (advancing date window), significance-first: read the top items REGARDLESS of sub-topic;
   a genuinely significant item OFF every current axis still gets queued ("significant, off-axis").
+  **(AMENDED W47, proposed W46):** the PRIMARY method is the full arXiv quant-ph RSS listing +
+  the cs.LG/cs.ET cross-list union feed, read significance-first by volume; Hugging Face Daily
+  Papers is a cheap SECONDARY check every run, not the sole venue — motivated by HF's 10+
+  consecutive zero-quantum-relevant-item streak versus the arXiv pass's own daily yield.
 - **Self-healing** — if any source/tool fails the same way it did before, repair it this run
   per `radar-source-heal` (worklist = `degraded:` markers in the log); cap 1–2/run.
 - **Monthly vendor-blog backlog sweep** (first run of each calendar month, `date +%d` ≤ 7) —

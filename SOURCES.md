@@ -213,6 +213,13 @@ name/quote individuals beyond a bare URL. Multi-channel earthquake check.
 ## Discovery / exploration venues (Phase 4 — iterated EVERY run by radar-explore)
 
 Read top/most-attention items REGARDLESS of sub-topic, advancing the date window.
-- arXiv quant-ph recent **[verified 2026-06-26]** + the `cat:quant-ph ∩ cs.LG` QML cross-listing (advancing window).
-- Hugging Face papers (Daily Papers) — https://huggingface.co/papers **[AMENDMENT APPLIED 2026-07-04, W27 — proposed W26]** — the W26-proposed `tvly search site:huggingface.co/papers` method still returned only noisy generic query-result pages this run (7th straight failure since scaffold); the FIX is a direct `tvly extract https://huggingface.co/papers --extract-depth advanced`, confirmed working 2026-07-04 (returns the dated trending-paper list with arXiv ids) — promoted from `[candidate]` with the corrected method. Expect low quantum-relevant yield (the feed skews general AI/agentic-LLM topics) — grep the extracted titles/ids for quantum keywords each run; arXiv `cs.ET` (emerging tech) **[candidate]**.
+- **PRIMARY (AMENDED W47, proposed W46 — motivated by Hugging Face Daily Papers returning zero
+  quantum-relevant items on 10+ consecutive dailies, directly contributing to a 3-consecutive-week
+  off-axis-rate-0 anchoring signal, while this method kept surfacing genuine significance-first
+  finds — Tessa 11-16, the Kagome-spin-liquid NQS paper 11-17, QORA 11-18, the Krenn/Chan papers
+  11-20 — every day it was tried):** the FULL arXiv quant-ph RSS listing + the `cat:quant-ph ∩
+  cs.LG`/`cs.ET` cross-list union feed (advancing window, significance-first read of the top
+  items by volume, not just a keyword-filtered subset) **[verified 2026-06-26, promoted to
+  primary exploration method 2026-11-21]**.
+- Hugging Face papers (Daily Papers) — https://huggingface.co/papers **[AMENDMENT APPLIED 2026-07-04, W27 — proposed W26]** — the W26-proposed `tvly search site:huggingface.co/papers` method still returned only noisy generic query-result pages this run (7th straight failure since scaffold); the FIX is a direct `tvly extract https://huggingface.co/papers --extract-depth advanced`, confirmed working 2026-07-04 (returns the dated trending-paper list with arXiv ids) — promoted from `[candidate]` with the corrected method. Expect low quantum-relevant yield (the feed skews general AI/agentic-LLM topics) — grep the extracted titles/ids for quantum keywords each run; arXiv `cs.ET` (emerging tech) **[candidate]**. **DOWNGRADED to SECONDARY 2026-11-21 (W47):** still checked every run (cheap, keep as a backstop in case it ever surfaces an off-axis general-AI/agentic item this radar's own arXiv-focused pass would miss), but no longer the sole/primary exploration method given its 10+ consecutive zero-quantum-relevant-item streak.
 - Watch-area (surface and queue): AI-for-quantum — classical ML for quantum control / calibration / error correction (the reverse intersection).
