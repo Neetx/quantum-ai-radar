@@ -70,6 +70,14 @@ distinction governs what you DO with a hit, not whether you CHECK it.
   as a bundled "Google (N surfaces)" count — name each one even when it finds nothing; same
   for the independent-voices sub-block (Scott Aaronson's blog, Quantum Frontiers) — name BOTH
   individually, distinct from the generic vendor-blog bundle, every run.
+  **(AMENDED W47, proposed W46 — motivated by the same pattern recurring on different
+  sub-blocks: curated digests named individually on only 1/5 days that week; GitHub watch's
+  non-PyPI repos checked on only 1/5 days):** log the "Curated digests" sub-block (The Quantum
+  Insider, Quantum Computing Report, Quantum Zeitgeist) BY NAME every run, distinct from the
+  generic "community pulse" bundle; same for GitHub watch's 5 non-PyPI watched repos
+  (jcmgray/quimb, google/TensorNetwork, ITensor/ITensors.jl, quantumlib/OpenFermion,
+  tensorflow/quantum) — name each individually every run, distinct from the 8 PyPI-tracked
+  frameworks it keeps getting bundled or dropped into/from.
 - **Community pulse (every run, intake only)** — `radar-pulse`: iterate the social/curator
   lists; multi-channel earthquake check; feeds `observation_queue` unverified + the pulse
   note. Never evidence; never name individuals.
