@@ -203,7 +203,15 @@ every run.
   bullet for it ever existed — the opposite failure from a phantom drop): whenever today's report
   narrates an id as "queued" or "added," mechanically `grep` for it in `TRENDS.md` to confirm a
   live discrete bullet actually exists before finalizing the report, mirroring the drop/
-  promotion-verification guard above.
+  promotion-verification guard above. CROSS-TREND GUARD (AMENDED W47, proposed W46 — motivated
+  by 3 occurrences of a primary rediscovered via an untracked path and nearly/actually re-queued
+  despite already being captured elsewhere: s41534-026-01391-z duplicate-queued 11-12, FirstQFM's
+  SW7 release caught before landing 11-13, arXiv:2611.14368 caught before landing 11-19): before
+  queuing ANY id/DOI as a fresh addition, `grep` it against ALL of TRENDS.md — not just the
+  `observation_queue` block — to confirm it is not already an evidence line on some OTHER trend
+  (a primary can be genuinely on-axis for the trend that just found it while already sitting as
+  evidence elsewhere under a different framing). Only queue it as new once that cross-trend check
+  comes back empty.
 - Append one dated line to `logs/source_rotation.md` (append-only). Update "Last updated".
 - Regenerate `README.md` from the updated ledger in the same commit (`radar-render-dashboard`).
   Then overwrite `SUMMARY.md`, the daily summary page (same skill → *SUMMARY.md*): the run's
