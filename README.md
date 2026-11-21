@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-35-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--20-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--21-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-11-19):**
-- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) gained [an AI system (AlphaProof Nexus) proving a new no-go theorem about photonic GHZ-state generation](https://arxiv.org/abs/2611.26300).
-- [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) gained [a Gaussian-compatible neural ansatz reaching state-of-the-art Hubbard-model variational energies](https://arxiv.org/abs/2611.26604).
-- [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) resolved a 14-day-standing candidate: [a differentiable digital-twin toolset for neutral-atom/ion gate calibration](https://arxiv.org/abs/2611.09779).
-- Watchlist burndown: 8 aged/superseded signals dropped (42 → 35), including [the AFQMC/neural-quantum-state item superseded by today's stronger Neural Quantum States evidence](TRENDS.md#observation_queue).
+**Since last scan (2026-11-20):**
+- [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) confidence raised to high — [QORA's AI-discovered NV-diamond control sequence](https://arxiv.org/abs/2611.21765) landed without a further dormancy gap.
+- [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) resolved a standing candidate: [Tessa, a device-wide encoding scheme packing 1,568 real values onto IBM's Phoenix/Fez processors](https://arxiv.org/abs/2611.18440).
+- [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) resolved a standing candidate: [Oak Ridge's Born-machine certification-beyond-Fisher-trace paper](https://arxiv.org/abs/2611.18955).
+- Watchlist burndown: 10 aged signals resolved (35 → 26), including [a phase-interference/noise-fragility analysis promoted into QML trainability](https://arxiv.org/abs/2611.16115).
 
 ## Trends
 
@@ -23,11 +23,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-11-18](https://arxiv.org/abs/2611.22057) |
 | [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-11-13](https://www.quandela.com/resources/blog/photonic-quantum-simulation-benchmark-nvidia-h100/) |
 | [AI-for-quantum (circuit synthesis)](TRENDS.md#id-trend-012-ai-for-quantum-circuit-synthesis-leg-generativetransformer-models-that-directly-synthesize-quantum-circuits) | 🚀 accelerating | [2026-11-13](https://arxiv.org/abs/2611.18504) |
+| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-11-13](https://arxiv.org/abs/2611.18440) |
 | [Quantum transformers and attention](TRENDS.md#id-trend-016-quantum-transformers-and-attention-pqc-based-attention-mechanisms-for-sequence-and-signal-processing) | 🚀 accelerating | [2026-11-12](https://arxiv.org/abs/2611.15250) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 🚀 accelerating | [2026-11-11](https://arxiv.org/abs/2611.15859) |
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-11-10](https://arxiv.org/abs/2611.13103) |
 | [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-11-10](https://www.nature.com/articles/s41534-026-01370-4) |
-| [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-11-10](https://arxiv.org/abs/2611.14179) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-11-19](https://arxiv.org/abs/2611.26604) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-11-16](https://arxiv.org/abs/2611.21765) |
 | [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-11-15](https://arxiv.org/abs/2611.20139) |
@@ -57,9 +57,9 @@ _Unverified intake — community signals, not trend evidence._
 - A bank-and-university team claims "quantum utility" for a game-theoretic ML feature-selection workflow on IBM Nighthawk r2 — no dedicated technical writeup yet, unverified.
 - A deep-RL policy claims to design quantum-repeater entanglement-distribution protocols that beat routed swap-ASAP on networks with intersecting paths — opened and queued, watch-area axis.
 - A press writeup claims a photonic-GPU hybrid processor replaced a transformer attention layer for LLM inference — no benchmark numbers or technical paper yet, unverified.
-- A Quantinuum/RIKEN press release claims an AI model trained on quantum-generated data beat classical-only training for a magnetism-simulation task — no technical writeup yet, unverified.
-- r/QuantumComputing stayed unreachable this run (every documented access path blocked simultaneously).
+- A Quantinuum/RIKEN press release claims an AI model trained on quantum-generated data beat classical-only training for a magnetism-simulation task — still no technical writeup after a dedicated check, unverified.
+- r/QuantumComputing stayed unreachable this week (`tvly` quota-exhausted, every documented fallback blocked simultaneously).
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (35)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-20](reports/2026-11-20.md) · weekly: [2026-W46](reports/weekly/2026-W46.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-20](reports/2026-11-20.md) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
