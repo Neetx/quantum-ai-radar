@@ -1,14 +1,14 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-27-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--26-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--27-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-11-26):**
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) appended [a neural decoder exploiting loss-resolving-measurement information for qubit loss](https://arxiv.org/abs/2611.34891).
-- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) appended [an LLM coding-agent loop cutting T-gate cost in quantum-chemistry product formulas](https://arxiv.org/abs/2611.33509) (Aspuru-Guzik group).
-- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) appended [a realistic end-to-end runtime-crossover estimate for quantum-enhanced ML training](https://arxiv.org/abs/2611.33454).
-- [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) appended [a self-learning projective-QMC method enhanced by real Rydberg-atom measurements](https://arxiv.org/abs/2611.34636).
+**Since last scan (2026-11-27):**
+- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) appended [a realistic economic break-even analysis of quantum advantage in computational chemistry](https://arxiv.org/abs/2611.34889) and [Google Quantum AI's own dequantization of sparse random Hamiltonians](https://arxiv.org/abs/2611.33128).
+- [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) appended [a real-hardware-validated noise threshold for learning with quantum memory](https://arxiv.org/abs/2611.34474).
+- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) appended [a polynomial-time classical-benchmarking method for non-Clifford fault-tolerant circuits](https://arxiv.org/abs/2610.03605).
+- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) appended [the ForShor.ai formally-verified Shor's-algorithm harness](https://arxiv.org/abs/2611.20342), launching a public agentic-challenge leaderboard.
 
 ## Trends
 
@@ -17,11 +17,11 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | trend | stage | latest signal |
 |-------|-------|---------------|
 | [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) | 🚀 accelerating | [2026-11-25](https://arxiv.org/abs/2611.34891) |
-| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-11-24](https://arxiv.org/abs/2611.33454) |
+| [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) | 🚀 accelerating | [2026-11-25](https://arxiv.org/abs/2611.34889) |
+| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-11-25](https://arxiv.org/abs/2611.34474) |
 | [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) | 🚀 accelerating | [2026-11-24](https://arxiv.org/abs/2611.33509) |
 | [QML trainability](TRENDS.md#id-trend-004-qml-trainability-barren-plateaus-and-noise-robustness-theory) | 🚀 accelerating | [2026-11-23](https://doi.org/10.1088/2058-9565/aebe5d) |
 | [Quantum reservoir computing](TRENDS.md#id-trend-008-quantum-reservoir-computing-fixed-quantum-dynamics-as-a-trainable-readout-feature-map) | 🚀 accelerating | [2026-11-19](https://arxiv.org/abs/2611.26215) |
-| [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) | 🚀 accelerating | [2026-11-19](https://eprint.iacr.org/2026/2958) |
 | [Hamiltonian-parameter learning](TRENDS.md#id-trend-014-learning-hamiltonian-and-dissipative-rate-parameters-of-quantum-systems-from-data) | 🚀 accelerating | [2026-11-19](https://arxiv.org/abs/2611.27871) |
 | [AI-for-quantum (hardware)](TRENDS.md#id-trend-002-ai-for-quantum-hardware-leg-classical-ml-for-quantum-hardware-control-calibration-decoding-and-circuit-design) | 🚀 accelerating | [2026-11-18](https://arxiv.org/abs/2611.24886) |
 | [Quantum kernels & feature maps](TRENDS.md#id-trend-015-quantum-kernels--feature-maps-expressivity-encoding-budgets-and-application-scale-benchmarking) | 🚀 accelerating | [2026-11-18](https://arxiv.org/abs/2611.25048) |
@@ -30,12 +30,13 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 | [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) | 🚀 accelerating | [2026-11-10](https://arxiv.org/abs/2611.13103) |
 | [Neural Quantum States](TRENDS.md#id-trend-005-neural-quantum-states-classical-neural-network-ansätze-for-quantum-many-body-wavefunctions) | 📈 emerging | [2026-11-25](https://arxiv.org/abs/2611.34636) |
 | [Agentic AI lab automation](TRENDS.md#id-trend-013-agentic-ai-directly-operating-quantum-hardware-and-lab-infrastructure-end-to-end) | 📈 emerging | [2026-11-24](https://arxiv.org/abs/2611.32000) |
-| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-11-18](https://arxiv.org/abs/2611.24174) |
+| [Quantum generative models](TRENDS.md#id-trend-003-quantum-generative-models-circuits-for-generative-and-sequential-learning) | 📈 emerging | [2026-11-19](https://arxiv.org/abs/2611.26577) |
 | [QML/QEC security](TRENDS.md#id-trend-017-qmlqec-security-adversarial-attacks-on-and-defenses-for-quantum-classical-ml-components) | 📈 emerging | [2026-11-13](https://arxiv.org/abs/2611.16372) |
 | [SQD extensions](TRENDS.md#id-trend-018-sample-based-quantum-diagonalization-sqd-extending-a-hybrid-sampling-diagonalization-technique-beyond-its-chemistry-origins) | 📈 emerging | [2026-11-11](https://arxiv.org/abs/2611.16080) |
 
 ## Worth studying
 
+- [Classical algorithms for sparse random Hamiltonians via free probability](https://arxiv.org/abs/2611.33128) — Ding, King, Schuster (Google Quantum AI): a classical algorithm nearly matches quantum simulation speed for sparse random Hamiltonians, directly challenging "the widest conjectured example" of quantum advantage.
 - [Reducing T gates in product formulas with agent loops](https://arxiv.org/abs/2611.33509) — Mantilla Calderón, Gonthier, Zook, Nakaji, Patti, Aspuru-Guzik: an LLM coding-agent loop optimizes Hamiltonian-simulation product-formula structure and precision across 115 molecular Hamiltonians, cutting fault-tolerant quantum chemistry's T-gate cost.
 - [Formally verified harness for Shor's order finding algorithm with O(n^(2+ε)) gate cost](https://arxiv.org/abs/2611.20342) — Suresh, Courtney, Tao, Cao (Zapata Quantum + University of Maryland): a Lean-4-verified harness checks correctness and gate cost of quantum-arithmetic "policies," launching the public ForShor.ai leaderboard for humans and AI agents to submit.
 - [Reducing RSA-2048 Factoring Resources Below One Billion Toffolis via LLM-Driven Verifiable Quantum Compilation](https://arxiv.org/abs/2611.31158) — Li, Wang, Chen, Tang, Chen, Zhang: an LLM-driven verifiable compilation pipeline cuts the dominant Toffoli-gate cost of RSA-2048 factoring below 1 billion.
@@ -47,17 +48,16 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [TCBP-JOBS: GPU-Accelerated Quantum Error Correction](https://arxiv.org/abs/2611.21321) — Howe, Maurya, Olle, Basov, Li, Lietz, Young, Svore: a learned fault-probability model guides parallel GPU beam search, matching the Tesseract decoder's accuracy at serial speedups up to 13,000x.
 - [QCap: a physics-corrected graph neural network for the capacitance matrix of any planar superconducting device layout](https://arxiv.org/abs/2611.22057) — Shanto, Das, Levenson-Falk: predicts a superconducting device's full capacitance matrix to sub-percent error in seconds-to-minutes instead of hours-to-intractable simulation.
 - [AI Scientist Discovered Robust Quantum Control](https://arxiv.org/abs/2611.21765) — Yan et al.: a multi-agent AI framework (QORA) discovers a novel control pulse sequence on real NV-diamond centers, nearly doubling measured coherence time.
-- [How many photons can one GPU keep up with?](https://www.quandela.com/resources/blog/photonic-quantum-simulation-benchmark-nvidia-h100/) — Quandela: a measured, open-sourced "simulability frontier" for classical GPU simulation of photonic sampling, a reusable yardstick for photonic quantum-advantage claims.
 
 ## Community pulse
 
 _Unverified intake — community signals, not trend evidence._
 
+- Hacker News carried a speculative, unconfirmed rumor that integer factoring might be in P; no paper or primary source backs the claim as of this scan.
 - Scott Aaronson's blog reported a single-author AI-assisted proof that quantum interactive proofs with two messages have the full power of any polynomial number of messages (QIP(2)=PSPACE).
 - A bank, a reinsurer and a hardware vendor jointly announced a "first benchmark" for quantum-kernel/autoencoder malware-beaconing detection with no benchmark numbers or linked paper, and explicitly disclaimed quantum advantage.
-- A cat-qubit hardware vendor published an updated roadmap (200 logical qubits by 2030, 2,048 by 2034) with no machine-learning component.
-- r/QuantumComputing stayed unreachable this run (standard Reddit bot-challenge page returned to every fetch method tried).
+- r/QuantumComputing stayed unreachable this run (Tavily quota-exhausted, direct fetch refused).
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (27)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-26](reports/2026-11-26.md) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-27](reports/2026-11-27.md) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
