@@ -1,14 +1,13 @@
 # Quantum AI Radar
 
-![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-26-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--27-2f9e44?style=flat-square)
+![trends](https://img.shields.io/badge/trends-17-3266ad?style=flat-square) ![accelerating](https://img.shields.io/badge/accelerating-12-e8590c?style=flat-square) ![watchlist](https://img.shields.io/badge/watchlist-25-6c757d?style=flat-square) ![updated](https://img.shields.io/badge/updated-2026--11--28-2f9e44?style=flat-square)
 
 Autonomous radar tracking the quantum-computing research frontier and its intersection with AI — quantum machine learning, enabling hardware and error correction, and the classical-quantum boundary — for quantum-computing researchers. Generated from [TRENDS.md](TRENDS.md).
 
-**Since last scan (2026-11-27):**
-- [Quantum-advantage scrutiny](TRENDS.md#id-trend-006-quantum-advantage-skepticism-dequantization-honest-baselines-and-nisq-advantage-refutations) appended [a realistic economic break-even analysis of quantum advantage in computational chemistry](https://arxiv.org/abs/2611.34889) and [Google Quantum AI's own dequantization of sparse random Hamiltonians](https://arxiv.org/abs/2611.33128).
-- [Quantum-advantage frontier](TRENDS.md#id-trend-011-quantum-advantage-frontier-provable-learning-separations-and-honest-quantum-classical-crossovers) appended [a real-hardware-validated noise threshold for learning with quantum memory](https://arxiv.org/abs/2611.34474).
-- [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc) appended [a polynomial-time classical-benchmarking method for non-Clifford fault-tolerant circuits](https://arxiv.org/abs/2610.03605).
-- [LLM/agentic quantum reasoning](TRENDS.md#id-trend-009-llmagentic-ai-reasoning-about-quantum-circuits-algorithms-and-proofs) appended [the ForShor.ai formally-verified Shor's-algorithm harness](https://arxiv.org/abs/2611.20342), launching a public agentic-challenge leaderboard.
+**Since last scan (2026-11-28, weekly recalibration):**
+- Held all 17 trends — no stage moves this week; 5 trends crossed the 14-day watch line, led by [QML generalization theory](TRENDS.md#id-trend-007-qml-generalization-theory-bounds-phenomenology-and-the-reference-structure-requirement) at 18 days quiet with no queued candidate.
+- Queue cleanup: dropped [QECLean](https://arxiv.org/abs/2611.21236) (hard-cap burndown, no AI component) and caught a stale duplicate already promoted into [Practical QEC tooling](TRENDS.md#id-trend-001-practical-qec-tooling-near-term-error-detection-and-the-path-to-ftqc); queued a capture-leak catch, [a Chalmers quench-dynamics model](https://arxiv.org/abs/2611.25053), as trend-006-adjacent.
+- Study shelf pruned to the freshest 30 days; newest pick remains [Classical algorithms for sparse random Hamiltonians via free probability](https://arxiv.org/abs/2611.33128).
 
 ## Trends
 
@@ -48,6 +47,7 @@ Autonomous radar tracking the quantum-computing research frontier and its inters
 - [TCBP-JOBS: GPU-Accelerated Quantum Error Correction](https://arxiv.org/abs/2611.21321) — Howe, Maurya, Olle, Basov, Li, Lietz, Young, Svore: a learned fault-probability model guides parallel GPU beam search, matching the Tesseract decoder's accuracy at serial speedups up to 13,000x.
 - [QCap: a physics-corrected graph neural network for the capacitance matrix of any planar superconducting device layout](https://arxiv.org/abs/2611.22057) — Shanto, Das, Levenson-Falk: predicts a superconducting device's full capacitance matrix to sub-percent error in seconds-to-minutes instead of hours-to-intractable simulation.
 - [AI Scientist Discovered Robust Quantum Control](https://arxiv.org/abs/2611.21765) — Yan et al.: a multi-agent AI framework (QORA) discovers a novel control pulse sequence on real NV-diamond centers, nearly doubling measured coherence time.
+- [Real-time noise adaptive quantum error correction by multi-agent learning](https://doi.org/10.1088/2058-9565/aebdc4) — Guatto, Preti, Schilling, Calarco, Cárdenas-López, Motzoi: offline multi-agent RL discovers full QEC codes/cycles, while an online layer tracks error-channel drift without retraining.
 
 ## Community pulse
 
@@ -60,4 +60,4 @@ _Unverified intake — community signals, not trend evidence._
 
 ---
 
-**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (26)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-27](reports/2026-11-27.md) · weekly: [2026-W47](reports/weekly/2026-W47.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
+**Output map:** [TRENDS.md](TRENDS.md) · [watchlist (25)](TRENDS.md#observation_queue) · [reports/](reports/) · daily: [2026-11-27](reports/2026-11-27.md) · weekly: [2026-W48](reports/weekly/2026-W48.md) · [AGENTS.md](AGENTS.md) · [SOURCES.md](SOURCES.md)
